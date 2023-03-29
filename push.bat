@@ -1,1 +1,1 @@
-git add . & git commit -m "wskh" & git push & pasue
+git add . & git commit -m "wskh" & git push
