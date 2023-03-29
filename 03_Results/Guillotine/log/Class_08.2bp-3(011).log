@@ -1,0 +1,60 @@
+====================================== Class_08.2bp-3 =====================================
+Reduced size: 20 usedBin: 0
+[0, 9]
+[1, 7]
+[3, 13, 15]
+[4, 8, 10, 19]
+[5, 6, 11]
+[2, 12, 17]
+[14, 16, 18]
+------------------------------------------------
+Best fit used bin number: 7
+Found best solution: 7 0.125
+
+   Statrt add columnAndCut col: 7 cons: 0 cut: 0	0.187
+
+	1 Start Add column using column generation  col: 7 cons: 0 cut: 0	0.187
+			Start solve  LP :0.187
+			End solve LP obj: 7.0 t: 0
+	1 End Add column using column generation : 7.0 col: 7 cons: 0 cut: 0	0.187
+   End add columnAndCut : 7.0 colGencnt: 1 price: 0 col: 7 cons: 0 cut: 0	0.187
+
+Node lb: 7.0 ub: 7 : 0.187
+
+Final Found Solution: 7 genNode: 1 extendedNode: 0:0.187
+Bin size: 10000
+1 : 5700,2112, : 7812
+2 : 5445,2604, : 8049
+3 : 4290,1645,1184, : 7119
+4 : 4140,2349,1924,196, : 8609
+5 : 2862,2720,1817, : 7399
+6 : 5330,1704,704, : 7738
+7 : 1638,869,560, : 3067
+----------------------- 1 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:12,y:0,l:24,w:88},{x:25,y:24,l:76,w:75},],
+----------------------- 2 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:45,y:0,l:99,w:55},{x:14,y:0,l:84,w:31},],
+----------------------- 3 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:45,y:0,l:78,w:55},{x:10,y:0,l:47,w:35},{x:26,y:78,l:16,w:74},],
+----------------------- 4 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:2,y:0,l:2,w:98},{x:8,y:2,l:45,w:92},{x:13,y:47,l:27,w:87},{x:26,y:74,l:26,w:74},],
+----------------------- 5 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:77,y:0,l:79,w:23},{x:9,y:0,l:40,w:68},{x:24,y:40,l:54,w:53},],
+----------------------- 6 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:12,y:0,l:8,w:88},{x:18,y:8,l:65,w:82},{x:29,y:73,l:24,w:71},],
+----------------------- 7 ---------------------------
+canvasWidth:99,
+canvasHeight:100,
+data:[{x:9,y:0,l:18,w:91},{x:20,y:18,l:7,w:80},{x:21,y:25,l:11,w:79},],

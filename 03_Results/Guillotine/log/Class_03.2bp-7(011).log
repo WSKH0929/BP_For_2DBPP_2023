@@ -1,0 +1,42 @@
+====================================== Class_03.2bp-7 =====================================
+Reduced size: 20 usedBin: 0
+[1, 5, 9, 17]
+[2, 3, 6, 14, 16, 19]
+[0, 11]
+[4, 7, 8, 10, 12, 13, 15, 18]
+------------------------------------------------
+Best fit used bin number: 4
+Found best solution: 4 0.141
+
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.188
+
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.188
+			Start solve  LP :0.188
+			End solve LP obj: 4.0 t: 0
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.188
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.188
+
+Node lb: 4.0 ub: 4 : 0.188
+
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.203
+Bin size: 1600
+1 : 759,348,189,39, : 1335
+2 : 621,450,276,75,42,14, : 1478
+3 : 960,124, : 1084
+4 : 361,266,238,156,85,76,64,16, : 1262
+----------------------- 1 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:17,y:0,l:33,w:23},{x:5,y:0,l:29,w:12},{x:13,y:33,l:7,w:27},{x:0,y:0,l:13,w:3},],
+----------------------- 2 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:17,y:0,l:27,w:23},{x:15,y:0,l:21,w:2},{x:17,y:27,l:12,w:23},{x:15,y:27,l:7,w:2},{x:0,y:0,l:30,w:15},{x:0,y:30,l:5,w:15},],
+----------------------- 3 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:10,y:0,l:32,w:30},{x:9,y:32,l:4,w:31},],
+----------------------- 4 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:21,y:0,l:19,w:19},{x:26,y:19,l:19,w:14},{x:32,y:38,l:2,w:8},{x:22,y:19,l:16,w:4},{x:4,y:0,l:5,w:17},{x:17,y:5,l:19,w:4},{x:3,y:5,l:17,w:14},{x:9,y:27,l:13,w:12},],

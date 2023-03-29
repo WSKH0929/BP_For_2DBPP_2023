@@ -1,0 +1,48 @@
+====================================== Class_07.2bp-1 =====================================
+Reduced size: 20 usedBin: 0
+[5, 7, 8, 13, 14, 16, 17]
+[3, 6, 11, 15, 18]
+[0]
+[2, 4, 9, 19]
+[1, 10, 12]
+------------------------------------------------
+Best fit used bin number: 5
+Found best solution: 5 0.172
+
+   Statrt add columnAndCut col: 5 cons: 0 cut: 0	0.25
+
+	1 Start Add column using column generation  col: 5 cons: 0 cut: 0	0.25
+			Start solve  LP :0.25
+			End solve LP obj: 5.0 t: 0
+	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.25
+   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.25
+
+Node lb: 5.0 ub: 5 : 0.25
+
+Final Found Solution: 5 genNode: 1 extendedNode: 0:0.25
+Bin size: 10000
+1 : 3102,1900,1710,810,776,594,352, : 9244
+2 : 3700,2670,1067,760,308, : 8505
+3 : 5346, : 5346
+4 : 3922,3240,1463,72, : 8697
+5 : 4148,1092,962, : 6202
+----------------------- 1 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:81,y:0,l:100,w:19},{x:75,y:0,l:99,w:6},{x:67,y:0,l:97,w:8},{x:34,y:0,l:94,w:33},{x:15,y:0,l:90,w:19},{x:6,y:0,l:90,w:9},{x:2,y:0,l:88,w:4},],
+----------------------- 2 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:3,y:0,l:11,w:97},{x:70,y:11,l:89,w:30},{x:66,y:11,l:77,w:4},{x:56,y:11,l:76,w:10},{x:6,y:11,l:74,w:50},],
+----------------------- 3 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:19,y:0,l:66,w:81},],
+----------------------- 4 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:47,y:0,l:74,w:53},{x:2,y:0,l:72,w:45},{x:1,y:0,l:72,w:1},{x:23,y:74,l:19,w:77},],
+----------------------- 5 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:87,y:0,l:84,w:13},{x:74,y:0,l:74,w:13},{x:13,y:0,l:68,w:61},],

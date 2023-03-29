@@ -1,0 +1,62 @@
+====================================== Class_03.2bp-8 =====================================
+Reduced size: 20 usedBin: 0
+[0, 12, 13, 18]
+[2, 6, 15, 16, 19]
+[1, 8, 10, 17]
+[3, 4, 14]
+[5, 7, 9, 11]
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:26,w:31},{x:0,y:26,l:4,w:14},{x:0,y:33,l:7,w:34},{x:31,y:0,l:26,w:9},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:27,y:0,l:13,w:11},{x:0,y:0,l:25,w:27},{x:0,y:28,l:12,w:34},{x:27,y:13,l:9,w:13},{x:34,y:22,l:14,w:2},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:23,l:13,w:22},{x:22,y:25,l:15,w:17},{x:0,y:0,l:23,w:30},{x:30,y:0,l:16,w:5},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:21,l:19,w:32},{x:32,y:8,l:32,w:5},{x:0,y:0,l:21,w:28},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:34,w:15},{x:15,y:0,l:31,w:11},{x:26,y:0,l:20,w:13},{x:26,y:20,l:19,w:13},],
+Best fit used bin number: 5
+Found best solution: 5 0.078
+
+   Statrt add columnAndCut col: 5 cons: 0 cut: 0	0.14
+
+	1 Start Add column using column generation  col: 5 cons: 0 cut: 0	0.14
+			Start solve  LP :0.14
+			End solve LP obj: 5.0 t: 0
+	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.14
+   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.14
+
+Node lb: 5.0 ub: 5 : 0.14
+
+Final Found Solution: 5 genNode: 1 extendedNode: 0:0.14
+Bin size: 1600
+1 : 806,238,234,56, : 1334
+2 : 675,408,143,117,28, : 1371
+3 : 690,286,255,80, : 1311
+4 : 608,588,160, : 1356
+5 : 510,341,260,247, : 1358
+----------------------- 1 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:26,w:31},{x:0,y:26,l:4,w:14},{x:0,y:33,l:7,w:34},{x:31,y:0,l:26,w:9},],
+----------------------- 2 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:27,y:0,l:13,w:11},{x:0,y:0,l:25,w:27},{x:0,y:28,l:12,w:34},{x:27,y:13,l:9,w:13},{x:34,y:22,l:14,w:2},],
+----------------------- 3 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:23,l:13,w:22},{x:22,y:25,l:15,w:17},{x:0,y:0,l:23,w:30},{x:30,y:0,l:16,w:5},],
+----------------------- 4 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:21,l:19,w:32},{x:32,y:8,l:32,w:5},{x:0,y:0,l:21,w:28},],
+----------------------- 5 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:34,w:15},{x:15,y:0,l:31,w:11},{x:26,y:0,l:20,w:13},{x:26,y:20,l:19,w:13},],

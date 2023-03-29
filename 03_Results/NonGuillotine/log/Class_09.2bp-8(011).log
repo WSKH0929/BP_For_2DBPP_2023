@@ -1,0 +1,152 @@
+====================================== Class_09.2bp-8 =====================================
+Reduced size: 20 usedBin: 0
+[0]
+[1]
+[2, 19]
+[3, 16]
+[4, 17]
+[5]
+[8]
+[7]
+[6, 18]
+[9]
+[10, 14]
+[11]
+[12]
+[13]
+[15]
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:93,w:94},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:86,w:94},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:99,w:79},{x:79,y:0,l:26,w:18},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:80},{x:80,y:0,l:99,w:20},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:77,w:95},{x:0,y:77,l:18,w:76},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:84,w:87},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:70,w:78},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:87},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:99,w:71},{x:71,y:0,l:77,w:7},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:80},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:96,w:56},{x:56,y:0,l:97,w:33},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:71,w:74},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:76},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:56,w:85},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:56,w:54},],
+Best fit used bin number: 15
+Found best solution: 15 0.06
+
+   Statrt add columnAndCut col: 15 cons: 0 cut: 0	0.129
+
+	1 Start Add column using column generation  col: 15 cons: 0 cut: 0	0.129
+			Start solve  LP :0.129
+			End solve LP obj: 15.0 t: 2
+	1 End Add column using column generation : 15.0 col: 15 cons: 0 cut: 0	0.131
+   End add columnAndCut : 15.0 colGencnt: 1 price: 0 col: 15 cons: 0 cut: 0	0.131
+
+Node lb: 15.0 ub: 15 : 0.131
+
+Final Found Solution: 15 genNode: 1 extendedNode: 0:0.131
+Bin size: 10000
+1 : 8742, : 8742
+2 : 8084, : 8084
+3 : 7821,468, : 8289
+4 : 7360,1980, : 9340
+5 : 7315,1368, : 8683
+6 : 7308, : 7308
+7 : 5460, : 5460
+8 : 5916, : 5916
+9 : 7029,539, : 7568
+10 : 5440, : 5440
+11 : 5376,3201, : 8577
+12 : 5254, : 5254
+13 : 5168, : 5168
+14 : 4760, : 4760
+15 : 3024, : 3024
+----------------------- 1 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:93,w:94},],
+----------------------- 2 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:86,w:94},],
+----------------------- 3 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:99,w:79},{x:79,y:0,l:26,w:18},],
+----------------------- 4 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:80},{x:80,y:0,l:99,w:20},],
+----------------------- 5 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:77,w:95},{x:0,y:77,l:18,w:76},],
+----------------------- 6 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:84,w:87},],
+----------------------- 7 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:70,w:78},],
+----------------------- 8 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:87},],
+----------------------- 9 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:99,w:71},{x:71,y:0,l:77,w:7},],
+----------------------- 10 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:80},],
+----------------------- 11 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:96,w:56},{x:56,y:0,l:97,w:33},],
+----------------------- 12 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:71,w:74},],
+----------------------- 13 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:68,w:76},],
+----------------------- 14 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:56,w:85},],
+----------------------- 15 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:56,w:54},],

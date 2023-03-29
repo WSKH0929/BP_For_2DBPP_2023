@@ -1,0 +1,66 @@
+====================================== Class_01.2bp-9 =====================================
+Reduced size: 20 usedBin: 0
+[3, 12, 17, 18]
+[0]
+[1, 11, 19]
+[2, 13]
+[4, 9]
+[6, 8]
+[5, 14]
+[7, 10, 15, 16]
+------------------------------------------------
+Best fit used bin number: 8
+Found best solution: 8 0.156
+
+   Statrt add columnAndCut col: 8 cons: 0 cut: 0	0.219
+
+	1 Start Add column using column generation  col: 8 cons: 0 cut: 0	0.219
+			Start solve  LP :0.219
+			End solve LP obj: 8.0 t: 0
+	1 End Add column using column generation : 8.0 col: 8 cons: 0 cut: 0	0.219
+   End add columnAndCut : 8.0 colGencnt: 1 price: 0 col: 8 cons: 0 cut: 0	0.219
+
+Node lb: 8.0 ub: 8 : 0.219
+
+Final Found Solution: 8 genNode: 1 extendedNode: 0:0.219
+Bin size: 100
+1 : 60,18,6,4, : 88
+2 : 100, : 100
+3 : 80,18,2, : 100
+4 : 64,16, : 80
+5 : 56,27, : 83
+6 : 45,30, : 75
+7 : 48,12, : 60
+8 : 40,24,8,6, : 78
+----------------------- 1 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:4,y:0,l:10,w:6},{x:1,y:0,l:6,w:3},{x:1,y:6,l:2,w:3},{x:2,y:8,l:2,w:2},],
+----------------------- 2 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:10},],
+----------------------- 3 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:10},{x:1,y:8,l:2,w:9},{x:0,y:8,l:2,w:1},],
+----------------------- 4 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:2,y:0,l:8,w:8},{x:2,y:8,l:2,w:8},],
+----------------------- 5 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:1,y:0,l:3,w:9},{x:2,y:3,l:7,w:8},],
+----------------------- 6 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:5,y:0,l:9,w:5},{x:0,y:0,l:6,w:5},],
+----------------------- 7 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:4,y:0,l:8,w:6},{x:4,y:8,l:2,w:6},],
+----------------------- 8 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:2,y:0,l:3,w:8},{x:0,y:0,l:3,w:2},{x:2,y:3,l:5,w:8},{x:0,y:3,l:4,w:2},],

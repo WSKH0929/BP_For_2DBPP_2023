@@ -1,0 +1,188 @@
+====================================== Class_01.2bp-17 =====================================
+Reduced size: 40 usedBin: 0
+[0, 29]
+[1, 25]
+[2, 28, 39]
+[4, 24, 32]
+[3, 27, 35, 38]
+[6, 26, 36]
+[5, 31, 37]
+[7]
+[8, 34]
+[10, 19]
+[11, 22, 30]
+[16]
+[15]
+[9]
+[12, 13]
+[14, 20, 33]
+[17, 21]
+[18]
+[23]
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:10},{x:0,y:9,l:1,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:10},{x:0,y:8,l:2,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:9},{x:9,y:0,l:10,w:1},{x:8,y:8,l:2,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:10,w:2},{x:0,y:9,l:1,w:8},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:6,w:2},{x:8,y:6,l:3,w:2},{x:8,y:9,l:1,w:2},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:7,w:10},{x:4,y:7,l:3,w:6},{x:3,y:7,l:3,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:7},{x:7,y:0,l:1,w:3},{x:7,y:1,l:9,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:8},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:7},{x:7,y:0,l:7,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:4,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:9},{x:0,y:6,l:4,w:9},{x:9,y:0,l:9,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:7},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:7},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:5,y:0,l:10,w:5},{x:0,y:0,l:9,w:5},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:5},{x:6,y:0,l:10,w:4},{x:5,y:0,l:8,w:1},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:4,y:0,l:8,w:5},{x:0,y:0,l:9,w:4},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:5,w:8},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:4},],
+Best fit used bin number: 19
+Found best solution: 19 0.063
+
+   Statrt add columnAndCut col: 19 cons: 0 cut: 0	0.125
+
+	1 Start Add column using column generation  col: 19 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 19.0 t: 0
+	1 End Add column using column generation : 19.0 col: 19 cons: 0 cut: 0	0.125
+   End add columnAndCut : 19.0 colGencnt: 1 price: 0 col: 19 cons: 0 cut: 0	0.125
+
+Node lb: 19.0 ub: 19 : 0.125
+
+Final Found Solution: 19 genNode: 1 extendedNode: 0:0.125
+Bin size: 100
+1 : 90,10, : 100
+2 : 80,20, : 100
+3 : 72,10,2, : 84
+4 : 72,20,8, : 100
+5 : 72,12,6,2, : 92
+6 : 70,18,3, : 91
+7 : 70,9,3, : 82
+8 : 64, : 64
+9 : 63,7, : 70
+10 : 60,40, : 100
+11 : 54,36,9, : 99
+12 : 42, : 42
+13 : 42, : 42
+14 : 60, : 60
+15 : 50,45, : 95
+16 : 45,40,8, : 93
+17 : 40,36, : 76
+18 : 40, : 40
+19 : 24, : 24
+----------------------- 1 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:10},{x:0,y:9,l:1,w:10},],
+----------------------- 2 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:10},{x:0,y:8,l:2,w:10},],
+----------------------- 3 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:9},{x:9,y:0,l:10,w:1},{x:8,y:8,l:2,w:1},],
+----------------------- 4 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:10,w:2},{x:0,y:9,l:1,w:8},],
+----------------------- 5 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:6,w:2},{x:8,y:6,l:3,w:2},{x:8,y:9,l:1,w:2},],
+----------------------- 6 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:7,w:10},{x:4,y:7,l:3,w:6},{x:3,y:7,l:3,w:1},],
+----------------------- 7 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:7},{x:7,y:0,l:1,w:3},{x:7,y:1,l:9,w:1},],
+----------------------- 8 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:8,w:8},],
+----------------------- 9 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:7},{x:7,y:0,l:7,w:1},],
+----------------------- 10 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:4,w:10},],
+----------------------- 11 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:9},{x:0,y:6,l:4,w:9},{x:9,y:0,l:9,w:1},],
+----------------------- 12 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:7},],
+----------------------- 13 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:7},],
+----------------------- 14 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},],
+----------------------- 15 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:5,y:0,l:10,w:5},{x:0,y:0,l:9,w:5},],
+----------------------- 16 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:5},{x:6,y:0,l:10,w:4},{x:5,y:0,l:8,w:1},],
+----------------------- 17 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:4,y:0,l:8,w:5},{x:0,y:0,l:9,w:4},],
+----------------------- 18 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:5,w:8},],
+----------------------- 19 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:4},],

@@ -1,0 +1,44 @@
+====================================== Class_03.2bp-1 =====================================
+Reduced size: 20 usedBin: 0
+[1, 2, 10, 13, 14, 15, 16, 17, 19]
+[0, 6, 7, 9, 12, 18]
+[3, 4, 5, 8, 11]
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:29,l:1,w:31},{x:11,y:30,l:7,w:6},{x:0,y:30,l:10,w:11},{x:17,y:30,l:7,w:6},{x:0,y:0,l:29,w:23},{x:23,y:0,l:29,w:17},{x:20,y:38,l:2,w:17},{x:11,y:37,l:3,w:9},{x:31,y:29,l:1,w:3},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:29,l:3,w:30},{x:0,y:32,l:8,w:32},{x:30,y:0,l:32,w:6},{x:36,y:0,l:34,w:4},{x:0,y:0,l:29,w:25},{x:25,y:0,l:13,w:2},],
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:18,w:25},{x:25,y:0,l:26,w:12},{x:16,y:28,l:12,w:22},{x:0,y:18,l:19,w:9},{x:9,y:18,l:14,w:7},],
+Best fit used bin number: 3
+Found best solution: 3 0.063
+
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 3.0 t: 0
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
+
+Node lb: 3.0 ub: 3 : 0.125
+
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
+Bin size: 1600
+1 : 667,493,110,42,42,34,31,27,3, : 1449
+2 : 725,256,192,136,90,26, : 1425
+3 : 450,312,264,171,98, : 1295
+----------------------- 1 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:29,l:1,w:31},{x:11,y:30,l:7,w:6},{x:0,y:30,l:10,w:11},{x:17,y:30,l:7,w:6},{x:0,y:0,l:29,w:23},{x:23,y:0,l:29,w:17},{x:20,y:38,l:2,w:17},{x:11,y:37,l:3,w:9},{x:31,y:29,l:1,w:3},],
+----------------------- 2 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:29,l:3,w:30},{x:0,y:32,l:8,w:32},{x:30,y:0,l:32,w:6},{x:36,y:0,l:34,w:4},{x:0,y:0,l:29,w:25},{x:25,y:0,l:13,w:2},],
+----------------------- 3 ---------------------------
+canvasWidth:40,
+canvasHeight:40,
+data:[{x:0,y:0,l:18,w:25},{x:25,y:0,l:26,w:12},{x:16,y:28,l:12,w:22},{x:0,y:18,l:19,w:9},{x:9,y:18,l:14,w:7},],

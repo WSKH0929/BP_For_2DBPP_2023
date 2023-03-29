@@ -1,0 +1,60 @@
+====================================== Class_05.2bp-2 =====================================
+Reduced size: 20 usedBin: 0
+[2, 4]
+[9, 11, 12, 14, 18]
+[7, 8, 13]
+[5, 6, 10, 17]
+[3, 15]
+[0, 19]
+[1, 16]
+------------------------------------------------
+Best fit used bin number: 7
+Found best solution: 7 0.131
+
+   Statrt add columnAndCut col: 7 cons: 0 cut: 0	0.19
+
+	1 Start Add column using column generation  col: 7 cons: 0 cut: 0	0.19
+			Start solve  LP :0.19
+			End solve LP obj: 7.0 t: 1
+	1 End Add column using column generation : 7.0 col: 7 cons: 0 cut: 0	0.192
+   End add columnAndCut : 7.0 colGencnt: 1 price: 0 col: 7 cons: 0 cut: 0	0.192
+
+Node lb: 7.0 ub: 7 : 0.192
+
+Final Found Solution: 7 genNode: 1 extendedNode: 0:0.192
+Bin size: 10000
+1 : 5700,3402, : 9102
+2 : 2499,2268,1887,1568,155, : 8377
+3 : 2844,2759,1593, : 7196
+4 : 3124,2961,2418,513, : 9016
+5 : 4524,1160, : 5684
+6 : 8004,130, : 8134
+7 : 6640,1088, : 7728
+----------------------- 1 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:43,y:0,l:100,w:57},{x:1,y:0,l:81,w:42},],
+----------------------- 2 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:49,y:0,l:49,w:51},{x:49,y:49,l:37,w:51},{x:33,y:0,l:98,w:16},{x:2,y:0,l:5,w:31},{x:6,y:5,l:84,w:27},],
+----------------------- 3 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:11,y:0,l:31,w:89},{x:21,y:31,l:36,w:79},{x:41,y:67,l:27,w:59},],
+----------------------- 4 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:7,y:0,l:26,w:93},{x:56,y:26,l:71,w:44},{x:9,y:26,l:63,w:47},{x:0,y:26,l:57,w:9},],
+----------------------- 5 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:42,y:0,l:78,w:58},{x:13,y:0,l:40,w:29},],
+----------------------- 6 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:8,y:0,l:87,w:92},{x:35,y:87,l:2,w:65},],
+----------------------- 7 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:17,y:0,l:80,w:83},{x:0,y:0,l:64,w:17},],

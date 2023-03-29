@@ -1,0 +1,53 @@
+====================================== Class_07.2bp-9 =====================================
+Reduced size: 20 usedBin: 0
+[0, 2, 11, 17, 18]
+[1, 4, 10, 14]
+[3, 7, 9, 15, 19]
+[5, 6, 8, 12, 13, 16]
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:82,w:50},{x:50,y:0,l:78,w:48},{x:0,y:82,l:12,w:74},{x:0,y:94,l:6,w:42},{x:98,y:0,l:70,w:2},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:42},{x:42,y:0,l:72,w:40},{x:42,y:72,l:25,w:39},{x:82,y:0,l:42,w:13},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:44,w:82},{x:0,y:44,l:49,w:43},{x:43,y:44,l:37,w:48},{x:91,y:0,l:76,w:6},{x:0,y:93,l:1,w:80},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:74,w:37},{x:37,y:0,l:89,w:25},{x:62,y:0,l:90,w:21},{x:83,y:0,l:84,w:10},{x:0,y:90,l:9,w:72},{x:93,y:0,l:76,w:6},],
+Best fit used bin number: 4
+Found best solution: 4 0.05
+
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.112
+
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.112
+			Start solve  LP :0.112
+			End solve LP obj: 4.0 t: 1
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.114
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.114
+
+Node lb: 4.0 ub: 4 : 0.114
+
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.114
+Bin size: 10000
+1 : 4100,3744,888,252,140, : 9124
+2 : 3864,2880,975,546, : 8265
+3 : 3608,2107,1776,456,80, : 8027
+4 : 2738,2225,1890,840,648,456, : 8797
+----------------------- 1 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:82,w:50},{x:50,y:0,l:78,w:48},{x:0,y:82,l:12,w:74},{x:0,y:94,l:6,w:42},{x:98,y:0,l:70,w:2},],
+----------------------- 2 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:42},{x:42,y:0,l:72,w:40},{x:42,y:72,l:25,w:39},{x:82,y:0,l:42,w:13},],
+----------------------- 3 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:44,w:82},{x:0,y:44,l:49,w:43},{x:43,y:44,l:37,w:48},{x:91,y:0,l:76,w:6},{x:0,y:93,l:1,w:80},],
+----------------------- 4 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:74,w:37},{x:37,y:0,l:89,w:25},{x:62,y:0,l:90,w:21},{x:83,y:0,l:84,w:10},{x:0,y:90,l:9,w:72},{x:93,y:0,l:76,w:6},],

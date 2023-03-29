@@ -1,0 +1,71 @@
+====================================== Class_05.2bp-6 =====================================
+Reduced size: 20 usedBin: 0
+[0, 10, 11, 17, 19]
+[1, 6, 18]
+[2, 5, 13]
+[3, 8, 14]
+[7, 9, 12, 15, 16]
+[4]
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:73,w:99},{x:0,y:73,l:15,w:88},{x:0,y:88,l:12,w:70},{x:91,y:73,l:23,w:9},{x:99,y:0,l:70,w:1},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:76},{x:76,y:0,l:93,w:20},{x:96,y:0,l:32,w:3},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:57,w:87},{x:0,y:57,l:43,w:82},{x:87,y:0,l:47,w:12},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:57,w:76},{x:0,y:57,l:24,w:70},{x:95,y:0,l:94,w:5},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:22,w:77},{x:0,y:22,l:21,w:69},{x:77,y:0,l:31,w:22},{x:69,y:22,l:47,w:8},{x:0,y:43,l:7,w:40},],
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:96,w:42},],
+Best fit used bin number: 6
+Found best solution: 6 0.063
+
+   Statrt add columnAndCut col: 6 cons: 0 cut: 0	0.141
+
+	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
+			End solve LP obj: 6.0 t: 0
+	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.141
+   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.141
+
+Node lb: 6.0 ub: 6 : 0.141
+
+Final Found Solution: 6 genNode: 1 extendedNode: 0:0.141
+Bin size: 10000
+1 : 7227,1320,840,207,70, : 9664
+2 : 6992,1860,96, : 8948
+3 : 4959,3526,564, : 9049
+4 : 4332,1680,470, : 6482
+5 : 1694,1449,682,376,280, : 4481
+6 : 4032, : 4032
+----------------------- 1 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:73,w:99},{x:0,y:73,l:15,w:88},{x:0,y:88,l:12,w:70},{x:91,y:73,l:23,w:9},{x:99,y:0,l:70,w:1},],
+----------------------- 2 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:92,w:76},{x:76,y:0,l:93,w:20},{x:96,y:0,l:32,w:3},],
+----------------------- 3 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:57,w:87},{x:0,y:57,l:43,w:82},{x:87,y:0,l:47,w:12},],
+----------------------- 4 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:57,w:76},{x:0,y:57,l:24,w:70},{x:95,y:0,l:94,w:5},],
+----------------------- 5 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:22,w:77},{x:0,y:22,l:21,w:69},{x:77,y:0,l:31,w:22},{x:69,y:22,l:47,w:8},{x:0,y:43,l:7,w:40},],
+----------------------- 6 ---------------------------
+canvasWidth:100,
+canvasHeight:100,
+data:[{x:0,y:0,l:96,w:42},],

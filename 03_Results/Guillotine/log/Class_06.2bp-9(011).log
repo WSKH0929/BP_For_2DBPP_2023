@@ -1,0 +1,24 @@
+====================================== Class_06.2bp-9 =====================================
+Reduced size: 20 usedBin: 0
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+------------------------------------------------
+Best fit used bin number: 1
+Found best solution: 1 0.125
+
+   Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.188
+
+	1 Start Add column using column generation  col: 1 cons: 0 cut: 0	0.188
+			Start solve  LP :0.188
+			End solve LP obj: 1.0 t: 0
+	1 End Add column using column generation : 1.0 col: 1 cons: 0 cut: 0	0.188
+   End add columnAndCut : 1.0 colGencnt: 1 price: 0 col: 1 cons: 0 cut: 0	0.188
+
+Node lb: 1.0 ub: 1 : 0.188
+
+Final Found Solution: 1 genNode: 1 extendedNode: 0:0.188
+Bin size: 90000
+1 : 9500,7315,5329,5236,5148,4380,4032,3724,2650,2610,1976,1560,1501,1140,996,342,341,330,264,39, : 58413
+----------------------- 1 ---------------------------
+canvasWidth:300,
+canvasHeight:300,
+data:[{x:223,y:0,l:68,w:77},{x:136,y:0,l:30,w:87},{x:140,y:30,l:12,w:83},{x:147,y:42,l:26,w:76},{x:60,y:0,l:49,w:76},{x:0,y:0,l:19,w:60},{x:205,y:68,l:77,w:95},{x:240,y:145,l:73,w:60},{x:214,y:145,l:60,w:26},{x:237,y:205,l:13,w:3},{x:213,y:205,l:11,w:24},{x:227,y:218,l:73,w:73},{x:216,y:218,l:31,w:11},{x:205,y:218,l:30,w:11},{x:105,y:68,l:95,w:100},{x:155,y:163,l:53,w:50},{x:26,y:68,l:19,w:79},{x:7,y:68,l:18,w:19},{x:53,y:87,l:99,w:52},{x:5,y:87,l:84,w:48},],

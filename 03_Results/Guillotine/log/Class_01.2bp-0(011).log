@@ -1,0 +1,66 @@
+====================================== Class_01.2bp-0 =====================================
+Reduced size: 20 usedBin: 0
+[0, 9]
+[6, 7, 14]
+[1, 10, 18]
+[3, 11, 19]
+[2, 15, 16]
+[4, 13]
+[5, 8, 17]
+[12]
+------------------------------------------------
+Best fit used bin number: 8
+Found best solution: 8 0.141
+
+   Statrt add columnAndCut col: 8 cons: 0 cut: 0	0.188
+
+	1 Start Add column using column generation  col: 8 cons: 0 cut: 0	0.188
+			Start solve  LP :0.188
+			End solve LP obj: 8.0 t: 16
+	1 End Add column using column generation : 8.0 col: 8 cons: 0 cut: 0	0.204
+   End add columnAndCut : 8.0 colGencnt: 1 price: 0 col: 8 cons: 0 cut: 0	0.204
+
+Node lb: 8.0 ub: 8 : 0.204
+
+Final Found Solution: 8 genNode: 1 extendedNode: 0:0.204
+Bin size: 100
+1 : 70,30, : 100
+2 : 42,40,18, : 100
+3 : 60,24,8, : 92
+4 : 56,24,5, : 85
+5 : 56,15,14, : 85
+6 : 54,20, : 74
+7 : 45,35,8, : 88
+8 : 24, : 24
+----------------------- 1 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:3,y:0,l:10,w:7},{x:0,y:0,l:10,w:3},],
+----------------------- 2 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:3,y:0,l:6,w:7},{x:0,y:0,l:6,w:3},{x:0,y:6,l:4,w:10},],
+----------------------- 3 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:4,y:0,l:10,w:6},{x:0,y:0,l:2,w:4},{x:1,y:2,l:8,w:3},],
+----------------------- 4 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:3,y:0,l:8,w:7},{x:0,y:0,l:8,w:3},{x:5,y:8,l:1,w:5},],
+----------------------- 5 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:2,y:0,l:7,w:8},{x:0,y:0,l:7,w:2},{x:5,y:7,l:3,w:5},],
+----------------------- 6 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:1,y:0,l:6,w:9},{x:5,y:6,l:4,w:5},],
+----------------------- 7 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:1,y:0,l:5,w:9},{x:3,y:5,l:5,w:7},{x:1,y:5,l:4,w:2},],
+----------------------- 8 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:7,y:0,l:8,w:3},],

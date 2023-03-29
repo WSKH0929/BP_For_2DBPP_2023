@@ -1,0 +1,116 @@
+====================================== Class_01.2bp-16 =====================================
+Reduced size: 40 usedBin: 0
+[1]
+[0]
+[2, 19, 32]
+[3, 13, 33]
+[5, 8]
+[4, 17, 24, 25]
+[6, 14, 22, 27]
+[7, 16, 21, 26, 34, 37]
+[10, 11, 23, 31, 38]
+[12, 15, 18, 36]
+[9, 20, 28, 29, 30, 35, 39]
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:10,w:2},{x:1,y:9,l:1,w:7},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:7},{x:7,y:0,l:10,w:3},{x:0,y:9,l:1,w:7},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:4,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:1,w:10},{x:0,y:7,l:2,w:10},{x:0,y:9,l:1,w:10},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:7,w:7},{x:7,y:0,l:10,w:3},{x:3,y:7,l:3,w:4},{x:0,y:7,l:3,w:3},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:8},{x:5,y:6,l:4,w:5},{x:8,y:0,l:6,w:2},{x:0,y:6,l:2,w:5},{x:2,y:8,l:2,w:3},{x:0,y:8,l:2,w:2},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:6},{x:6,y:0,l:9,w:4},{x:2,y:6,l:3,w:4},{x:0,y:6,l:4,w:2},{x:7,y:9,l:1,w:3},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:6},{x:0,y:7,l:3,w:9},{x:6,y:0,l:5,w:4},{x:0,y:6,l:1,w:6},],
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:2,w:9},{x:0,y:2,l:8,w:5},{x:9,y:0,l:9,w:1},{x:5,y:2,l:8,w:1},{x:6,y:2,l:8,w:1},{x:7,y:2,l:6,w:1},{x:8,y:2,l:2,w:1},],
+Best fit used bin number: 11
+Found best solution: 11 0.062
+
+   Statrt add columnAndCut col: 11 cons: 0 cut: 0	0.14
+
+	1 Start Add column using column generation  col: 11 cons: 0 cut: 0	0.14
+			Start solve  LP :0.14
+			End solve LP obj: 11.0 t: 0
+	1 End Add column using column generation : 11.0 col: 11 cons: 0 cut: 0	0.14
+   End add columnAndCut : 11.0 colGencnt: 1 price: 0 col: 11 cons: 0 cut: 0	0.14
+
+Node lb: 11.0 ub: 11 : 0.14
+
+Final Found Solution: 11 genNode: 1 extendedNode: 0:0.14
+Bin size: 100
+1 : 100, : 100
+2 : 100, : 100
+3 : 72,20,7, : 99
+4 : 63,30,7, : 100
+5 : 60,40, : 100
+6 : 60,20,10,10, : 100
+7 : 49,30,12,9, : 100
+8 : 48,20,12,10,6,4, : 100
+9 : 36,36,12,8,3, : 95
+10 : 36,27,20,6, : 89
+11 : 40,18,9,8,8,6,2, : 91
+----------------------- 1 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:10},],
+----------------------- 2 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:10,w:10},],
+----------------------- 3 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:8},{x:8,y:0,l:10,w:2},{x:1,y:9,l:1,w:7},],
+----------------------- 4 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:9,w:7},{x:7,y:0,l:10,w:3},{x:0,y:9,l:1,w:7},],
+----------------------- 5 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:4,w:10},],
+----------------------- 6 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:10},{x:0,y:6,l:1,w:10},{x:0,y:7,l:2,w:10},{x:0,y:9,l:1,w:10},],
+----------------------- 7 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:7,w:7},{x:7,y:0,l:10,w:3},{x:3,y:7,l:3,w:4},{x:0,y:7,l:3,w:3},],
+----------------------- 8 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:8},{x:5,y:6,l:4,w:5},{x:8,y:0,l:6,w:2},{x:0,y:6,l:2,w:5},{x:2,y:8,l:2,w:3},{x:0,y:8,l:2,w:2},],
+----------------------- 9 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:6},{x:6,y:0,l:9,w:4},{x:2,y:6,l:3,w:4},{x:0,y:6,l:4,w:2},{x:7,y:9,l:1,w:3},],
+----------------------- 10 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:6,w:6},{x:0,y:7,l:3,w:9},{x:6,y:0,l:5,w:4},{x:0,y:6,l:1,w:6},],
+----------------------- 11 ---------------------------
+canvasWidth:10,
+canvasHeight:10,
+data:[{x:0,y:0,l:2,w:9},{x:0,y:2,l:8,w:5},{x:9,y:0,l:9,w:1},{x:5,y:2,l:8,w:1},{x:6,y:2,l:8,w:1},{x:7,y:2,l:6,w:1},{x:8,y:2,l:2,w:1},],

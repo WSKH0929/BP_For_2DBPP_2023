@@ -1,0 +1,26 @@
+====================================== Class_02.2bp-7 =====================================
+Reduced size: 20 usedBin: 0
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+canvasWidth:30,
+canvasHeight:30,
+data:[{x:0,y:0,l:10,w:9},{x:16,y:0,l:4,w:7},{x:23,y:0,l:8,w:7},{x:0,y:10,l:9,w:5},{x:16,y:4,l:6,w:6},{x:5,y:10,l:9,w:4},{x:9,y:0,l:10,w:7},{x:9,y:10,l:6,w:4},{x:9,y:16,l:5,w:4},{x:0,y:19,l:2,w:9},{x:22,y:8,l:2,w:8},{x:13,y:10,l:4,w:4},{x:17,y:10,l:6,w:2},{x:20,y:10,l:2,w:5},{x:25,y:10,l:2,w:5},{x:19,y:10,l:6,w:1},{x:13,y:15,l:5,w:1},{x:22,y:4,l:4,w:1},{x:13,y:14,l:1,w:3},{x:16,y:14,l:2,w:1},],
+Best fit used bin number: 1
+Found best solution: 1 0.047
+
+   Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.11
+
+	1 Start Add column using column generation  col: 1 cons: 0 cut: 0	0.11
+			Start solve  LP :0.11
+			End solve LP obj: 1.0 t: 0
+	1 End Add column using column generation : 1.0 col: 1 cons: 0 cut: 0	0.11
+   End add columnAndCut : 1.0 colGencnt: 1 price: 0 col: 1 cons: 0 cut: 0	0.11
+
+Node lb: 1.0 ub: 1 : 0.11
+
+Final Found Solution: 1 genNode: 1 extendedNode: 0:0.11
+Bin size: 900
+1 : 90,70,56,45,36,36,28,24,20,18,16,16,12,10,10,6,5,4,3,2, : 507
+----------------------- 1 ---------------------------
+canvasWidth:30,
+canvasHeight:30,
+data:[{x:0,y:0,l:10,w:9},{x:16,y:0,l:4,w:7},{x:23,y:0,l:8,w:7},{x:0,y:10,l:9,w:5},{x:16,y:4,l:6,w:6},{x:5,y:10,l:9,w:4},{x:9,y:0,l:10,w:7},{x:9,y:10,l:6,w:4},{x:9,y:16,l:5,w:4},{x:0,y:19,l:2,w:9},{x:22,y:8,l:2,w:8},{x:13,y:10,l:4,w:4},{x:17,y:10,l:6,w:2},{x:20,y:10,l:2,w:5},{x:25,y:10,l:2,w:5},{x:19,y:10,l:6,w:1},{x:13,y:15,l:5,w:1},{x:22,y:4,l:4,w:1},{x:13,y:14,l:1,w:3},{x:16,y:14,l:2,w:1},],
