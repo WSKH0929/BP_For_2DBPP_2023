@@ -29,7 +29,7 @@ canvasWidth:40,
 canvasHeight:40,
 data:[{x:0,y:0,l:20,w:30},{x:0,y:20,l:19,w:22},],
 Best fit used bin number: 7
-Found best solution: 7 0.047
+Found best solution: 7 0.063
 
    Statrt add columnAndCut col: 7 cons: 0 cut: 0	0.125
 

@@ -13,19 +13,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:64,w:77},{x:84,y:0,l:55,w:86},{x:170,y:0,l:71,w:57},{x:227,y:0,l:91,w:43},{x:84,y:55,l:60,w:63},{x:93,y:115,l:70,w:54},{x:170,y:91,l:48,w:75},{x:170,y:151,l:57,w:63},{x:202,y:267,l:33,w:98},{x:55,y:115,l:83,w:38},{x:60,y:246,l:42,w:75},{x:0,y:238,l:51,w:60},{x:266,y:91,l:87,w:34},{x:36,y:65,l:50,w:48},{x:0,y:65,l:76,w:29},{x:93,y:185,l:40,w:54},{x:170,y:208,l:35,w:59},{x:0,y:141,l:76,w:27},{x:147,y:55,l:89,w:23},{x:147,y:144,l:86,w:23},{x:68,y:225,l:21,w:79},{x:40,y:115,l:91,w:15},{x:239,y:178,l:89,w:61},{x:29,y:118,l:98,w:11},{x:55,y:198,l:22,w:38},{x:170,y:139,l:12,w:67},{x:270,y:23,l:31,w:23},{x:170,y:71,l:11,w:57},{x:77,y:0,l:65,w:7},{x:270,y:0,l:15,w:30},{x:41,y:206,l:32,w:14},{x:29,y:65,l:53,w:7},{x:270,y:15,l:8,w:30},{x:201,y:82,l:9,w:26},{x:0,y:64,l:1,w:77},{x:55,y:220,l:1,w:38},],
 Best fit used bin number: 3
-Found best solution: 3 0.047
+Found best solution: 3 0.063
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.109
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.109
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
 
-Node lb: 3.0 ub: 3 : 0.109
+Node lb: 3.0 ub: 3 : 0.125
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
 Bin size: 90000
 1 : 8730,7821,6952,6885,6776,6030,5428,5325,4500,2952,2700,2511,2430,2135,1350,1276,1245,1242,984,903,800,384,296,288,264,192,132,115,52,30, : 80728
 2 : 5840,5828,5236,5063,4450,4399,4224,4004,3120,3104,3042,3040,2915,2800,2555,2275,2268,1872,1863,1568,1566,1518,1274,1107,1037,945,900,871,740,702,621,594,194,105, : 81640

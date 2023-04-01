@@ -45,7 +45,7 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:5,w:8},{x:0,y:5,l:5,w:8},],
 Best fit used bin number: 11
-Found best solution: 11 0.062
+Found best solution: 11 0.047
 
    Statrt add columnAndCut col: 11 cons: 0 cut: 0	0.125
 

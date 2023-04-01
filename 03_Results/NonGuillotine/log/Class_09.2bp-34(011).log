@@ -249,19 +249,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:30,w:98},{x:0,y:30,l:60,w:50},{x:0,y:90,l:3,w:67},],
 Best fit used bin number: 62
-Found best solution: 62 0.063
+Found best solution: 62 0.062
 
-   Statrt add columnAndCut col: 62 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 62 cons: 0 cut: 0	0.234
 
-	1 Start Add column using column generation  col: 62 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
-			End solve LP obj: 62.0 t: 0
-	1 End Add column using column generation : 62.0 col: 62 cons: 0 cut: 0	0.141
-   End add columnAndCut : 62.0 colGencnt: 1 price: 0 col: 62 cons: 0 cut: 0	0.141
+	1 Start Add column using column generation  col: 62 cons: 0 cut: 0	0.234
+			Start solve  LP :0.234
+			End solve LP obj: 62.0 t: 16
+	1 End Add column using column generation : 62.0 col: 62 cons: 0 cut: 0	0.25
+   End add columnAndCut : 62.0 colGencnt: 1 price: 0 col: 62 cons: 0 cut: 0	0.25
 
-Node lb: 62.0 ub: 62 : 0.141
+Node lb: 62.0 ub: 62 : 0.25
 
-Final Found Solution: 62 genNode: 1 extendedNode: 0:0.141
+Final Found Solution: 62 genNode: 1 extendedNode: 0:0.25
 Bin size: 10000
 1 : 8900, : 8900
 2 : 8712, : 8712

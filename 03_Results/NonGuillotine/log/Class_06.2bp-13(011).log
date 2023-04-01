@@ -9,19 +9,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:84,w:74},{x:74,y:0,l:75,w:66},{x:140,y:0,l:83,w:34},{x:74,y:75,l:33,w:64},{x:0,y:84,l:25,w:74},{x:194,y:0,l:46,w:38},{x:232,y:0,l:38,w:44},{x:174,y:0,l:83,w:20},],
 Best fit used bin number: 2
-Found best solution: 2 0.047
+Found best solution: 2 0.063
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.109
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.109
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
 
-Node lb: 2.0 ub: 2 : 0.109
+Node lb: 2.0 ub: 2 : 0.125
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
 Bin size: 90000
 1 : 8928,7735,7392,7154,6864,6204,3485,3072,3015,2975,2809,2668,2574,2120,2077,1974,1584,1386,1221,957,759,660,648,605,576,504,440,333,240,138,80,75, : 81252
 2 : 6216,4950,2822,2112,1850,1748,1672,1660, : 23030

@@ -9,19 +9,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:18,w:15},{x:0,y:18,l:21,w:21},{x:0,y:64,l:22,w:9},{x:0,y:39,l:21,w:21},{x:0,y:86,l:11,w:27},{x:21,y:27,l:17,w:35},{x:56,y:0,l:21,w:28},{x:15,y:0,l:18,w:26},{x:41,y:0,l:27,w:15},{x:42,y:64,l:17,w:26},{x:42,y:81,l:2,w:27},{x:0,y:60,l:4,w:21},{x:9,y:64,l:22,w:33},{x:18,y:99,l:1,w:26},{x:0,y:97,l:3,w:7},{x:71,y:76,l:24,w:13},{x:68,y:83,l:8,w:1},{x:21,y:44,l:20,w:35},{x:94,y:23,l:33,w:5},{x:27,y:86,l:11,w:23},{x:89,y:51,l:25,w:5},{x:85,y:23,l:28,w:7},{x:85,y:0,l:23,w:15},{x:7,y:97,l:3,w:11},{x:84,y:77,l:23,w:16},{x:44,y:99,l:1,w:26},{x:56,y:21,l:11,w:29},{x:21,y:18,l:9,w:20},{x:99,y:23,l:32,w:1},{x:68,y:91,l:8,w:3},{x:50,y:85,l:12,w:18},{x:42,y:83,l:2,w:23},{x:56,y:32,l:19,w:29},{x:18,y:97,l:2,w:32},{x:69,y:51,l:25,w:20},{x:68,y:56,l:25,w:1},{x:56,y:52,l:12,w:12},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.075
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.172
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.173
+			Start solve  LP :0.173
+			End solve LP obj: 2.0 t: 2
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.176
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.176
 
-Node lb: 2.0 ub: 2 : 0.125
+Node lb: 2.0 ub: 2 : 0.176
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.176
 Bin size: 10000
 1 : 1156,1054,945,899,780,680,672,506,496,460,408,391,384,350,250,120,108,90,80,66,39,23,18, : 9975
 2 : 726,700,595,588,551,500,468,442,441,441,405,368,345,319,312,297,270,253,216,198,196,180,165,144,125,84,64,54,46,33,32,26,26,25,24,21,8, : 9688

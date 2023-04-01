@@ -17,19 +17,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:31,w:18},{x:18,y:0,l:22,w:22},{x:40,y:0,l:14,w:33},{x:18,y:22,l:21,w:22},{x:40,y:14,l:21,w:21},{x:16,y:43,l:15,w:24},{x:61,y:14,l:30,w:12},{x:0,y:34,l:21,w:16},{x:73,y:3,l:14,w:22},{x:0,y:55,l:19,w:15},{x:73,y:25,l:13,w:21},{x:73,y:17,l:8,w:22},{x:73,y:0,l:3,w:27},{x:0,y:31,l:3,w:18},],
 Best fit used bin number: 4
-Found best solution: 4 0.054
+Found best solution: 4 0.078
 
-   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.137
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.188
 
-	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.137
-			Start solve  LP :0.137
-			End solve LP obj: 4.0 t: 1
-	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.14
-   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.14
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.188
+			Start solve  LP :0.188
+			End solve LP obj: 4.0 t: 0
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.188
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.188
 
-Node lb: 4.0 ub: 4 : 0.14
+Node lb: 4.0 ub: 4 : 0.188
 
-Final Found Solution: 4 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.188
 Bin size: 10000
 1 : 896,868,840,832,825,812,608,576,462,456,420,400,288,253,240,180,104,84,80,66,64,58,48,45,40,24,3, : 9572
 2 : 810,783,759,750,625,609,580,567,510,455,455,396,315,306,275,273,198,189,182,143,135,128,120,119,75,70,64,12,5, : 9908

@@ -53,7 +53,7 @@ canvasWidth:40,
 canvasHeight:40,
 data:[{x:0,y:0,l:25,w:20},{x:0,y:25,l:10,w:34},{x:20,y:9,l:16,w:16},{x:20,y:0,l:9,w:19},],
 Best fit used bin number: 13
-Found best solution: 13 0.062
+Found best solution: 13 0.046
 
    Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.125
 

@@ -39,17 +39,17 @@ data:[{x:0,y:0,l:61,w:50},{x:0,y:61,l:39,w:31},{x:50,y:0,l:27,w:31},{x:50,y:27,l
 Best fit used bin number: 9
 Found best solution: 9 0.047
 
-   Statrt add columnAndCut col: 9 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 9 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 9 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
+	1 Start Add column using column generation  col: 9 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 9.0 t: 0
-	1 End Add column using column generation : 9.0 col: 9 cons: 0 cut: 0	0.109
-   End add columnAndCut : 9.0 colGencnt: 1 price: 0 col: 9 cons: 0 cut: 0	0.109
+	1 End Add column using column generation : 9.0 col: 9 cons: 0 cut: 0	0.125
+   End add columnAndCut : 9.0 colGencnt: 1 price: 0 col: 9 cons: 0 cut: 0	0.125
 
-Node lb: 9.0 ub: 9 : 0.109
+Node lb: 9.0 ub: 9 : 0.125
 
-Final Found Solution: 9 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 9 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 9506,26, : 9532
 2 : 7350,675, : 8025

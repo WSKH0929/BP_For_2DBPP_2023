@@ -13,19 +13,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:57,w:82},{x:82,y:0,l:78,w:53},{x:135,y:0,l:96,w:41},{x:176,y:0,l:60,w:63},{x:0,y:57,l:60,w:59},{x:239,y:0,l:93,w:38},{x:91,y:78,l:79,w:44},{x:0,y:117,l:84,w:40},{x:55,y:157,l:42,w:79},{x:242,y:168,l:55,w:58},{x:134,y:157,l:32,w:96},{x:88,y:242,l:37,w:81},{x:55,y:199,l:43,w:69},{x:0,y:201,l:65,w:44},{x:44,y:242,l:58,w:44},{x:257,y:223,l:59,w:43},{x:199,y:212,l:54,w:43},{x:198,y:96,l:58,w:37},{x:239,y:93,l:56,w:38},{x:176,y:60,l:36,w:59},{x:134,y:189,l:23,w:92},{x:124,y:212,l:30,w:70},{x:193,y:266,l:31,w:64},{x:88,y:279,l:20,w:76},{x:40,y:117,l:84,w:15},{x:238,y:149,l:19,w:48},{x:277,y:66,l:55,w:15},{x:277,y:0,l:37,w:21},{x:59,y:78,l:24,w:29},{x:287,y:121,l:45,w:13},{x:59,y:102,l:20,w:28},{x:0,y:266,l:13,w:41},{x:135,y:96,l:61,w:63},{x:277,y:37,l:29,w:16},{x:59,y:57,l:17,w:23},{x:55,y:122,l:13,w:27},{x:235,y:60,l:83,w:4},{x:235,y:143,l:63,w:3},{x:198,y:154,l:3,w:17},],
 Best fit used bin number: 3
-Found best solution: 3 0.063
+Found best solution: 3 0.078
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
+			End solve LP obj: 3.0 t: 16
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.172
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.172
 
-Node lb: 3.0 ub: 3 : 0.125
+Node lb: 3.0 ub: 3 : 0.172
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.172
 Bin size: 90000
 1 : 7280,6864,6734,6630,6603,6480,5950,4400,3740,3627,3128,2500,2407,2304,2295,2046,1932,1460,1430,969,870,680,664,664,608,510,450,350,336,168,138,80, : 84297
 2 : 6534,6237,6175,4968,4899,4752,4740,4698,4672,4620,4508,3654,3564,3564,3549,2688,2592,2480,1932,1581,1281,1110,1050,900,500,440,61,28,7, : 87784

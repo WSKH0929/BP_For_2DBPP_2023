@@ -9,19 +9,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:32,w:20},{x:27,y:0,l:24,w:25},{x:0,y:32,l:17,w:33},{x:69,y:0,l:16,w:31},{x:69,y:29,l:33,w:14},{x:46,y:46,l:20,w:23},{x:0,y:49,l:13,w:33},{x:37,y:66,l:26,w:16},{x:52,y:0,l:24,w:17},{x:69,y:16,l:13,w:31},{x:0,y:62,l:11,w:33},{x:56,y:24,l:22,w:13},{x:38,y:32,l:34,w:8},{x:0,y:73,l:27,w:9},{x:83,y:29,l:21,w:11},{x:27,y:24,l:8,w:29},{x:20,y:0,l:32,w:7},{x:9,y:80,l:10,w:21},{x:53,y:66,l:26,w:8},{x:69,y:62,l:12,w:14},{x:46,y:32,l:14,w:10},{x:9,y:75,l:5,w:23},{x:97,y:45,l:35,w:3},{x:33,y:32,l:24,w:4},{x:9,y:90,l:5,w:18},{x:33,y:56,l:19,w:4},{x:94,y:29,l:16,w:4},{x:61,y:74,l:1,w:33},{x:61,y:66,l:4,w:8},{x:24,y:73,l:2,w:9},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.059
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.13
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.131
+			Start solve  LP :0.131
+			End solve LP obj: 2.0 t: 1
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.133
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.133
 
-Node lb: 2.0 ub: 2 : 0.125
+Node lb: 2.0 ub: 2 : 0.133
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.133
 Bin size: 10000
 1 : 1015,986,756,750,660,495,493,465,400,400,350,341,330,252,247,238,200,195,189,186,150,130,116,114,64,30,22,22,14,12, : 9622
 2 : 640,600,561,496,462,460,429,416,408,403,363,286,272,243,232,231,224,210,208,168,140,115,105,96,90,76,64,33,32,18, : 8081

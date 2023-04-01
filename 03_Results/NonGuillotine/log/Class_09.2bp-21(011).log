@@ -181,7 +181,7 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:39,l:53,w:50},{x:0,y:0,l:39,w:75},],
 Best fit used bin number: 45
-Found best solution: 45 0.046
+Found best solution: 45 0.047
 
    Statrt add columnAndCut col: 45 cons: 0 cut: 0	0.125
 

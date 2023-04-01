@@ -93,19 +93,19 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:8,w:5},{x:5,y:0,l:8,w:5},],
 Best fit used bin number: 23
-Found best solution: 23 0.047
+Found best solution: 23 0.079
 
-   Statrt add columnAndCut col: 23 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 23 cons: 0 cut: 0	0.157
 
-	1 Start Add column using column generation  col: 23 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 23 cons: 0 cut: 0	0.157
+			Start solve  LP :0.157
 			End solve LP obj: 23.0 t: 0
-	1 End Add column using column generation : 23.0 col: 23 cons: 0 cut: 0	0.125
-   End add columnAndCut : 23.0 colGencnt: 1 price: 0 col: 23 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 23.0 col: 23 cons: 0 cut: 0	0.157
+   End add columnAndCut : 23.0 colGencnt: 1 price: 0 col: 23 cons: 0 cut: 0	0.157
 
-Node lb: 23.0 ub: 23 : 0.125
+Node lb: 23.0 ub: 23 : 0.157
 
-Final Found Solution: 23 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 23 genNode: 1 extendedNode: 0:0.157
 Bin size: 100
 1 : 100, : 100
 2 : 90,4, : 94

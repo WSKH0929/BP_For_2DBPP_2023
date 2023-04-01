@@ -121,19 +121,19 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:7,w:4},{x:4,y:0,l:4,w:6},{x:7,y:4,l:6,w:3},{x:4,y:4,l:5,w:3},{x:0,y:7,l:3,w:4},{x:4,y:9,l:1,w:3},],
 Best fit used bin number: 30
-Found best solution: 30 0.062
+Found best solution: 30 0.063
 
-   Statrt add columnAndCut col: 30 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 30 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 30 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 30 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 30.0 t: 0
-	1 End Add column using column generation : 30.0 col: 30 cons: 0 cut: 0	0.14
-   End add columnAndCut : 30.0 colGencnt: 1 price: 0 col: 30 cons: 0 cut: 0	0.14
+	1 End Add column using column generation : 30.0 col: 30 cons: 0 cut: 0	0.141
+   End add columnAndCut : 30.0 colGencnt: 1 price: 0 col: 30 cons: 0 cut: 0	0.141
 
-Node lb: 30.0 ub: 30 : 0.14
+Node lb: 30.0 ub: 30 : 0.141
 
-Final Found Solution: 30 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 30 genNode: 1 extendedNode: 0:0.141
 Bin size: 100
 1 : 90,10, : 100
 2 : 81,8,7, : 96

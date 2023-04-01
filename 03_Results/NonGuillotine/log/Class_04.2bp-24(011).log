@@ -11,17 +11,17 @@ data:[{x:0,y:0,l:18,w:35},{x:77,y:4,l:30,w:19},{x:0,y:18,l:22,w:24},{x:24,y:18,l
 Best fit used bin number: 2
 Found best solution: 2 0.063
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.141
+			Start solve  LP :0.142
+			End solve LP obj: 2.0 t: 1
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.144
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.144
 
-Node lb: 2.0 ub: 2 : 0.125
+Node lb: 2.0 ub: 2 : 0.144
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.144
 Bin size: 10000
 1 : 899,837,825,792,728,627,620,608,589,561,558,403,248,231,189,162,150,145,128,119,100,66,63,8, : 9656
 2 : 630,570,528,476,420,414,351,342,340,325,276,260,231,216,208,208,192,180,176,176,171,170,143,92,90,88,87,84,60,57,51,42,32,27,24,14, : 7751

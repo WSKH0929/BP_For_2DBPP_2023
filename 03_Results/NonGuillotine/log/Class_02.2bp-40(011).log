@@ -19,17 +19,17 @@ data:[{x:0,y:0,l:3,w:6},{x:6,y:0,l:3,w:3},{x:9,y:0,l:3,w:3},{x:12,y:0,l:1,w:7},]
 Best fit used bin number: 4
 Found best solution: 4 0.063
 
-   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 4.0 t: 0
-	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.125
-   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.141
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.141
 
-Node lb: 4.0 ub: 4 : 0.125
+Node lb: 4.0 ub: 4 : 0.141
 
-Final Found Solution: 4 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.141
 Bin size: 900
 1 : 100,100,90,81,72,63,63,60,60,60,56,36,21,14,8,7,6,2,1, : 900
 2 : 60,56,54,54,49,49,48,45,42,40,36,36,35,35,32,32,30,30,30,24,24,21,16,12,7,3, : 900

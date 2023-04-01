@@ -9,19 +9,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:76,w:79},{x:79,y:0,l:64,w:85},{x:164,y:0,l:55,w:90},{x:177,y:68,l:70,w:68},{x:69,y:127,l:50,w:93},{x:69,y:177,l:55,w:81},{x:0,y:175,l:59,w:65},{x:156,y:214,l:40,w:94},{x:33,y:76,l:51,w:70},{x:94,y:232,l:61,w:55},{x:0,y:76,l:99,w:33},{x:176,y:182,l:32,w:97},{x:176,y:138,l:44,w:60},{x:236,y:138,l:39,w:62},{x:0,y:234,l:41,w:55},{x:103,y:64,l:36,w:61},{x:254,y:10,l:57,w:37},{x:103,y:100,l:27,w:74},{x:33,y:127,l:48,w:28},{x:63,y:236,l:35,w:30},{x:177,y:55,l:13,w:77},{x:0,y:275,l:25,w:36},{x:165,y:147,l:58,w:11},{x:164,y:55,l:45,w:13},{x:254,y:0,l:10,w:39},{x:61,y:127,l:48,w:8},{x:55,y:234,l:41,w:8},{x:79,y:64,l:12,w:24},{x:162,y:127,l:20,w:14},{x:150,y:177,l:43,w:6},{x:65,y:175,l:61,w:4},{x:69,y:232,l:4,w:25},],
 Best fit used bin number: 2
-Found best solution: 2 0.047
+Found best solution: 2 0.057
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.123
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
-			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.109
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.109
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.124
+			Start solve  LP :0.124
+			End solve LP obj: 2.0 t: 1
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.126
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.126
 
-Node lb: 2.0 ub: 2 : 0.109
+Node lb: 2.0 ub: 2 : 0.126
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.126
 Bin size: 90000
 1 : 7332,6497,6072,6006,5250,4964,4752,4602,4171,3948,2923,2523,2312,2205,2100,2016,1940,1908,1872,1825,1677,1496,1328,1157,972,156,92,28, : 82124
 2 : 6004,5440,4950,4760,4650,4455,3835,3760,3570,3355,3267,3104,2640,2418,2255,2196,2109,1998,1344,1050,1001,900,638,585,390,384,328,288,280,258,244,100, : 72556

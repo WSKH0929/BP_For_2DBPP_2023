@@ -19,13 +19,13 @@ Found best solution: 3 0.062
 
 	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
 			Start solve  LP :0.125
-			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
+			End solve LP obj: 3.0 t: 15
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.14
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.14
 
-Node lb: 3.0 ub: 3 : 0.125
+Node lb: 3.0 ub: 3 : 0.14
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.14
 Bin size: 900
 1 : 100,100,90,90,80,80,80,72,70,50,30,20,18,10,10, : 900
 2 : 72,63,63,56,54,48,45,45,36,36,36,36,32,32,30,28,24,24,18,18,16,14,12,9,7,5,5,3, : 867

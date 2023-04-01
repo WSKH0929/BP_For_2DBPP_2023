@@ -9,19 +9,19 @@ canvasWidth:30,
 canvasHeight:30,
 data:[{x:0,y:0,l:4,w:9},{x:24,y:4,l:7,w:5},{x:19,y:4,l:7,w:5},{x:0,y:4,l:5,w:6},{x:9,y:0,l:4,w:7},{x:15,y:4,l:7,w:4},{x:6,y:4,l:5,w:5},{x:16,y:0,l:4,w:5},{x:0,y:9,l:4,w:5},{x:11,y:4,l:5,w:4},{x:21,y:0,l:2,w:9},{x:9,y:11,l:9,w:2},{x:21,y:2,l:2,w:8},{x:5,y:9,l:4,w:4},{x:10,y:9,l:2,w:5},{x:29,y:2,l:5,w:1},{x:29,y:7,l:4,w:1},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.06
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.126
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.126
+			Start solve  LP :0.126
+			End solve LP obj: 2.0 t: 1
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.128
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.128
 
-Node lb: 2.0 ub: 2 : 0.125
+Node lb: 2.0 ub: 2 : 0.128
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.129
 Bin size: 900
 1 : 100,90,80,80,72,72,70,56,45,36,36,32,24,24,12,12,10,10,9,6,3,2,2, : 883
 2 : 36,35,35,30,28,28,25,20,20,20,18,18,16,16,10,5,4, : 364

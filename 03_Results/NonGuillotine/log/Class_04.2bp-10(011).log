@@ -5,19 +5,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:29,w:25},{x:25,y:0,l:29,w:23},{x:65,y:0,l:35,w:18},{x:0,y:29,l:18,w:31},{x:83,y:0,l:32,w:17},{x:60,y:35,l:31,w:16},{x:48,y:0,l:29,w:17},{x:0,y:47,l:35,w:13},{x:31,y:29,l:18,w:25},{x:83,y:32,l:21,w:17},{x:13,y:47,l:14,w:24},{x:37,y:47,l:26,w:12},{x:15,y:61,l:12,w:22},{x:24,y:73,l:8,w:32},{x:72,y:83,l:9,w:28},{x:15,y:73,l:27,w:9},{x:49,y:47,l:7,w:6},{x:76,y:51,l:32,w:6},{x:24,y:81,l:19,w:9},{x:82,y:55,l:13,w:12},{x:72,y:92,l:5,w:28},{x:56,y:29,l:34,w:4},{x:95,y:55,l:23,w:5},{x:82,y:68,l:10,w:11},{x:59,y:66,l:13,w:8},{x:76,y:35,l:14,w:7},{x:33,y:95,l:3,w:30},{x:56,y:63,l:23,w:3},{x:33,y:87,l:8,w:29},{x:49,y:54,l:7,w:6},{x:49,y:61,l:12,w:3},{x:83,y:53,l:2,w:17},{x:33,y:86,l:1,w:31},{x:60,y:29,l:6,w:5},{x:0,y:82,l:3,w:9},{x:13,y:61,l:13,w:2},{x:55,y:47,l:23,w:1},{x:76,y:49,l:2,w:7},{x:14,y:74,l:9,w:1},{x:52,y:61,l:1,w:3},],
 Best fit used bin number: 1
-Found best solution: 1 0.063
+Found best solution: 1 0.078
 
-   Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.14
 
-	1 Start Add column using column generation  col: 1 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
-			End solve LP obj: 1.0 t: 0
-	1 End Add column using column generation : 1.0 col: 1 cons: 0 cut: 0	0.141
-   End add columnAndCut : 1.0 colGencnt: 1 price: 0 col: 1 cons: 0 cut: 0	0.141
+	1 Start Add column using column generation  col: 1 cons: 0 cut: 0	0.14
+			Start solve  LP :0.14
+			End solve LP obj: 1.0 t: 16
+	1 End Add column using column generation : 1.0 col: 1 cons: 0 cut: 0	0.156
+   End add columnAndCut : 1.0 colGencnt: 1 price: 0 col: 1 cons: 0 cut: 0	0.156
 
-Node lb: 1.0 ub: 1 : 0.141
+Node lb: 1.0 ub: 1 : 0.156
 
-Final Found Solution: 1 genNode: 1 extendedNode: 0:0.141
+Final Found Solution: 1 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 725,667,630,558,544,496,493,455,450,357,336,312,264,256,252,243,232,192,171,156,140,136,115,110,104,98,90,69,42,42,36,34,31,30,27,26,23,14,9,3, : 8968
 ----------------------- 1 ---------------------------

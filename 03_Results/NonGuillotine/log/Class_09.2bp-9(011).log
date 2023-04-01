@@ -53,19 +53,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:16,w:69},{x:0,y:16,l:50,w:70},],
 Best fit used bin number: 13
-Found best solution: 13 0.054
+Found best solution: 13 0.047
 
-   Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.121
+   Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 13 cons: 0 cut: 0	0.121
-			Start solve  LP :0.122
-			End solve LP obj: 13.0 t: 1
-	1 End Add column using column generation : 13.0 col: 13 cons: 0 cut: 0	0.123
-   End add columnAndCut : 13.0 colGencnt: 1 price: 0 col: 13 cons: 0 cut: 0	0.123
+	1 Start Add column using column generation  col: 13 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 13.0 t: 0
+	1 End Add column using column generation : 13.0 col: 13 cons: 0 cut: 0	0.125
+   End add columnAndCut : 13.0 colGencnt: 1 price: 0 col: 13 cons: 0 cut: 0	0.125
 
-Node lb: 13.0 ub: 13 : 0.123
+Node lb: 13.0 ub: 13 : 0.125
 
-Final Found Solution: 13 genNode: 1 extendedNode: 0:0.124
+Final Found Solution: 13 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 7400, : 7400
 2 : 6956,546, : 7502

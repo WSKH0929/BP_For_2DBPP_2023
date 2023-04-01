@@ -25,19 +25,19 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:8,w:2},{x:2,y:0,l:3,w:8},{x:2,y:3,l:2,w:7},],
 Best fit used bin number: 6
-Found best solution: 6 0.065
+Found best solution: 6 0.047
 
-   Statrt add columnAndCut col: 6 cons: 0 cut: 0	0.129
+   Statrt add columnAndCut col: 6 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.129
-			Start solve  LP :0.129
-			End solve LP obj: 6.0 t: 1
-	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.131
-   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.131
+	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 6.0 t: 0
+	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.125
+   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.125
 
-Node lb: 6.0 ub: 6 : 0.131
+Node lb: 6.0 ub: 6 : 0.125
 
-Final Found Solution: 6 genNode: 1 extendedNode: 0:0.131
+Final Found Solution: 6 genNode: 1 extendedNode: 0:0.125
 Bin size: 100
 1 : 54,9,8, : 71
 2 : 49,21,12,3,3, : 88

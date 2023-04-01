@@ -9,7 +9,7 @@ canvasWidth:30,
 canvasHeight:30,
 data:[{x:0,y:0,l:4,w:6},{x:11,y:0,l:8,w:3},{x:14,y:0,l:8,w:3},{x:6,y:0,l:4,w:5},{x:19,y:0,l:3,w:6},{x:19,y:3,l:3,w:6},{x:25,y:3,l:9,w:2},{x:17,y:0,l:8,w:2},{x:25,y:0,l:3,w:5},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.063
 
    Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
 
@@ -21,7 +21,7 @@ Found best solution: 2 0.062
 
 Node lb: 2.0 ub: 2 : 0.125
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.141
 Bin size: 900
 1 : 64,63,56,50,45,45,45,42,40,40,40,35,30,28,27,27,20,18,16,14,12,12,12,10,10,9,6,5,4,3,3, : 831
 2 : 24,24,24,20,18,18,18,16,15, : 177

@@ -37,16 +37,16 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:1,l:5,w:6},{x:0,y:0,l:1,w:7},],
 Best fit used bin number: 9
-Found best solution: 9 0.059
+Found best solution: 9 0.062
 
-   Statrt add columnAndCut col: 9 cons: 0 cut: 0	0.118
+   Statrt add columnAndCut col: 9 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 9 cons: 0 cut: 0	0.118
-			Start solve  LP :0.118
-			End solve LP obj: 9.0 t: 1
+	1 Start Add column using column generation  col: 9 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 9.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 1.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 1.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -54,7 +54,7 @@ xList.size = 3
 yList.size = 3
 squareList.size = 9
 myConsList.size = 0
-cplex1的参考解为：2.0 0.008 s
+cplex1的参考解为：2.0 0.015 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:5,w:6},{x:0,y:5,l:4,w:8},],
@@ -62,14 +62,14 @@ curBestBinNum = 9
 instance.getSquareList().size() = 9
 solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 8@9@
-用时：17 ms
+solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:9 	0.146
-			Start solve  LP :0.146
+		1 Add column : 1 col:9 	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 9.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.0, 1.0, -0.0, -0.0, -0.0, -0.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.0, 1.0, -0.0, -0.0, -0.0, -0.0, 1.0, -0.0, -0.0, -0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -77,7 +77,7 @@ xList.size = 3
 yList.size = 5
 squareList.size = 9
 myConsList.size = 0
-cplex1的参考解为：2.0 0.006 s
+cplex1的参考解为：2.0 0.016 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:7,l:3,w:6},{x:0,y:2,l:5,w:6},],
@@ -85,14 +85,14 @@ curBestBinNum = 9
 instance.getSquareList().size() = 9
 solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 9@14@
-用时：10 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		2 Add column : 1 col:10 	0.159
-			Start solve  LP :0.159
+		2 Add column : 1 col:10 	0.172
+			Start solve  LP :0.172
 			End solve LP obj: 9.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.5, 0.5, -0.0, -0.0, -0.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.5, 0.5, -0.0, -0.0, -0.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -100,7 +100,7 @@ xList.size = 3
 yList.size = 8
 squareList.size = 11
 myConsList.size = 0
-cplex1的参考解为：2.5 0.005 s
+cplex1的参考解为：2.5 0.0 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:3,l:7,w:5},{x:0,y:0,l:1,w:7},{x:5,y:1,l:9,w:5},],
@@ -108,14 +108,14 @@ curBestBinNum = 9
 instance.getSquareList().size() = 11
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 4@7@17@
-用时：9 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		3 Add column : 1 col:11 	0.171
-			Start solve  LP :0.171
+		3 Add column : 1 col:11 	0.187
+			Start solve  LP :0.187
 			End solve LP obj: 9.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, -0.0, -0.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, -0.0, -0.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -123,7 +123,7 @@ xList.size = 3
 yList.size = 8
 squareList.size = 12
 myConsList.size = 0
-cplex1的参考解为：2.0 0.006 s
+cplex1的参考解为：2.0 0.047 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:6,l:4,w:9},{x:0,y:5,l:1,w:7},{x:0,y:2,l:3,w:6},],
@@ -131,14 +131,14 @@ curBestBinNum = 9
 instance.getSquareList().size() = 12
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 6@14@17@
-用时：9 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		4 Add column : 1 col:12 	0.182
-			Start solve  LP :0.183
+		4 Add column : 1 col:12 	0.234
+			Start solve  LP :0.234
 			End solve LP obj: 9.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.0, 0.5, 0.5, 0.5, 0.5, -0.0, 1.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.0, 0.5, 0.5, 0.5, 0.5, -0.0, 1.0, -0.0, 0.5, -0.0, -0.0, 0.5, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -146,7 +146,7 @@ xList.size = 3
 yList.size = 8
 squareList.size = 12
 myConsList.size = 0
-cplex1的参考解为：2.0 0.21 s
+cplex1的参考解为：2.0 0.016 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:6,l:4,w:6},{x:0,y:5,l:1,w:7},{x:0,y:2,l:3,w:6},],
@@ -154,17 +154,17 @@ curBestBinNum = 9
 instance.getSquareList().size() = 12
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 12@14@17@
-用时：213 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		5 Add column : 1 col:13 	0.399
-			Start solve  LP :0.399
+		5 Add column : 1 col:13 	0.25
+			Start solve  LP :0.25
 			End solve LP obj: 8.5 t: 0
 CompleteSolutionByBF前size: 8
 count = 19
 CompleteSolutionByBF后size: 9
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.5, 0.75, 0.25, 0.75, 0.25, -0.0, 0.5, -0.0, 0.25, -0.0, -0.0, 0.25, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.5, 0.75, 0.25, 0.75, 0.25, -0.0, 0.5, -0.0, 0.25, -0.0, -0.0, 0.25, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -172,7 +172,7 @@ xList.size = 3
 yList.size = 8
 squareList.size = 13
 myConsList.size = 0
-cplex1的参考解为：2.0 0.006 s
+cplex1的参考解为：2.0 0.0 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:1,l:8,w:5},{x:0,y:9,l:1,w:7},{x:5,y:2,l:7,w:5},],
@@ -180,15 +180,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 13
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 5@7@17@
-用时：12 ms
+solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		6 Add column : 1 col:14 	0.417
-			Start solve  LP :0.418
+		6 Add column : 1 col:14 	0.266
+			Start solve  LP :0.266
 			End solve LP obj: 8.5 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.5, -0.0, 0.5, 0.5, 1.0, -0.0, 0.5, -0.0, 0.5, -0.0, -0.0, 0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, -0.0, 1.0, 0.5, -0.0, 0.5, 0.5, 1.0, -0.0, 0.5, -0.0, 0.5, -0.0, -0.0, 0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -196,7 +196,7 @@ xList.size = 3
 yList.size = 7
 squareList.size = 11
 myConsList.size = 0
-cplex1的参考解为：2.0 0.005 s
+cplex1的参考解为：2.0 0.015 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:7,l:3,w:10},{x:0,y:4,l:3,w:6},{x:0,y:0,l:4,w:6},],
@@ -204,15 +204,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 11
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 10@12@14@
-用时：9 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		7 Add column : 1 col:15 	0.429
-			Start solve  LP :0.429
+		7 Add column : 1 col:15 	0.281
+			Start solve  LP :0.281
 			End solve LP obj: 8.5 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.5, -0.0, 0.5, -0.0, 0.0, -0.0, 0.5, 0.5, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.5, -0.0, 0.5, -0.0, 0.0, -0.0, 0.5, 0.5, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -220,7 +220,7 @@ xList.size = 5
 yList.size = 8
 squareList.size = 13
 myConsList.size = 0
-cplex1的参考解为：2.0 0.005 s
+cplex1的参考解为：2.0 0.031 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:2,l:8,w:6},{x:0,y:1,l:1,w:7},{x:7,y:6,l:4,w:3},],
@@ -228,15 +228,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 13
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 3@16@17@
-用时：10 ms
+solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		8 Add column : 1 col:16 	0.44
-			Start solve  LP :0.441
+		8 Add column : 1 col:16 	0.312
+			Start solve  LP :0.312
 			End solve LP obj: 8.5 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, -0.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, -0.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -244,7 +244,7 @@ xList.size = 7
 yList.size = 5
 squareList.size = 14
 myConsList.size = 0
-cplex1的参考解为：2.0 0.104 s
+cplex1的参考解为：2.0 0.047 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:5,y:0,l:4,w:3},{x:8,y:0,l:10,w:2},{x:0,y:0,l:7,w:5},{x:2,y:7,l:3,w:6},],
@@ -252,15 +252,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 14
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 7@13@14@16@
-用时：108 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		9 Add column : 1 col:17 	0.551
-			Start solve  LP :0.551
-			End solve LP obj: 8.5 t: 1
+		9 Add column : 1 col:17 	0.359
+			Start solve  LP :0.359
+			End solve LP obj: 8.5 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, -0.0, 0.5, 0.5, 0.5, 0.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.0, 0.5, 0.5, 0.5, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, -0.0, 0.5, 0.5, 0.5, 0.0, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.0, 0.5, 0.5, 0.5, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -268,7 +268,7 @@ xList.size = 9
 yList.size = 8
 squareList.size = 14
 myConsList.size = 0
-cplex1的参考解为：2.5 0.028 s
+cplex1的参考解为：2.5 0.078 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:6,y:0,l:7,w:2},{x:8,y:0,l:10,w:2},{x:0,y:0,l:4,w:6},{x:0,y:4,l:5,w:6},{x:1,y:9,l:1,w:7},],
@@ -276,15 +276,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 14
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 9@12@13@15@17@
-用时：33 ms
+solveSubProblemByIp 总用时：78 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		10 Add column : 1 col:18 	0.586
-			Start solve  LP :0.586
+		10 Add column : 1 col:18 	0.437
+			Start solve  LP :0.437
 			End solve LP obj: 8.363636363636363 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.7272727272727272, 0.5, 0.5, 0.6363636363636365, 0.45454545454545453, 0.6818181818181819, 0.3181818181818182, 0.3181818181818183, -0.0, 0.3636363636363636, -0.0, 0.3181818181818182, 0.2727272727272728, 0.22727272727272735, 0.04545454545454547, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.7272727272727272, 0.5, 0.5, 0.6363636363636365, 0.45454545454545453, 0.6818181818181819, 0.3181818181818182, 0.3181818181818183, -0.0, 0.3636363636363636, -0.0, 0.3181818181818182, 0.2727272727272728, 0.22727272727272735, 0.04545454545454547, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -292,7 +292,7 @@ xList.size = 7
 yList.size = 8
 squareList.size = 16
 myConsList.size = 0
-cplex1的参考解为：1.5909090909090913 0.071 s
+cplex1的参考解为：1.5909090909090913 0.032 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:7,l:3,w:10},{x:0,y:0,l:7,w:2},{x:2,y:3,l:4,w:8},{x:2,y:0,l:3,w:6},],
@@ -300,15 +300,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 16
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 8@10@14@15@
-用时：77 ms
+solveSubProblemByIp 总用时：32 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		11 Add column : 1 col:19 	0.665
-			Start solve  LP :0.665
+		11 Add column : 1 col:19 	0.469
+			Start solve  LP :0.469
 			End solve LP obj: 8.25 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.875, 0.5, 0.5, 0.75, 0.5, 0.375, 0.625, 0.375, -0.0, 0.25, 0.125, 0.25, -0.0, 0.125, -0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.875, 0.5, 0.5, 0.75, 0.5, 0.375, 0.625, 0.375, -0.0, 0.25, 0.125, 0.25, -0.0, 0.125, -0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -316,7 +316,7 @@ xList.size = 7
 yList.size = 7
 squareList.size = 15
 myConsList.size = 0
-cplex1的参考解为：1.5 0.012 s
+cplex1的参考解为：1.5 0.031 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:1,y:0,l:4,w:9},{x:4,y:5,l:5,w:6},{x:1,y:6,l:4,w:3},],
@@ -324,17 +324,17 @@ curBestBinNum = 9
 instance.getSquareList().size() = 15
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 6@9@16@
-用时：15 ms
+solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		12 Add column : 1 col:20 	0.682
-			Start solve  LP :0.682
+		12 Add column : 1 col:20 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 8.0 t: 0
 CompleteSolutionByBF前size: 8
 count = 19
 CompleteSolutionByBF后size: 9
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 0.25, 0.25, -0.0, 0.5, 0.25, 0.0, -0.0, 0.25, -0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 0.25, 0.25, -0.0, 0.5, 0.25, 0.0, -0.0, 0.25, -0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -342,7 +342,7 @@ xList.size = 7
 yList.size = 5
 squareList.size = 14
 myConsList.size = 0
-cplex1的参考解为：1.5 0.006 s
+cplex1的参考解为：1.5 0.016 s
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:2,y:0,l:4,w:8},{x:4,y:5,l:4,w:6},{x:1,y:5,l:4,w:3},],
@@ -350,15 +350,15 @@ curBestBinNum = 9
 instance.getSquareList().size() = 14
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 8@12@16@
-用时：8 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		13 Add column : 1 col:21 	0.693
-			Start solve  LP :0.694
+		13 Add column : 1 col:21 	0.516
+			Start solve  LP :0.516
 			End solve LP obj: 8.0 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, 0.5, 0.0, 0.0, -0.0, 0.0, -0.0, -0.0, -0.0]
+constraints.size = 0 , dualPrice.size = 20 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, 0.5, 0.0, 0.0, -0.0, 0.0, -0.0, -0.0, -0.0]
 			Active cut size: 0
 W:10
 H:10
@@ -366,18 +366,13 @@ xList.size = 3
 yList.size = 5
 squareList.size = 12
 myConsList.size = 0
-cplex1的参考解为：1.0 0.004 s
-canvasWidth:10,
-canvasHeight:10,
-data:[{x:0,y:6,l:4,w:8},{x:0,y:2,l:4,w:9},],
-curBestBinNum = 9
-instance.getSquareList().size() = 12
-solution.getPlaceSquareList().size() = 2
-用时：7 ms
+cplex1的参考解为：1.0 0.0 s
+null
+solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		14 Add column : 0 col:22 	0.702
-	1 End Add column using column generation : 8.0 col: 22 cons: 0 cut: 0	0.702
-	Start find sub set row inequalities : 0.702
+		14 Add column : 0 col:22 	0.516
+	1 End Add column using column generation : 8.0 col: 22 cons: 0 cut: 0	0.516
+	Start find sub set row inequalities : 0.516
 		Add three subset row inequalities: 3 13 17 : 1.5
 		Add three subset row inequalities: 3 15 17 : 1.5
 		Add three subset row inequalities: 4 5 7 : 1.5
@@ -388,76 +383,74 @@ solution.getPlaceSquareList().size() = 2
 		Add three subset row inequalities: 10 15 17 : 1.5
 		Add three subset row inequalities: 14 15 17 : 1.5
 		Total added subset row inequalities: 9
-	End find sub set row inequalities : 0.703
+	End find sub set row inequalities : 0.516
 Added cut has no effect on the model.8, 15, 17
 Added cut has no effect on the model.10, 15, 17
-	2 Start Add column using column generation  col: 22 cons: 0 cut: 9	0.704
-			Start solve  LP :0.704
+	2 Start Add column using column generation  col: 22 cons: 0 cut: 9	0.516
+			Start solve  LP :0.516
 			End solve LP obj: 8.5 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.5, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.0, 0.0, -0.0, 0.5, -0.0, -0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+constraints.size = 0 , dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.5, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.5, -0.0, 0.5, 0.5, 0.0, 0.0, -0.0, 0.5, -0.0, -0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 			Active cut size: 2
 使用CutIp模型：
 xList.size = 5
 yList.size = 8
 myConsList.size = 0
-cplex1的参考解为：1.5 0.008 s
+cplex1的参考解为：1.5 0.047 s
 priceOpt = 1.5
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:2,y:0,l:8,w:6},],
 pattern.getKey() = 3@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:22 	0.74
-			Start solve  LP :0.74
-			End solve LP obj: 8.333333333333332 t: 1
+		1 Add column : 1 col:22 	0.625
+			Start solve  LP :0.625
+			End solve LP obj: 8.333333333333332 t: 0
 CompleteSolutionByBF前size: 8
 count = 19
 CompleteSolutionByBF后size: 9
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.6666666666666666, 0.6666666666666666, 0.6666666666666666, 0.33333333333333337, 0.33333333333333337, -0.0, 0.33333333333333337, 0.3333333333333333, 0.0, -0.0, -0.0, 0.33333333333333337, -0.0, -0.0, -0.33333333333333337, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+constraints.size = 0 , dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.6666666666666666, 0.6666666666666666, 0.6666666666666666, 0.33333333333333337, 0.33333333333333337, -0.0, 0.33333333333333337, 0.3333333333333333, 0.0, -0.0, -0.0, 0.33333333333333337, -0.0, -0.0, -0.33333333333333337, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 			Active cut size: 2
 使用CutIp模型：
 xList.size = 5
 yList.size = 8
 myConsList.size = 0
-cplex1的参考解为：1.6666666666666665 0.01 s
+cplex1的参考解为：1.6666666666666665 0.031 s
 priceOpt = 1.6666666666666665
 canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:6,l:4,w:9},{x:0,y:5,l:1,w:7},{x:2,y:1,l:4,w:8},],
 pattern.getKey() = 6@8@17@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		2 Add column : 1 col:23 	0.756
-			Start solve  LP :0.756
+		2 Add column : 1 col:23 	0.656
+			Start solve  LP :0.656
 			End solve LP obj: 8.25 t: 0
 CompleteSolutionByBF前size: 8
 count = 19
 CompleteSolutionByBF后size: 9
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
-dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.75, 0.75, 0.5, 0.75, 0.5, 0.5, 0.25, -0.0, 0.5, -0.0, 0.25, 0.0, -0.0, 0.0, -0.0, -0.0, 0.0, 0.0, -0.5, 0.0, -0.0, 0.0, 0.0, 0.0, 0.0]
+constraints.size = 0 , dualPrice.size = 29 , dualPrice = [1.0, 1.0, 1.0, 1.0, 0.75, 0.75, 0.5, 0.75, 0.5, 0.5, 0.25, -0.0, 0.5, -0.0, 0.25, 0.0, -0.0, 0.0, -0.0, -0.0, 0.0, 0.0, -0.5, 0.0, -0.0, 0.0, 0.0, 0.0, 0.0]
 			Active cut size: 1
 使用CutIp模型：
 xList.size = 3
 yList.size = 7
 myConsList.size = 0
-cplex1的参考解为：1.0 0.013 s
-priceOpt = 1.0
-canvasWidth:10,
-canvasHeight:10,
-data:[{x:0,y:6,l:4,w:8},{x:0,y:2,l:4,w:9},],
+cplex1的参考解为：1.0 0.016 s
+priceOpt = 0.0
+null
 --------------------------------------- Price Problem End --------------------------------------------------------
-		3 Add column : 0 col:24 	0.774
-	2 End Add column using column generation : 8.25 col: 24 cons: 0 cut: 9	0.774
-   End add columnAndCut : 8.25 colGencnt: 2 price: 0 col: 24 cons: 0 cut: 9	0.774
+		3 Add column : 0 col:24 	0.672
+	2 End Add column using column generation : 8.25 col: 24 cons: 0 cut: 9	0.672
+   End add columnAndCut : 8.25 colGencnt: 2 price: 0 col: 24 cons: 0 cut: 9	0.672
 
-Node lb: 8.25 ub: 9 : 0.774
+Node lb: 8.25 ub: 9 : 0.672
 
-Final Found Solution: 9 genNode: 1 extendedNode: 0:0.774
+Final Found Solution: 9 genNode: 1 extendedNode: 0:0.672
 Bin size: 100
 1 : 90, : 90
 2 : 72,6, : 78

@@ -17,19 +17,19 @@ canvasWidth:30,
 canvasHeight:30,
 data:[{x:0,y:0,l:2,w:5},{x:5,y:0,l:2,w:5},{x:10,y:0,l:2,w:5},{x:16,y:0,l:3,w:1},{x:15,y:0,l:2,w:1},{x:15,y:2,l:1,w:1},{x:14,y:2,l:1,w:1},],
 Best fit used bin number: 4
-Found best solution: 4 0.063
+Found best solution: 4 0.078
 
-   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 4.0 t: 0
-	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.125
-   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.141
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.141
 
-Node lb: 4.0 ub: 4 : 0.125
+Node lb: 4.0 ub: 4 : 0.141
 
-Final Found Solution: 4 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.141
 Bin size: 900
 1 : 90,81,81,81,81,80,80,80,72,50,30,27,24,16,16,9,2, : 900
 2 : 70,70,70,70,60,56,54,54,50,50,45,40,36,30,30,27,24,14,14,9,9,7,6,5, : 900

@@ -73,19 +73,19 @@ canvasWidth:40,
 canvasHeight:40,
 data:[{x:0,y:0,l:24,w:16},{x:0,y:26,l:14,w:26},{x:16,y:0,l:18,w:16},{x:26,y:25,l:15,w:12},{x:32,y:0,l:25,w:7},],
 Best fit used bin number: 18
-Found best solution: 18 0.056
+Found best solution: 18 0.062
 
-   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.127
+   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.127
-			Start solve  LP :0.127
-			End solve LP obj: 18.0 t: 1
-	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.129
-   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.129
+	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 18.0 t: 15
+	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.14
+   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.14
 
-Node lb: 18.0 ub: 18 : 0.129
+Node lb: 18.0 ub: 18 : 0.14
 
-Final Found Solution: 18 genNode: 1 extendedNode: 0:0.129
+Final Found Solution: 18 genNode: 1 extendedNode: 0:0.14
 Bin size: 1600
 1 : 1122,186,119,85, : 1512
 2 : 1122,189,108,102,30, : 1551

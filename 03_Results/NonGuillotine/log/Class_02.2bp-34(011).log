@@ -13,19 +13,19 @@ canvasWidth:30,
 canvasHeight:30,
 data:[{x:0,y:0,l:6,w:7},{x:20,y:1,l:9,w:4},{x:10,y:11,l:9,w:4},{x:14,y:11,l:9,w:4},{x:7,y:0,l:8,w:4},{x:11,y:0,l:8,w:4},{x:18,y:11,l:5,w:5},{x:12,y:8,l:3,w:8},{x:24,y:1,l:4,w:6},{x:24,y:5,l:4,w:6},{x:15,y:0,l:8,w:3},{x:1,y:11,l:2,w:9},{x:18,y:0,l:8,w:2},{x:0,y:13,l:5,w:3},{x:3,y:13,l:5,w:3},{x:6,y:13,l:5,w:3},{x:0,y:6,l:2,w:7},{x:1,y:9,l:2,w:7},{x:24,y:9,l:2,w:6},{x:8,y:8,l:3,w:4},{x:26,y:12,l:3,w:4},{x:23,y:12,l:4,w:3},{x:20,y:0,l:1,w:10},{x:20,y:16,l:3,w:3},{x:0,y:8,l:1,w:8},{x:18,y:16,l:4,w:2},{x:23,y:11,l:1,w:7},{x:20,y:10,l:1,w:4},{x:0,y:9,l:4,w:1},{x:26,y:15,l:1,w:3},{x:20,y:19,l:1,w:3},{x:23,y:16,l:1,w:3},{x:29,y:15,l:3,w:1},],
 Best fit used bin number: 3
-Found best solution: 3 0.047
+Found best solution: 3 0.063
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.109
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.109
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
 
-Node lb: 3.0 ub: 3 : 0.109
+Node lb: 3.0 ub: 3 : 0.125
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
 Bin size: 900
 1 : 81,80,72,70,64,64,63,63,63,54,50,45,36,24,21,20,20,10, : 900
 2 : 60,56,54,50,48,48,42,42,40,40,40,40,36,32,32,32,30,28,28,28,28,20,12,8,8,7,6,4,1, : 900

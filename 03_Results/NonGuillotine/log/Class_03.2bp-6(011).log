@@ -27,13 +27,13 @@ Found best solution: 5 0.047
 
 	1 Start Add column using column generation  col: 5 cons: 0 cut: 0	0.109
 			Start solve  LP :0.109
-			End solve LP obj: 5.0 t: 0
-	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.109
-   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.109
+			End solve LP obj: 5.0 t: 16
+	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.125
+   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.125
 
-Node lb: 5.0 ub: 5 : 0.109
+Node lb: 5.0 ub: 5 : 0.125
 
-Final Found Solution: 5 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 5 genNode: 1 extendedNode: 0:0.125
 Bin size: 1600
 1 : 910,192,88,85,24,12, : 1311
 2 : 864,231,216,66, : 1377

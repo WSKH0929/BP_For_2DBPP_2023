@@ -5,7 +5,7 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:53,w:90},{x:90,y:0,l:89,w:47},{x:172,y:0,l:62,w:65},{x:0,y:53,l:65,w:53},{x:238,y:89,l:52,w:62},{x:137,y:0,l:89,w:35},{x:168,y:89,l:40,w:70},{x:0,y:118,l:27,w:79},{x:237,y:0,l:78,w:27},{x:104,y:89,l:30,w:64},{x:79,y:119,l:30,w:54},{x:264,y:0,l:73,w:15},{x:172,y:62,l:16,w:65},{x:53,y:53,l:31,w:26},{x:290,y:4,l:80,w:10},{x:172,y:81,l:8,w:84},{x:79,y:53,l:56,w:11},{x:172,y:78,l:3,w:92},{x:279,y:0,l:4,w:21},{x:53,y:84,l:7,w:22},],
 Best fit used bin number: 1
-Found best solution: 1 0.063
+Found best solution: 1 0.047
 
    Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.125
 

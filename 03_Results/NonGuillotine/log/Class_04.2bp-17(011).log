@@ -11,17 +11,17 @@ data:[{x:0,y:0,l:28,w:29},{x:71,y:0,l:33,w:23},{x:0,y:28,l:29,w:26},{x:29,y:0,l:
 Best fit used bin number: 2
 Found best solution: 2 0.063
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.157
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.157
-			Start solve  LP :0.157
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.157
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.157
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.141
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.141
 
-Node lb: 2.0 ub: 2 : 0.157
+Node lb: 2.0 ub: 2 : 0.141
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.157
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000
 1 : 1015,945,840,825,720,620,496,490,462,396,341,319,252,238,231,152,93,62,52,44,32,26,22,21,12, : 8706
 2 : 812,759,754,728,714,612,612,500,464,448,416,132,108,69,68, : 7196

@@ -29,7 +29,7 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:26,l:31,w:89},{x:0,y:0,l:26,w:93},{x:0,y:57,l:36,w:79},],
 Best fit used bin number: 7
-Found best solution: 7 0.063
+Found best solution: 7 0.062
 
    Statrt add columnAndCut col: 7 cons: 0 cut: 0	0.125
 

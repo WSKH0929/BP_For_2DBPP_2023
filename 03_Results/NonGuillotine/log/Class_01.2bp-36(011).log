@@ -125,7 +125,7 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:5,y:5,l:5,w:5},{x:0,y:0,l:5,w:6},],
 Best fit used bin number: 31
-Found best solution: 31 0.063
+Found best solution: 31 0.047
 
    Statrt add columnAndCut col: 31 cons: 0 cut: 0	0.125
 
@@ -137,7 +137,7 @@ Found best solution: 31 0.063
 
 Node lb: 31.0 ub: 31 : 0.125
 
-Final Found Solution: 31 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 31 genNode: 1 extendedNode: 0:0.141
 Bin size: 100
 1 : 100, : 100
 2 : 81,10, : 91

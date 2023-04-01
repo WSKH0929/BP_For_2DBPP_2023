@@ -127,11 +127,11 @@ data:[{x:0,y:0,l:76,w:35},{x:35,y:0,l:75,w:35},{x:70,y:0,l:76,w:25},{x:95,y:0,l:
 Best fit used bin number: 31
 Found best solution: 31 0.063
 
-   Statrt add columnAndCut col: 31 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 31 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 31 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 31.0 t: 16
+	1 Start Add column using column generation  col: 31 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
+			End solve LP obj: 31.0 t: 0
 	1 End Add column using column generation : 31.0 col: 31 cons: 0 cut: 0	0.141
    End add columnAndCut : 31.0 colGencnt: 1 price: 0 col: 31 cons: 0 cut: 0	0.141
 

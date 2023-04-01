@@ -15,17 +15,17 @@ data:[{x:0,y:0,l:5,w:7},{x:7,y:0,l:5,w:7},{x:14,y:0,l:5,w:7},{x:0,y:5,l:6,w:10},
 Best fit used bin number: 3
 Found best solution: 3 0.063
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.141
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.141
 
-Node lb: 3.0 ub: 3 : 0.125
+Node lb: 3.0 ub: 3 : 0.141
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.141
 Bin size: 900
 1 : 100,90,81,81,80,72,70,60,56,49,40,35,28,18,12,12,6,2,2,2,2, : 898
 2 : 60,56,54,50,50,48,48,48,45,42,40,36,36,35,35,30,27,24,24,20,20,10,8,8,8,7,6,6,6,4,4,3, : 898

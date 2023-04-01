@@ -93,9 +93,9 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:76,w:47},{x:47,y:0,l:67,w:48},{x:0,y:76,l:21,w:90},],
 Best fit used bin number: 23
-Found best solution: 23 0.079
+Found best solution: 23 0.063
 
-   Statrt add columnAndCut col: 23 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 23 cons: 0 cut: 0	0.125
 
 	1 Start Add column using column generation  col: 23 cons: 0 cut: 0	0.141
 			Start solve  LP :0.141

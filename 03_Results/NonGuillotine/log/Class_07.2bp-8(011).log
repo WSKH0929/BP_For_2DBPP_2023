@@ -27,17 +27,17 @@ data:[{x:0,y:0,l:78,w:27},{x:27,y:0,l:80,w:28},{x:55,y:0,l:84,w:45},],
 Best fit used bin number: 6
 Found best solution: 6 0.047
 
-   Statrt add columnAndCut col: 6 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 6 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
+	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 6.0 t: 0
-	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.109
-   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.109
+	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.125
+   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.125
 
-Node lb: 6.0 ub: 6 : 0.109
+Node lb: 6.0 ub: 6 : 0.125
 
-Final Found Solution: 6 genNode: 1 extendedNode: 0:0.109
+Final Found Solution: 6 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 5440,1980, : 7420
 2 : 4180,3201,2178, : 9559

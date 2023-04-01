@@ -21,19 +21,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:84,w:31},{x:31,y:0,l:27,w:31},{x:62,y:0,l:27,w:25},],
 Best fit used bin number: 5
-Found best solution: 5 0.063
+Found best solution: 5 0.062
 
-   Statrt add columnAndCut col: 5 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 5 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 5 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 5 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 5.0 t: 0
-	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.125
-   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 5.0 col: 5 cons: 0 cut: 0	0.156
+   End add columnAndCut : 5.0 colGencnt: 1 price: 0 col: 5 cons: 0 cut: 0	0.156
 
-Node lb: 5.0 ub: 5 : 0.125
+Node lb: 5.0 ub: 5 : 0.156
 
-Final Found Solution: 5 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 5 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 8455,294,192,20, : 8961
 2 : 4770,1817,480,220,147,92, : 7526

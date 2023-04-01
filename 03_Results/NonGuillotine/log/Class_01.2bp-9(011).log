@@ -35,17 +35,17 @@ data:[{x:0,y:5,l:5,w:8},{x:0,y:0,l:3,w:9},{x:0,y:3,l:2,w:9},],
 Best fit used bin number: 8
 Found best solution: 8 0.062
 
-   Statrt add columnAndCut col: 8 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 8 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 8 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 8 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 8.0 t: 0
-	1 End Add column using column generation : 8.0 col: 8 cons: 0 cut: 0	0.14
-   End add columnAndCut : 8.0 colGencnt: 1 price: 0 col: 8 cons: 0 cut: 0	0.14
+	1 End Add column using column generation : 8.0 col: 8 cons: 0 cut: 0	0.156
+   End add columnAndCut : 8.0 colGencnt: 1 price: 0 col: 8 cons: 0 cut: 0	0.156
 
-Node lb: 8.0 ub: 8 : 0.14
+Node lb: 8.0 ub: 8 : 0.156
 
-Final Found Solution: 8 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 8 genNode: 1 extendedNode: 0:0.156
 Bin size: 100
 1 : 100, : 100
 2 : 80,16, : 96

@@ -59,17 +59,17 @@ data:[{x:0,y:0,l:41,w:98},{x:0,y:41,l:36,w:97},{x:0,y:77,l:14,w:86},],
 Best fit used bin number: 14
 Found best solution: 14 0.062
 
-   Statrt add columnAndCut col: 14 cons: 0 cut: 0	0.156
+   Statrt add columnAndCut col: 14 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 14 cons: 0 cut: 0	0.156
-			Start solve  LP :0.156
+	1 Start Add column using column generation  col: 14 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 14.0 t: 0
-	1 End Add column using column generation : 14.0 col: 14 cons: 0 cut: 0	0.156
-   End add columnAndCut : 14.0 colGencnt: 1 price: 0 col: 14 cons: 0 cut: 0	0.156
+	1 End Add column using column generation : 14.0 col: 14 cons: 0 cut: 0	0.14
+   End add columnAndCut : 14.0 colGencnt: 1 price: 0 col: 14 cons: 0 cut: 0	0.14
 
-Node lb: 14.0 ub: 14 : 0.156
+Node lb: 14.0 ub: 14 : 0.14
 
-Final Found Solution: 14 genNode: 1 extendedNode: 0:0.156
+Final Found Solution: 14 genNode: 1 extendedNode: 0:0.14
 Bin size: 10000
 1 : 6900,2852,50, : 9802
 2 : 5390,3784, : 9174

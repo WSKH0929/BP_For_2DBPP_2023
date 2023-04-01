@@ -53,7 +53,7 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:92,w:26},{x:26,y:0,l:92,w:26},{x:60,y:0,l:69,w:33},{x:52,y:0,l:92,w:8},],
 Best fit used bin number: 13
-Found best solution: 13 0.062
+Found best solution: 13 0.046
 
    Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.125
 

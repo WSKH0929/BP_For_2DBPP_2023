@@ -15,9 +15,9 @@ data:[{x:0,y:0,l:90,w:53},{x:53,y:0,l:86,w:54},{x:0,y:90,l:84,w:53},{x:107,y:0,l
 Best fit used bin number: 3
 Found best solution: 3 0.047
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.109
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
 			Start solve  LP :0.125
 			End solve LP obj: 3.0 t: 0
 	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125

@@ -9,19 +9,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:64,w:99},{x:99,y:0,l:87,w:69},{x:168,y:0,l:82,w:70},{x:0,y:64,l:76,w:71},{x:99,y:87,l:65,w:69},{x:168,y:82,l:62,w:60},{x:238,y:0,l:61,w:54},{x:0,y:140,l:44,w:71},{x:71,y:154,l:29,w:95},{x:168,y:144,l:45,w:60},{x:212,y:269,l:30,w:88},{x:71,y:64,l:81,w:28},{x:71,y:183,l:100,w:95},{x:239,y:182,l:29,w:61},{x:228,y:117,l:41,w:43},{x:166,y:231,l:19,w:91},{x:166,y:189,l:27,w:61},{x:228,y:82,l:31,w:50},{x:166,y:250,l:19,w:79},{x:0,y:202,l:98,w:15},{x:282,y:67,l:77,w:18},{x:166,y:216,l:15,w:91},{x:0,y:184,l:18,w:71},{x:15,y:202,l:17,w:55},{x:238,y:61,l:21,w:40},{x:228,y:169,l:13,w:61},{x:228,y:158,l:11,w:65},{x:292,y:22,l:42,w:5},{x:71,y:145,l:7,w:27},{x:292,y:0,l:22,w:8},{x:71,y:152,l:2,w:83},{x:228,y:113,l:4,w:35},{x:278,y:61,l:6,w:14},],
 Best fit used bin number: 2
-Found best solution: 2 0.047
+Found best solution: 2 0.046
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.11
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.11
-			Start solve  LP :0.11
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.11
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.11
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
 
-Node lb: 2.0 ub: 2 : 0.11
+Node lb: 2.0 ub: 2 : 0.125
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.11
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
 Bin size: 90000
 1 : 9900,7400,7008,6138,4453,4108,3977,3008,2793,2479,1971,1924,1890,1584,1190,1150,1067,952,949,819,735,588,504,384,196,168,148, : 67483
 2 : 9500,6336,6003,5740,5396,4485,3720,3294,3124,2755,2700,2640,2268,1769,1763,1729,1647,1550,1501,1470,1386,1365,1278,935,840,793,715,210,189,176,166,140,84, : 77667

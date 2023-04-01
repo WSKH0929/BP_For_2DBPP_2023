@@ -13,19 +13,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:18,w:31},{x:31,y:0,l:16,w:34},{x:0,y:18,l:27,w:18},{x:65,y:12,l:20,w:22},{x:65,y:0,l:12,w:35},{x:31,y:16,l:12,w:34},{x:18,y:28,l:15,w:27},{x:45,y:28,l:19,w:20},{x:0,y:45,l:27,w:14},{x:45,y:47,l:14,w:25},{x:75,y:32,l:26,w:12},{x:18,y:43,l:23,w:27},{x:87,y:12,l:23,w:13},{x:87,y:35,l:22,w:13},{x:87,y:57,l:22,w:13},{x:9,y:72,l:8,w:28},{x:65,y:32,l:15,w:10},{x:0,y:72,l:15,w:9},{x:18,y:18,l:10,w:13},{x:45,y:61,l:5,w:24},{x:0,y:87,l:12,w:9},{x:77,y:58,l:9,w:10},{x:75,y:58,l:26,w:2},{x:77,y:67,l:3,w:9},{x:0,y:99,l:1,w:9},],
 Best fit used bin number: 3
-Found best solution: 3 0.063
+Found best solution: 3 0.062
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.156
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.156
-			Start solve  LP :0.156
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.156
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.156
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
 
-Node lb: 3.0 ub: 3 : 0.156
+Node lb: 3.0 ub: 3 : 0.125
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.156
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 980,870,837,638,560,551,459,392,378,351,306,270,252,234,192,180,176,160,140,120,112,91,88,84,75,69,66,34,33,27,20,16,14, : 8775
 2 : 768,728,726,693,682,675,589,500,475,462,406,392,377,372,304,266,182,160,126,44,34,4, : 8965

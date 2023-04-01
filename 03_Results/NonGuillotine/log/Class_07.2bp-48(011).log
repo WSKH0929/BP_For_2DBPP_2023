@@ -103,17 +103,17 @@ data:[{x:31,y:0,l:94,w:46},{x:0,y:0,l:97,w:31},{x:83,y:0,l:73,w:4},{x:77,y:0,l:8
 Best fit used bin number: 25
 Found best solution: 25 0.063
 
-   Statrt add columnAndCut col: 25 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 25 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 25 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 25 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 25.0 t: 0
-	1 End Add column using column generation : 25.0 col: 25 cons: 0 cut: 0	0.125
-   End add columnAndCut : 25.0 colGencnt: 1 price: 0 col: 25 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 25.0 col: 25 cons: 0 cut: 0	0.141
+   End add columnAndCut : 25.0 colGencnt: 1 price: 0 col: 25 cons: 0 cut: 0	0.141
 
-Node lb: 25.0 ub: 25 : 0.125
+Node lb: 25.0 ub: 25 : 0.141
 
-Final Found Solution: 25 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 25 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000
 1 : 9118, : 9118
 2 : 8624,948,140, : 9712

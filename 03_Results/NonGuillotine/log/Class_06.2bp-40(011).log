@@ -13,19 +13,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:67,w:72},{x:72,y:0,l:52,w:92},{x:0,y:106,l:85,w:48},{x:164,y:0,l:53,w:71},{x:48,y:106,l:57,w:66},{x:153,y:73,l:83,w:38},{x:32,y:203,l:44,w:69},{x:0,y:67,l:39,w:72},{x:72,y:73,l:33,w:81},{x:48,y:163,l:40,w:66},{x:202,y:173,l:24,w:98},{x:235,y:5,l:39,w:60},{x:114,y:176,l:25,w:87},{x:204,y:208,l:21,w:96},{x:72,y:52,l:21,w:92},{x:114,y:122,l:54,w:35},{x:191,y:70,l:38,w:49},{x:191,y:122,l:21,w:88},{x:0,y:193,l:54,w:32},{x:246,y:44,l:29,w:54},{x:101,y:203,l:14,w:100},{x:283,y:73,l:79,w:17},{x:230,y:154,l:19,w:70},{x:191,y:108,l:14,w:91},{x:202,y:197,l:11,w:98},{x:191,y:53,l:17,w:52},{x:191,y:143,l:11,w:80},{x:114,y:106,l:16,w:36},{x:204,y:229,l:59,w:96},{x:164,y:53,l:20,w:27},{x:235,y:0,l:5,w:65},{x:0,y:191,l:2,w:46},],
 Best fit used bin number: 3
-Found best solution: 3 0.061
+Found best solution: 3 0.063
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.133
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.133
-			Start solve  LP :0.134
-			End solve LP obj: 3.0 t: 1
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.135
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.135
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 3.0 t: 16
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.141
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.141
 
-Node lb: 3.0 ub: 3 : 0.135
+Node lb: 3.0 ub: 3 : 0.141
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.136
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.141
 Bin size: 90000
 1 : 8836,8463,8036,7650,6424,5810,5100,4752,3185,3185,2548,2314,1872,1560,1540,1330,1261,1116,1037,990,966,864,832,816,693,590,544,513,400,324,310,273,272,192,123,95,56,7, : 84879
 2 : 5586,5504,5428,4698,4216,3968,3780,3589,3420,3080,2709,2706,2408,2400,2244,1764,1580,1508,1450,1250,1200,902,882,840,675,646,632,558,378,168, : 70169

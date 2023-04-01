@@ -75,17 +75,17 @@ data:[{x:0,y:0,l:4,w:5},{x:0,y:6,l:2,w:8},{x:7,y:0,l:5,w:3},{x:0,y:4,l:2,w:7},{x
 Best fit used bin number: 18
 Found best solution: 18 0.063
 
-   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.157
 
-	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.157
+			Start solve  LP :0.157
 			End solve LP obj: 18.0 t: 0
-	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.125
-   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.157
+   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.157
 
-Node lb: 18.0 ub: 18 : 0.125
+Node lb: 18.0 ub: 18 : 0.157
 
-Final Found Solution: 18 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 18 genNode: 1 extendedNode: 0:0.157
 Bin size: 100
 1 : 100, : 100
 2 : 100, : 100

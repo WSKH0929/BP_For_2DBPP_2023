@@ -89,13 +89,13 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:0,y:0,l:7,w:5},{x:5,y:0,l:7,w:5},],
 Best fit used bin number: 22
-Found best solution: 22 0.047
+Found best solution: 22 0.046
 
-   Statrt add columnAndCut col: 22 cons: 0 cut: 0	0.109
+   Statrt add columnAndCut col: 22 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 22 cons: 0 cut: 0	0.109
-			Start solve  LP :0.109
-			End solve LP obj: 22.0 t: 16
+	1 Start Add column using column generation  col: 22 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
+			End solve LP obj: 22.0 t: 0
 	1 End Add column using column generation : 22.0 col: 22 cons: 0 cut: 0	0.125
    End add columnAndCut : 22.0 colGencnt: 1 price: 0 col: 22 cons: 0 cut: 0	0.125
 

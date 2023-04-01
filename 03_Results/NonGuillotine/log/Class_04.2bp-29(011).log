@@ -13,19 +13,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:21,w:30},{x:0,y:21,l:20,w:30},{x:30,y:0,l:20,w:29},{x:59,y:0,l:20,w:27},{x:30,y:20,l:34,w:23},{x:53,y:24,l:11,w:32},{x:74,y:45,l:11,w:26},{x:53,y:35,l:10,w:28},{x:86,y:0,l:20,w:11},{x:53,y:20,l:4,w:34},],
 Best fit used bin number: 3
-Found best solution: 3 0.062
+Found best solution: 3 0.078
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 3.0 t: 15
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.14
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.14
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
+			End solve LP obj: 3.0 t: 0
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.156
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.156
 
-Node lb: 3.0 ub: 3 : 0.14
+Node lb: 3.0 ub: 3 : 0.156
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 980,952,918,840,837,816,800,608,455,441,340,300,280,204,192,192,156,102,92,70,68,60,25,24, : 9752
 2 : 775,660,660,650,638,527,525,500,390,378,357,323,308,294,289,276,272,248,234,210,182,140,105,99,76,20, : 9136

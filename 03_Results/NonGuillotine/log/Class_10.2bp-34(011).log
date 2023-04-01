@@ -57,11 +57,11 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:99,w:48},{x:48,y:0,l:94,w:27},{x:78,y:0,l:85,w:18},{x:75,y:0,l:90,w:3},],
 Best fit used bin number: 14
-Found best solution: 14 0.079
+Found best solution: 14 0.062
 
-   Statrt add columnAndCut col: 14 cons: 0 cut: 0	0.172
+   Statrt add columnAndCut col: 14 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 14 cons: 0 cut: 0	0.172
+	1 Start Add column using column generation  col: 14 cons: 0 cut: 0	0.156
 			Start solve  LP :0.172
 			End solve LP obj: 14.0 t: 0
 	1 End Add column using column generation : 14.0 col: 14 cons: 0 cut: 0	0.172
