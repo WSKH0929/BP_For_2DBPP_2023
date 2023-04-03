@@ -1,5 +1,6 @@
 ====================================== Class_10.2bp-16 =====================================
 Reduced size: 40 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\10_17.pack
 [0, 9, 16, 19, 38, 39]
 [1, 12, 17, 29, 31]
 [2, 13, 18, 22, 25, 35]
@@ -29,7 +30,7 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:29,w:79},{x:0,y:29,l:50,w:44},{x:44,y:29,l:34,w:45},{x:59,y:63,l:34,w:41},{x:0,y:79,l:21,w:22},{x:22,y:79,l:12,w:33},{x:79,y:0,l:21,w:11},{x:89,y:21,l:15,w:11},],
 Best fit used bin number: 7
-Found best solution: 7 0.047
+Found best solution: 7 0.063
 
    Statrt add columnAndCut col: 7 cons: 0 cut: 0	0.125
 

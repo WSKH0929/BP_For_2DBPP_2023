@@ -1,5 +1,6 @@
 ====================================== Class_04.2bp-22 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\4_23.pack
 [0, 1, 2, 3, 4, 6, 10, 17, 21, 23, 25, 26, 27, 28, 32, 34, 35, 36, 38, 39, 43, 44, 46, 47, 48, 49, 51, 52, 53, 54, 56, 57, 58, 59]
 [5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 20, 22, 24, 29, 30, 31, 33, 37, 40, 41, 42, 45, 50, 55]
 canvasWidth:100,
@@ -9,19 +10,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:19,w:32},{x:0,y:19,l:24,w:26},{x:0,y:43,l:18,w:33},{x:85,y:66,l:34,w:15},{x:0,y:61,l:17,w:30},{x:33,y:42,l:21,w:23},{x:73,y:65,l:35,w:12},{x:68,y:1,l:18,w:25},{x:95,y:34,l:32,w:5},{x:32,y:0,l:19,w:29},{x:61,y:0,l:19,w:7},{x:0,y:78,l:22,w:13},{x:68,y:0,l:1,w:32},{x:56,y:19,l:28,w:13},{x:60,y:79,l:21,w:13},{x:56,y:47,l:17,w:10},{x:69,y:19,l:25,w:24},{x:32,y:79,l:21,w:28},{x:33,y:63,l:16,w:21},{x:82,y:44,l:18,w:13},{x:26,y:19,l:23,w:30},{x:30,y:61,l:17,w:3},{x:93,y:1,l:29,w:6},{x:54,y:64,l:15,w:17},{x:13,y:78,l:22,w:19},{x:69,y:44,l:20,w:13},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.078
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.14
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.14
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.156
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.156
 
-Node lb: 2.0 ub: 2 : 0.14
+Node lb: 2.0 ub: 2 : 0.156
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 924,806,759,756,736,675,595,462,408,341,308,300,288,286,260,247,238,234,210,192,143,135,117,84,80,56,45,45,44,35,30,28,18,5, : 9890
 2 : 690,624,608,600,594,588,551,510,510,483,450,420,418,364,336,286,273,260,255,234,174,170,160,133,51,32, : 9774

@@ -1,5 +1,6 @@
 ====================================== Class_02.2bp-20 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\2_21.pack
 [0, 1, 2, 3, 4, 5, 6, 8, 9, 18, 21, 24, 36, 37, 39, 57, 58]
 [7, 10, 11, 12, 13, 14, 15, 22, 23, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 38, 41, 42, 43, 45, 46, 48, 49, 52, 53, 54, 55]
 [16, 17, 19, 20, 31, 40, 44, 47, 50, 51, 56, 59]
@@ -15,11 +16,11 @@ data:[{x:0,y:0,l:6,w:7},{x:7,y:0,l:8,w:5},{x:12,y:0,l:8,w:5},{x:17,y:0,l:8,w:5},
 Best fit used bin number: 3
 Found best solution: 3 0.062
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
-			End solve LP obj: 3.0 t: 15
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
+			End solve LP obj: 3.0 t: 0
 	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.156
    End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.156
 

@@ -1,5 +1,6 @@
 ====================================== Class_10.2bp-13 =====================================
 Reduced size: 40 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\10_14.pack
 [0, 21]
 [1, 15, 16, 17, 20, 23, 30, 34]
 [3, 6, 13, 18, 32, 38]
@@ -31,13 +32,13 @@ Found best solution: 6 0.063
 
 	1 Start Add column using column generation  col: 6 cons: 0 cut: 0	0.125
 			Start solve  LP :0.125
-			End solve LP obj: 6.0 t: 0
-	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.125
-   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.125
+			End solve LP obj: 6.0 t: 16
+	1 End Add column using column generation : 6.0 col: 6 cons: 0 cut: 0	0.141
+   End add columnAndCut : 6.0 colGencnt: 1 price: 0 col: 6 cons: 0 cut: 0	0.141
 
-Node lb: 6.0 ub: 6 : 0.125
+Node lb: 6.0 ub: 6 : 0.141
 
-Final Found Solution: 6 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 6 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000
 1 : 8722,648, : 9370
 2 : 4851,782,779,768,666,418,230,138, : 8632

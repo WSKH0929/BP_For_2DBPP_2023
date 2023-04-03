@@ -1,5 +1,6 @@
 ====================================== Class_05.2bp-40 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\5_41.pack
 [9, 45, 47]
 [1, 83, 94, 99]
 [2, 55, 93, 98]
@@ -103,13 +104,13 @@ Found best solution: 24 0.078
 
 	1 Start Add column using column generation  col: 24 cons: 0 cut: 0	0.156
 			Start solve  LP :0.156
-			End solve LP obj: 24.0 t: 15
-	1 End Add column using column generation : 24.0 col: 24 cons: 0 cut: 0	0.171
-   End add columnAndCut : 24.0 colGencnt: 1 price: 0 col: 24 cons: 0 cut: 0	0.171
+			End solve LP obj: 24.0 t: 0
+	1 End Add column using column generation : 24.0 col: 24 cons: 0 cut: 0	0.156
+   End add columnAndCut : 24.0 colGencnt: 1 price: 0 col: 24 cons: 0 cut: 0	0.156
 
-Node lb: 24.0 ub: 24 : 0.171
+Node lb: 24.0 ub: 24 : 0.156
 
-Final Found Solution: 24 genNode: 1 extendedNode: 0:0.171
+Final Found Solution: 24 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 5428,1862,1764, : 9054
 2 : 8463,544,168,7, : 9182

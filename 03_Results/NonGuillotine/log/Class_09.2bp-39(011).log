@@ -1,5 +1,6 @@
 ====================================== Class_09.2bp-39 =====================================
 Reduced size: 80 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\9_40.pack
 [0, 79]
 [1]
 [2]
@@ -243,15 +244,15 @@ data:[{x:0,y:8,l:50,w:96},{x:0,y:58,l:28,w:79},{x:0,y:0,l:8,w:85},],
 Best fit used bin number: 60
 Found best solution: 60 0.063
 
-   Statrt add columnAndCut col: 60 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 60 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 60 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 60 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 60.0 t: 0
-	1 End Add column using column generation : 60.0 col: 60 cons: 0 cut: 0	0.125
-   End add columnAndCut : 60.0 colGencnt: 1 price: 0 col: 60 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 60.0 col: 60 cons: 0 cut: 0	0.141
+   End add columnAndCut : 60.0 colGencnt: 1 price: 0 col: 60 cons: 0 cut: 0	0.141
 
-Node lb: 60.0 ub: 60 : 0.125
+Node lb: 60.0 ub: 60 : 0.141
 
 Final Found Solution: 60 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000

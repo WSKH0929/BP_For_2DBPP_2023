@@ -1,5 +1,6 @@
 ====================================== Class_08.2bp-22 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\8_23.pack
 [0, 44]
 [2, 18, 48]
 [3, 27, 34, 59]
@@ -69,12 +70,12 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:35,w:94},{x:0,y:42,l:20,w:87},{x:0,y:62,l:21,w:82},{x:0,y:35,l:7,w:90},],
 Best fit used bin number: 17
-Found best solution: 17 0.062
+Found best solution: 17 0.047
 
-   Statrt add columnAndCut col: 17 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 17 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 17 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 17 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -96,8 +97,8 @@ solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 12@15@17@
 solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:17 	0.156
-			Start solve  LP :0.156
+		1 Add column : 1 col:17 	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -117,10 +118,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 17
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 9@12@31@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		2 Add column : 1 col:18 	0.172
-			Start solve  LP :0.172
+		2 Add column : 1 col:18 	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -132,7 +133,7 @@ xList.size = 3
 yList.size = 16
 squareList.size = 17
 myConsList.size = 0
-cplex1的参考解为：3.0 0.015 s
+cplex1的参考解为：3.0 0.0 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:80,l:20,w:87},{x:0,y:52,l:28,w:97},{x:0,y:15,l:37,w:77},],
@@ -140,10 +141,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 17
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 19@23@37@
-solveSubProblemByIp 总用时：15 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		3 Add column : 1 col:19 	0.187
-			Start solve  LP :0.187
+		3 Add column : 1 col:19 	0.172
+			Start solve  LP :0.172
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -155,7 +156,7 @@ xList.size = 3
 yList.size = 16
 squareList.size = 17
 myConsList.size = 0
-cplex1的参考解为：3.0 0.0 s
+cplex1的参考解为：3.0 0.016 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:80,l:20,w:87},{x:0,y:52,l:28,w:84},{x:0,y:17,l:35,w:81},],
@@ -165,8 +166,8 @@ solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 20@28@37@
 solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		4 Add column : 1 col:20 	0.203
-			Start solve  LP :0.203
+		4 Add column : 1 col:20 	0.188
+			Start solve  LP :0.188
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -186,7 +187,7 @@ curBestBinNum = 17
 instance.getSquareList().size() = 17
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 20@23@39@
-solveSubProblemByIp 总用时：0 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
 		5 Add column : 1 col:21 	0.203
 			Start solve  LP :0.203
@@ -211,8 +212,8 @@ solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 19@28@39@
 solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		6 Add column : 1 col:22 	0.219
-			Start solve  LP :0.219
+		6 Add column : 1 col:22 	0.203
+			Start solve  LP :0.203
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -224,7 +225,7 @@ xList.size = 3
 yList.size = 20
 squareList.size = 19
 myConsList.size = 0
-cplex1的参考解为：3.0 0.015 s
+cplex1的参考解为：3.0 0.016 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:72,l:28,w:90},{x:0,y:41,l:31,w:93},{x:0,y:1,l:40,w:93},],
@@ -232,10 +233,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 19
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 9@17@24@
-solveSubProblemByIp 总用时：15 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		7 Add column : 1 col:23 	0.234
-			Start solve  LP :0.234
+		7 Add column : 1 col:23 	0.219
+			Start solve  LP :0.219
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -247,7 +248,7 @@ xList.size = 3
 yList.size = 34
 squareList.size = 23
 myConsList.size = 0
-cplex1的参考解为：2.75 0.031 s
+cplex1的参考解为：2.75 0.172 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:83,l:17,w:98},{x:0,y:41,l:42,w:71},{x:0,y:21,l:20,w:98},{x:0,y:0,l:21,w:82},],
@@ -255,10 +256,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 23
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 16@31@39@40@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：172 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		8 Add column : 1 col:24 	0.265
-			Start solve  LP :0.265
+		8 Add column : 1 col:24 	0.391
+			Start solve  LP :0.391
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -270,7 +271,7 @@ xList.size = 3
 yList.size = 36
 squareList.size = 25
 myConsList.size = 0
-cplex1的参考解为：2.5 0.016 s
+cplex1的参考解为：2.5 0.015 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:86},{x:0,y:24,l:34,w:73},{x:0,y:7,l:17,w:98},],
@@ -278,10 +279,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 25
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 10@25@40@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		9 Add column : 1 col:25 	0.281
-			Start solve  LP :0.281
+		9 Add column : 1 col:25 	0.406
+			Start solve  LP :0.406
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -293,7 +294,7 @@ xList.size = 5
 yList.size = 17
 squareList.size = 21
 myConsList.size = 0
-cplex1的参考解为：2.666666666666667 0.016 s
+cplex1的参考解为：2.666666666666667 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:53,l:47,w:39},{x:0,y:29,l:24,w:67},{x:67,y:3,l:97,w:33},],
@@ -301,10 +302,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 21
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 14@35@41@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		10 Add column : 1 col:26 	0.297
-			Start solve  LP :0.297
+		10 Add column : 1 col:26 	0.453
+			Start solve  LP :0.453
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -316,7 +317,7 @@ xList.size = 3
 yList.size = 21
 squareList.size = 21
 myConsList.size = 0
-cplex1的参考解为：2.3333333333333335 0.015 s
+cplex1的参考解为：2.3333333333333335 0.016 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:53,l:47,w:39},{x:0,y:35,l:18,w:84},{x:0,y:7,l:28,w:97},],
@@ -324,10 +325,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 21
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 23@35@42@
-solveSubProblemByIp 总用时：15 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		11 Add column : 1 col:27 	0.312
-			Start solve  LP :0.312
+		11 Add column : 1 col:27 	0.469
+			Start solve  LP :0.469
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -347,10 +348,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 25
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 22@35@41@50@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		12 Add column : 1 col:28 	0.359
-			Start solve  LP :0.359
+		12 Add column : 1 col:28 	0.485
+			Start solve  LP :0.485
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -370,10 +371,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 20
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 16@17@42@53@
-solveSubProblemByIp 总用时：0 ms
+solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		13 Add column : 1 col:29 	0.359
-			Start solve  LP :0.359
+		13 Add column : 1 col:29 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -385,7 +386,7 @@ xList.size = 4
 yList.size = 76
 squareList.size = 25
 myConsList.size = 0
-cplex1的参考解为：3.75 0.016 s
+cplex1的参考解为：3.75 0.0 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:71,l:29,w:97},{x:0,y:64,l:7,w:90},{x:0,y:55,l:9,w:83},{x:0,y:39,l:16,w:77},{x:0,y:22,l:17,w:98},{x:0,y:2,l:20,w:98},{x:0,y:1,l:1,w:98},],
@@ -393,10 +394,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 25
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 21@31@40@47@50@53@58@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		14 Add column : 1 col:30 	0.375
-			Start solve  LP :0.375
+		14 Add column : 1 col:30 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -408,7 +409,7 @@ xList.size = 4
 yList.size = 49
 squareList.size = 26
 myConsList.size = 0
-cplex1的参考解为：2.5 0.0 s
+cplex1的参考解为：2.5 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:66,l:34,w:73},{x:0,y:20,l:46,w:88},{x:0,y:2,l:18,w:84},],
@@ -416,10 +417,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 26
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 7@25@42@
-solveSubProblemByIp 总用时：0 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		15 Add column : 1 col:31 	0.375
-			Start solve  LP :0.375
+		15 Add column : 1 col:31 	0.547
+			Start solve  LP :0.547
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -431,7 +432,7 @@ xList.size = 4
 yList.size = 51
 squareList.size = 27
 myConsList.size = 0
-cplex1的参考解为：2.5 0.032 s
+cplex1的参考解为：2.5 0.016 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:70},{x:0,y:17,l:37,w:96},{x:0,y:1,l:16,w:77},],
@@ -439,10 +440,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 27
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 11@13@47@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		16 Add column : 1 col:32 	0.422
-			Start solve  LP :0.422
+		16 Add column : 1 col:32 	0.563
+			Start solve  LP :0.563
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -462,10 +463,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 30
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 11@29@38@53@58@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		17 Add column : 1 col:33 	0.453
-			Start solve  LP :0.453
+		17 Add column : 1 col:33 	0.61
+			Start solve  LP :0.61
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -477,7 +478,7 @@ xList.size = 8
 yList.size = 47
 squareList.size = 27
 myConsList.size = 0
-cplex1的参考解为：3.5 0.016 s
+cplex1的参考解为：3.5 0.0 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:20,w:87},{x:0,y:80,l:20,w:98},{x:7,y:0,l:42,w:86},{x:7,y:42,l:18,w:84},{x:93,y:3,l:77,w:7},],
@@ -485,10 +486,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 27
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 10@31@37@42@54@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		18 Add column : 1 col:34 	0.469
-			Start solve  LP :0.469
+		18 Add column : 1 col:34 	0.61
+			Start solve  LP :0.61
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -510,8 +511,8 @@ solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 5@15@51@53@54@
 solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		19 Add column : 1 col:35 	0.5
-			Start solve  LP :0.5
+		19 Add column : 1 col:35 	0.656
+			Start solve  LP :0.656
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -523,7 +524,7 @@ xList.size = 8
 yList.size = 56
 squareList.size = 32
 myConsList.size = 0
-cplex1的参考解为：3.375 0.032 s
+cplex1的参考解为：3.375 0.016 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:57,l:43,w:96},{x:0,y:11,l:46,w:88},{x:0,y:10,l:1,w:98},{x:7,y:0,l:10,w:70},],
@@ -531,10 +532,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 32
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 6@7@51@58@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：32 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		20 Add column : 1 col:36 	0.547
-			Start solve  LP :0.547
+		20 Add column : 1 col:36 	0.688
+			Start solve  LP :0.688
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -546,7 +547,7 @@ xList.size = 8
 yList.size = 65
 squareList.size = 35
 myConsList.size = 0
-cplex1的参考解为：3.1029411764705888 0.047 s
+cplex1的参考解为：3.1029411764705888 0.078 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:75,l:25,w:98},{x:0,y:26,l:49,w:93},{x:0,y:19,l:7,w:69},{x:7,y:9,l:10,w:70},{x:7,y:2,l:7,w:90},],
@@ -554,10 +555,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 35
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 4@26@51@53@55@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：78 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		21 Add column : 1 col:37 	0.625
-			Start solve  LP :0.625
+		21 Add column : 1 col:37 	0.766
+			Start solve  LP :0.766
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -579,8 +580,8 @@ solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 13@36@46@55@58@
 solveSubProblemByIp 总用时：15 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		22 Add column : 1 col:38 	0.64
-			Start solve  LP :0.64
+		22 Add column : 1 col:38 	0.781
+			Start solve  LP :0.781
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -592,7 +593,7 @@ xList.size = 7
 yList.size = 73
 squareList.size = 35
 myConsList.size = 0
-cplex1的参考解为：3.0 0.016 s
+cplex1的参考解为：3.0 0.032 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:76,l:24,w:79},{x:0,y:33,l:43,w:96},{x:0,y:12,l:21,w:85},{x:31,y:5,l:7,w:69},],
@@ -600,10 +601,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 35
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 6@33@36@55@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：32 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		23 Add column : 1 col:39 	0.656
-			Start solve  LP :0.656
+		23 Add column : 1 col:39 	0.813
+			Start solve  LP :0.813
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -615,7 +616,7 @@ xList.size = 10
 yList.size = 73
 squareList.size = 36
 myConsList.size = 0
-cplex1的参考解为：3.148936170212766 0.047 s
+cplex1的参考解为：3.148936170212766 0.031 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:77,l:16,w:84},{x:0,y:10,l:67,w:21},{x:0,y:93,l:7,w:69},{x:21,y:43,l:34,w:73},{x:21,y:6,l:37,w:77},],
@@ -623,10 +624,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 36
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 19@25@43@45@55@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		24 Add column : 1 col:40 	0.703
-			Start solve  LP :0.703
+		24 Add column : 1 col:40 	0.844
+			Start solve  LP :0.844
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -638,7 +639,7 @@ xList.size = 8
 yList.size = 73
 squareList.size = 36
 myConsList.size = 0
-cplex1的参考解为：4.203703703703704 0.016 s
+cplex1的参考解为：4.203703703703704 0.015 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:6,l:77,w:7},{x:0,y:83,l:17,w:98},{x:7,y:59,l:24,w:79},{x:7,y:24,l:19,w:91},{x:7,y:43,l:16,w:84},{x:31,y:5,l:19,w:69},],
@@ -646,10 +647,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 36
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 33@38@40@45@46@54@
-solveSubProblemByIp 总用时：16 ms
+solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		25 Add column : 1 col:41 	0.719
-			Start solve  LP :0.719
+		25 Add column : 1 col:41 	0.875
+			Start solve  LP :0.875
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -661,7 +662,7 @@ xList.size = 8
 yList.size = 82
 squareList.size = 37
 myConsList.size = 0
-cplex1的参考解为：3.6099999999999994 0.062 s
+cplex1的参考解为：3.6099999999999994 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:75,l:25,w:98},{x:0,y:68,l:7,w:92},{x:0,y:67,l:1,w:98},{x:7,y:56,l:11,w:74},{x:7,y:32,l:24,w:79},{x:7,y:22,l:10,w:70},{x:7,y:2,l:20,w:87},],
@@ -669,10 +670,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 37
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 26@33@37@49@51@52@58@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：63 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		26 Add column : 1 col:42 	0.781
-			Start solve  LP :0.781
+		26 Add column : 1 col:42 	0.938
+			Start solve  LP :0.938
 			End solve LP obj: 17.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -684,7 +685,7 @@ xList.size = 17
 yList.size = 90
 squareList.size = 41
 myConsList.size = 0
-cplex1的参考解为：3.701162790697672 0.188 s
+cplex1的参考解为：3.701162790697672 0.297 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:71,l:11,w:74},{x:0,y:83,l:17,w:98},{x:0,y:50,l:10,w:70},{x:0,y:64,l:7,w:90},{x:0,y:82,l:1,w:98},{x:7,y:1,l:49,w:80},{x:7,y:60,l:4,w:82},{x:93,y:5,l:77,w:7},],
@@ -692,10 +693,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 41
 solution.getPlaceSquareList().size() = 8
 pattern.getKey() = 8@40@49@51@53@54@57@58@
-solveSubProblemByIp 总用时：188 ms
+solveSubProblemByIp 总用时：297 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		27 Add column : 1 col:43 	0.969
-			Start solve  LP :0.969
+		27 Add column : 1 col:43 	1.235
+			Start solve  LP :1.235
 			End solve LP obj: 16.93820526598603 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -710,7 +711,7 @@ xList.size = 14
 yList.size = 88
 squareList.size = 42
 myConsList.size = 0
-cplex1的参考解为：2.9648038688876945 0.078 s
+cplex1的参考解为：2.9648038688876945 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:23,l:4,w:82},{x:0,y:34,l:19,w:91},{x:0,y:7,l:16,w:77},{x:0,y:27,l:7,w:92},{x:0,y:53,l:1,w:98},{x:0,y:0,l:7,w:69},{x:82,y:1,l:26,w:18},],
@@ -718,10 +719,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 42
 solution.getPlaceSquareList().size() = 8
 pattern.getKey() = 7@38@47@52@55@56@57@58@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		28 Add column : 1 col:44 	1.062
-			Start solve  LP :1.062
+		28 Add column : 1 col:44 	1.297
+			Start solve  LP :1.297
 			End solve LP obj: 16.886536704233933 t: 16
 CompleteSolutionByBF前size: 16
 count = 57
@@ -746,8 +747,8 @@ solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 4@33@46@54@56@57@58@
 solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		29 Add column : 1 col:45 	1.125
-			Start solve  LP :1.125
+		29 Add column : 1 col:45 	1.36
+			Start solve  LP :1.36
 			End solve LP obj: 16.844737684672737 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -760,7 +761,7 @@ xList.size = 17
 yList.size = 80
 squareList.size = 44
 myConsList.size = 0
-cplex1的参考解为：2.0190733202213784 0.062 s
+cplex1的参考解为：2.0190733202213784 0.046 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:4,l:67,w:77},{x:0,y:92,l:1,w:98},{x:7,y:71,l:21,w:85},{x:7,y:93,l:7,w:92},{x:79,y:4,l:67,w:21},],
@@ -768,10 +769,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 44
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 3@36@43@52@58@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：46 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		30 Add column : 1 col:46 	1.187
-			Start solve  LP :1.187
+		30 Add column : 1 col:46 	1.406
+			Start solve  LP :1.406
 			End solve LP obj: 16.844650730332027 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -784,7 +785,7 @@ xList.size = 17
 yList.size = 84
 squareList.size = 45
 myConsList.size = 0
-cplex1的参考解为：2.56617977865091 0.063 s
+cplex1的参考解为：2.56617977865091 0.079 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:82,l:17,w:98},{x:0,y:5,l:77,w:7},{x:0,y:99,l:1,w:98},{x:7,y:24,l:28,w:84},{x:7,y:3,l:21,w:85},{x:21,y:52,l:30,w:79},],
@@ -792,10 +793,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 45
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 27@28@36@40@54@58@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：79 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		31 Add column : 1 col:47 	1.25
-			Start solve  LP :1.25
+		31 Add column : 1 col:47 	1.485
+			Start solve  LP :1.485
 			End solve LP obj: 16.839921277119167 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -808,7 +809,7 @@ xList.size = 18
 yList.size = 84
 squareList.size = 45
 myConsList.size = 0
-cplex1的参考解为：2.2355935133410014 0.062 s
+cplex1的参考解为：2.2355935133410014 0.078 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:9,l:90,w:21},{x:0,y:99,l:1,w:98},{x:0,y:2,l:7,w:69},{x:21,y:88,l:11,w:74},{x:21,y:11,l:77,w:7},{x:28,y:41,l:47,w:39},{x:69,y:0,l:88,w:31},],
@@ -816,10 +817,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 45
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 22@34@35@49@54@55@58@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：93 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		32 Add column : 1 col:48 	1.328
-			Start solve  LP :1.328
+		32 Add column : 1 col:48 	1.578
+			Start solve  LP :1.578
 			End solve LP obj: 16.83269598470364 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -832,7 +833,7 @@ xList.size = 10
 yList.size = 84
 squareList.size = 44
 myConsList.size = 0
-cplex1的参考解为：2.6163161249203317 0.031 s
+cplex1的参考解为：2.6163161249203317 0.037 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:38,l:62,w:84},{x:0,y:17,l:21,w:85},{x:0,y:10,l:7,w:92},{x:0,y:3,l:7,w:90},{x:21,y:2,l:1,w:79},],
@@ -840,10 +841,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 44
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 2@36@52@53@59@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：37 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		33 Add column : 1 col:49 	1.375
-			Start solve  LP :1.375
+		33 Add column : 1 col:49 	1.615
+			Start solve  LP :1.615
 			End solve LP obj: 16.821887424834884 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -856,7 +857,7 @@ xList.size = 10
 yList.size = 90
 squareList.size = 47
 myConsList.size = 0
-cplex1的参考解为：2.485722735188775 0.047 s
+cplex1的参考解为：2.485722735188775 0.026 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:65,l:35,w:82},{x:0,y:64,l:1,w:79},{x:0,y:43,l:21,w:85},{x:0,y:23,l:20,w:87},{x:0,y:16,l:7,w:90},{x:21,y:0,l:16,w:77},],
@@ -864,10 +865,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 47
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 18@36@37@47@53@59@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：26 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		34 Add column : 1 col:50 	1.422
-			Start solve  LP :1.422
+		34 Add column : 1 col:50 	1.641
+			Start solve  LP :1.656
 			End solve LP obj: 16.79819154107924 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -880,7 +881,7 @@ xList.size = 15
 yList.size = 90
 squareList.size = 46
 myConsList.size = 0
-cplex1的参考解为：2.585493437044239 0.047 s
+cplex1的参考解为：2.585493437044239 0.032 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:2,l:72,w:16},{x:0,y:75,l:25,w:98},{x:0,y:74,l:1,w:79},{x:16,y:6,l:68,w:80},{x:16,y:2,l:4,w:82},],
@@ -888,11 +889,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 46
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 1@26@48@57@59@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：32 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		35 Add column : 1 col:51 	1.469
-			Start solve  LP :1.469
-			End solve LP obj: 16.797207194920514 t: 0
+		35 Add column : 1 col:51 	1.688
+			Start solve  LP :1.688
+			End solve LP obj: 16.797207194920514 t: 15
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -904,7 +905,7 @@ xList.size = 22
 yList.size = 90
 squareList.size = 48
 myConsList.size = 0
-cplex1的参考解为：2.525495900956191 0.062 s
+cplex1的参考解为：2.525495900956191 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:12,l:88,w:31},{x:21,y:0,l:1,w:79},{x:31,y:3,l:97,w:33},{x:64,y:28,l:72,w:16},{x:80,y:1,l:99,w:20},],
@@ -912,11 +913,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 48
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 14@22@30@48@59@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：63 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		36 Add column : 1 col:52 	1.531
-			Start solve  LP :1.531
-			End solve LP obj: 16.781600354287587 t: 16
+		36 Add column : 1 col:52 	1.766
+			Start solve  LP :1.766
+			End solve LP obj: 16.781600354287587 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -936,10 +937,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 47
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 21@32@33@45@57@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：109 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		37 Add column : 1 col:53 	1.672
-			Start solve  LP :1.672
+		37 Add column : 1 col:53 	1.875
+			Start solve  LP :1.875
 			End solve LP obj: 16.76499820687536 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -952,7 +953,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 49
 myConsList.size = 0
-cplex1的参考解为：1.782314667759619 0.031 s
+cplex1的参考解为：1.782314667759619 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:71,l:29,w:69},{x:0,y:24,l:47,w:39},{x:0,y:5,l:19,w:69},{x:69,y:12,l:88,w:31},],
@@ -960,10 +961,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 49
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 22@29@35@46@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		38 Add column : 1 col:54 	1.703
-			Start solve  LP :1.703
+		38 Add column : 1 col:54 	1.922
+			Start solve  LP :1.922
 			End solve LP obj: 16.716144232739193 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -986,8 +987,8 @@ solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 5@23@49@52@57@
 solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		39 Add column : 1 col:55 	1.75
-			Start solve  LP :1.75
+		39 Add column : 1 col:55 	1.969
+			Start solve  LP :1.969
 			End solve LP obj: 16.709757669041057 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1010,8 +1011,8 @@ solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 12@23@28@52@
 solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		40 Add column : 1 col:56 	1.781
-			Start solve  LP :1.781
+		40 Add column : 1 col:56 	2.0
+			Start solve  LP :2.0
 			End solve LP obj: 16.707363031060932 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1024,7 +1025,7 @@ xList.size = 18
 yList.size = 85
 squareList.size = 50
 myConsList.size = 0
-cplex1的参考解为：1.5772833789614826 0.063 s
+cplex1的参考解为：1.5772833789614826 0.078 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:44,l:49,w:93},{x:0,y:0,l:20,w:87},{x:0,y:29,l:11,w:74},{x:7,y:20,l:9,w:83},{x:7,y:93,l:7,w:92},{x:7,y:40,l:4,w:82},{x:93,y:16,l:77,w:7},],
@@ -1034,8 +1035,8 @@ solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 4@37@49@50@52@54@57@
 solveSubProblemByIp 总用时：78 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		41 Add column : 1 col:57 	1.859
-			Start solve  LP :1.859
+		41 Add column : 1 col:57 	2.078
+			Start solve  LP :2.078
 			End solve LP obj: 16.653865262663974 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1050,7 +1051,7 @@ xList.size = 12
 yList.size = 75
 squareList.size = 49
 myConsList.size = 0
-cplex1的参考解为：1.797928497988531 0.063 s
+cplex1的参考解为：1.797928497988531 0.078 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:30,w:79},{x:0,y:41,l:24,w:67},{x:0,y:65,l:16,w:77},{x:0,y:81,l:19,w:91},{x:0,y:30,l:11,w:74},{x:79,y:14,l:67,w:21},],
@@ -1058,10 +1059,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 49
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 27@38@41@43@47@49@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：78 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		42 Add column : 1 col:58 	1.922
-			Start solve  LP :1.922
+		42 Add column : 1 col:58 	2.156
+			Start solve  LP :2.156
 			End solve LP obj: 16.621213755571716 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1074,7 +1075,7 @@ xList.size = 18
 yList.size = 77
 squareList.size = 51
 myConsList.size = 0
-cplex1的参考解为：1.423052900424163 0.093 s
+cplex1的参考解为：1.423052900424163 0.11 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:23,l:77,w:7},{x:7,y:93,l:7,w:90},{x:7,y:3,l:90,w:21},{x:28,y:51,l:42,w:71},{x:28,y:24,l:27,w:72},{x:33,y:0,l:24,w:67},],
@@ -1082,10 +1083,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 16@32@34@41@53@54@
-solveSubProblemByIp 总用时：93 ms
+solveSubProblemByIp 总用时：110 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		43 Add column : 1 col:59 	2.015
-			Start solve  LP :2.015
+		43 Add column : 1 col:59 	2.266
+			Start solve  LP :2.266
 			End solve LP obj: 16.575295385761304 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -1100,7 +1101,7 @@ xList.size = 18
 yList.size = 88
 squareList.size = 51
 myConsList.size = 0
-cplex1的参考解为：1.4427492033121305 0.157 s
+cplex1的参考解为：1.4427492033121305 0.227 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:11,l:24,w:79},{x:0,y:62,l:16,w:77},{x:0,y:0,l:11,w:74},{x:0,y:78,l:1,w:98},{x:7,y:35,l:27,w:72},{x:7,y:79,l:21,w:82},{x:79,y:11,l:67,w:21},],
@@ -1108,11 +1109,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 32@33@39@43@47@49@58@
-solveSubProblemByIp 总用时：157 ms
+solveSubProblemByIp 总用时：231 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		44 Add column : 1 col:60 	2.172
-			Start solve  LP :2.172
-			End solve LP obj: 16.540284952693924 t: 0
+		44 Add column : 1 col:60 	2.497
+			Start solve  LP :2.497
+			End solve LP obj: 16.540284952693924 t: 1
 CompleteSolutionByBF前size: 16
 count = 57
 CompleteSolutionByBF后size: 17
@@ -1126,7 +1127,7 @@ xList.size = 17
 yList.size = 75
 squareList.size = 49
 myConsList.size = 0
-cplex1的参考解为：1.4296079333116043 0.11 s
+cplex1的参考解为：1.4296079333116043 0.142 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:1,l:42,w:71},{x:0,y:43,l:30,w:79},{x:0,y:80,l:20,w:87},{x:0,y:73,l:7,w:90},{x:79,y:6,l:67,w:21},],
@@ -1134,10 +1135,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 49
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 16@27@37@43@53@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：149 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		45 Add column : 1 col:61 	2.297
-			Start solve  LP :2.297
+		45 Add column : 1 col:61 	2.648
+			Start solve  LP :2.648
 			End solve LP obj: 16.53046445051569 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1158,10 +1159,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 9@20@49@53@54@55@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：84 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		46 Add column : 1 col:62 	2.375
-			Start solve  LP :2.375
+		46 Add column : 1 col:62 	2.732
+			Start solve  LP :2.732
 			End solve LP obj: 16.515465569399577 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -1176,7 +1177,7 @@ xList.size = 14
 yList.size = 77
 squareList.size = 50
 myConsList.size = 0
-cplex1的参考解为：1.5235348407937248 0.031 s
+cplex1的参考解为：1.5235348407937248 0.054 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:86},{x:0,y:26,l:25,w:98},{x:0,y:10,l:16,w:84},{x:0,y:1,l:9,w:83},],
@@ -1184,10 +1185,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 50
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 5@26@45@50@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：57 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		47 Add column : 1 col:63 	2.406
-			Start solve  LP :2.406
+		47 Add column : 1 col:63 	2.791
+			Start solve  LP :2.792
 			End solve LP obj: 16.515465569399574 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1200,7 +1201,7 @@ xList.size = 14
 yList.size = 77
 squareList.size = 50
 myConsList.size = 0
-cplex1的参考解为：1.5970363533815313 0.156 s
+cplex1的参考解为：1.5970363533815313 0.04 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:80},{x:0,y:26,l:25,w:98},{x:0,y:10,l:16,w:84},{x:0,y:1,l:9,w:83},],
@@ -1208,10 +1209,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 50
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 8@26@45@50@
-solveSubProblemByIp 总用时：156 ms
+solveSubProblemByIp 总用时：45 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		48 Add column : 1 col:64 	2.562
-			Start solve  LP :2.562
+		48 Add column : 1 col:64 	2.837
+			Start solve  LP :2.837
 			End solve LP obj: 16.496707113585668 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1224,7 +1225,7 @@ xList.size = 10
 yList.size = 77
 squareList.size = 49
 myConsList.size = 0
-cplex1的参考解为：1.368496360209568 0.063 s
+cplex1的参考解为：1.368496360209568 0.039 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:71,l:29,w:97},{x:0,y:50,l:21,w:82},{x:0,y:30,l:20,w:87},{x:31,y:1,l:29,w:69},],
@@ -1232,10 +1233,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 49
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 21@29@37@39@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：42 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		49 Add column : 1 col:65 	2.625
-			Start solve  LP :2.625
+		49 Add column : 1 col:65 	2.879
+			Start solve  LP :2.879
 			End solve LP obj: 16.46228637413395 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -1250,7 +1251,7 @@ xList.size = 12
 yList.size = 75
 squareList.size = 49
 myConsList.size = 0
-cplex1的参考解为：1.3070361816782141 0.031 s
+cplex1的参考解为：1.3070361816782141 0.049 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:57,l:43,w:96},{x:0,y:26,l:31,w:93},{x:0,y:7,l:19,w:91},{x:0,y:0,l:7,w:90},],
@@ -1258,11 +1259,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 49
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 6@17@38@53@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：52 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		50 Add column : 1 col:66 	2.656
-			Start solve  LP :2.656
-			End solve LP obj: 16.396203029089538 t: 0
+		50 Add column : 1 col:66 	2.933
+			Start solve  LP :2.933
+			End solve LP obj: 16.396203029089538 t: 1
 CompleteSolutionByBF前size: 16
 count = 57
 CompleteSolutionByBF后size: 17
@@ -1276,7 +1277,7 @@ xList.size = 12
 yList.size = 79
 squareList.size = 51
 myConsList.size = 0
-cplex1的参考解为：1.2806898530281932 0.047 s
+cplex1的参考解为：1.2806898530281932 0.041 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:65,l:35,w:81},{x:0,y:37,l:28,w:97},{x:0,y:17,l:20,w:87},{x:0,y:0,l:17,w:98},],
@@ -1284,11 +1285,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 20@23@37@40@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：44 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		51 Add column : 1 col:67 	2.719
-			Start solve  LP :2.719
-			End solve LP obj: 16.391232607920085 t: 0
+		51 Add column : 1 col:67 	2.979
+			Start solve  LP :2.979
+			End solve LP obj: 16.391232607920085 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -1300,7 +1301,7 @@ xList.size = 7
 yList.size = 77
 squareList.size = 48
 myConsList.size = 0
-cplex1的参考解为：1.3576079200856228 0.031 s
+cplex1的参考解为：1.3576079200856228 0.035 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:63,l:37,w:96},{x:0,y:28,l:35,w:81},{x:0,y:7,l:21,w:82},{x:0,y:0,l:7,w:92},],
@@ -1308,11 +1309,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 48
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 11@20@39@52@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：38 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		52 Add column : 1 col:68 	2.75
-			Start solve  LP :2.75
-			End solve LP obj: 16.387234818930768 t: 0
+		52 Add column : 1 col:68 	3.018
+			Start solve  LP :3.018
+			End solve LP obj: 16.387234818930768 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -1324,7 +1325,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 50
 myConsList.size = 0
-cplex1的参考解为：1.2824780987359126 0.422 s
+cplex1的参考解为：1.2824780987359126 0.488 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:72,l:28,w:84},{x:0,y:47,l:25,w:98},{x:0,y:27,l:20,w:87},{x:21,y:0,l:27,w:72},],
@@ -1332,10 +1333,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 50
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 26@28@32@37@
-solveSubProblemByIp 总用时：422 ms
+solveSubProblemByIp 总用时：492 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		53 Add column : 1 col:69 	3.172
-			Start solve  LP :3.172
+		53 Add column : 1 col:69 	3.511
+			Start solve  LP :3.511
 			End solve LP obj: 16.373724284501932 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1348,7 +1349,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 51
 myConsList.size = 0
-cplex1的参考解为：1.248588939775256 0.047 s
+cplex1的参考解为：1.248588939775256 0.099 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:12,l:29,w:69},{x:0,y:48,l:24,w:67},{x:0,y:72,l:19,w:69},{x:0,y:91,l:9,w:83},{x:0,y:41,l:7,w:69},{x:69,y:3,l:88,w:31},],
@@ -1356,11 +1357,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 22@29@41@46@50@55@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：102 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		54 Add column : 1 col:70 	3.219
-			Start solve  LP :3.219
-			End solve LP obj: 16.36868847011336 t: 0
+		54 Add column : 1 col:70 	3.614
+			Start solve  LP :3.614
+			End solve LP obj: 16.36868847011336 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -1372,7 +1373,7 @@ xList.size = 16
 yList.size = 79
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.2641908986045447 0.062 s
+cplex1的参考解为：1.2641908986045447 0.08 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:40,w:93},{x:0,y:44,l:16,w:77},{x:0,y:37,l:7,w:92},{x:21,y:0,l:37,w:77},],
@@ -1380,10 +1381,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 9@19@47@52@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：85 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		55 Add column : 1 col:71 	3.281
-			Start solve  LP :3.281
+		55 Add column : 1 col:71 	3.7
+			Start solve  LP :3.7
 			End solve LP obj: 16.356148583768995 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1396,7 +1397,7 @@ xList.size = 16
 yList.size = 77
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.2574655446775833 0.125 s
+cplex1的参考解为：1.2574655446775833 0.343 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:71},{x:0,y:24,l:34,w:73},{x:0,y:0,l:24,w:79},{x:80,y:1,l:99,w:20},],
@@ -1404,10 +1405,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 16@25@30@33@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：346 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		56 Add column : 1 col:72 	3.406
-			Start solve  LP :3.406
+		56 Add column : 1 col:72 	4.047
+			Start solve  LP :4.047
 			End solve LP obj: 16.353355676044917 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1420,7 +1421,7 @@ xList.size = 12
 yList.size = 79
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.2581693207531064 0.063 s
+cplex1的参考解为：1.2581693207531064 0.043 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:83,l:17,w:98},{x:0,y:76,l:7,w:90},{x:0,y:67,l:9,w:83},{x:0,y:0,l:67,w:21},{x:21,y:30,l:37,w:77},{x:21,y:19,l:11,w:74},{x:31,y:0,l:19,w:69},],
@@ -1428,11 +1429,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 19@40@43@46@49@50@53@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：47 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		57 Add column : 1 col:73 	3.469
-			Start solve  LP :3.469
-			End solve LP obj: 16.34723819681159 t: 0
+		57 Add column : 1 col:73 	4.094
+			Start solve  LP :4.094
+			End solve LP obj: 16.34723819681159 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -1444,7 +1445,7 @@ xList.size = 18
 yList.size = 77
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.270767547069854 0.14 s
+cplex1的参考解为：1.270767547069854 0.101 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:81,l:19,w:91},{x:7,y:3,l:78,w:85},{x:93,y:23,l:77,w:7},],
@@ -1452,10 +1453,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 0@38@54@
-solveSubProblemByIp 总用时：140 ms
+solveSubProblemByIp 总用时：105 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		58 Add column : 1 col:74 	3.609
-			Start solve  LP :3.609
+		58 Add column : 1 col:74 	4.2
+			Start solve  LP :4.2
 			End solve LP obj: 16.347238196811585 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1468,7 +1469,7 @@ xList.size = 18
 yList.size = 77
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.29021239814021 0.094 s
+cplex1的参考解为：1.29021239814021 0.082 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:36,l:28,w:90},{x:0,y:64,l:19,w:91},{x:0,y:83,l:17,w:98},{x:7,y:18,l:18,w:76},{x:7,y:0,l:18,w:84},{x:93,y:6,l:77,w:7},],
@@ -1476,10 +1477,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 24@38@40@42@44@54@
-solveSubProblemByIp 总用时：110 ms
+solveSubProblemByIp 总用时：86 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		59 Add column : 1 col:75 	3.719
-			Start solve  LP :3.719
+		59 Add column : 1 col:75 	4.287
+			Start solve  LP :4.288
 			End solve LP obj: 16.32477472265398 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -1494,7 +1495,7 @@ xList.size = 12
 yList.size = 94
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.303320791855175 0.046 s
+cplex1的参考解为：1.303320791855175 0.029 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:40,w:93},{x:0,y:25,l:35,w:94},{x:0,y:4,l:21,w:82},{x:0,y:0,l:4,w:82},],
@@ -1502,10 +1503,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 9@12@39@57@
-solveSubProblemByIp 总用时：46 ms
+solveSubProblemByIp 总用时：32 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		60 Add column : 1 col:76 	3.765
-			Start solve  LP :3.765
+		60 Add column : 1 col:76 	4.321
+			Start solve  LP :4.321
 			End solve LP obj: 16.31510365105548 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1518,7 +1519,7 @@ xList.size = 18
 yList.size = 94
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.3189724143228703 0.063 s
+cplex1的参考解为：1.3189724143228703 0.107 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:27,l:37,w:77},{x:0,y:72,l:28,w:97},{x:0,y:0,l:27,w:72},{x:0,y:64,l:7,w:69},{x:0,y:71,l:1,w:98},{x:79,y:4,l:67,w:21},],
@@ -1526,10 +1527,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 19@23@32@43@55@58@
-solveSubProblemByIp 总用时：79 ms
+solveSubProblemByIp 总用时：112 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		61 Add column : 1 col:77 	3.844
-			Start solve  LP :3.844
+		61 Add column : 1 col:77 	4.433
+			Start solve  LP :4.433
 			End solve LP obj: 16.304528717554906 t: 0
 CompleteSolutionByBF前size: 16
 count = 55
@@ -1544,7 +1545,7 @@ xList.size = 12
 yList.size = 77
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.2578171885288385 0.046 s
+cplex1的参考解为：1.2578171885288385 0.039 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:57,l:43,w:96},{x:0,y:28,l:29,w:97},{x:0,y:0,l:28,w:84},],
@@ -1552,10 +1553,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 6@21@28@
-solveSubProblemByIp 总用时：46 ms
+solveSubProblemByIp 总用时：43 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		62 Add column : 1 col:78 	3.89
-			Start solve  LP :3.89
+		62 Add column : 1 col:78 	4.477
+			Start solve  LP :4.477
 			End solve LP obj: 16.250758786257876 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1570,7 +1571,7 @@ xList.size = 12
 yList.size = 75
 squareList.size = 51
 myConsList.size = 0
-cplex1的参考解为：1.2516388817960618 0.032 s
+cplex1的参考解为：1.2516388817960618 0.043 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:66,l:34,w:91},{x:0,y:38,l:28,w:90},{x:0,y:18,l:20,w:87},{x:0,y:11,l:7,w:90},{x:0,y:0,l:11,w:74},],
@@ -1578,10 +1579,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 51
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 15@24@37@49@53@
-solveSubProblemByIp 总用时：32 ms
+solveSubProblemByIp 总用时：46 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		63 Add column : 1 col:79 	3.922
-			Start solve  LP :3.937
+		63 Add column : 1 col:79 	4.524
+			Start solve  LP :4.525
 			End solve LP obj: 16.2358549228005 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1596,7 +1597,7 @@ xList.size = 12
 yList.size = 79
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.2508289844537401 0.532 s
+cplex1的参考解为：1.2508289844537401 0.034 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:84,l:16,w:84},{x:0,y:77,l:7,w:90},{x:0,y:70,l:7,w:92},{x:0,y:3,l:67,w:21},{x:21,y:24,l:46,w:70},{x:21,y:0,l:24,w:79},],
@@ -1604,11 +1605,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 13@33@43@45@52@53@
-solveSubProblemByIp 总用时：547 ms
+solveSubProblemByIp 总用时：37 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		64 Add column : 1 col:80 	4.484
-			Start solve  LP :4.484
-			End solve LP obj: 16.229406650032857 t: 0
+		64 Add column : 1 col:80 	4.563
+			Start solve  LP :4.563
+			End solve LP obj: 16.229406650032857 t: 1
 CompleteSolutionByBF前size: 16
 count = 57
 CompleteSolutionByBF后size: 17
@@ -1622,7 +1623,7 @@ xList.size = 18
 yList.size = 79
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.200412355544699 0.094 s
+cplex1的参考解为：1.200412355544699 0.107 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:18,w:76},{x:0,y:23,l:77,w:7},{x:7,y:45,l:29,w:69},{x:7,y:18,l:27,w:72},{x:7,y:74,l:19,w:69},{x:7,y:93,l:7,w:90},{x:79,y:0,l:90,w:21},],
@@ -1630,11 +1631,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 29@32@34@44@46@53@54@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：114 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		65 Add column : 1 col:81 	4.578
-			Start solve  LP :4.578
-			End solve LP obj: 16.215761837276062 t: 16
+		65 Add column : 1 col:81 	4.679
+			Start solve  LP :4.679
+			End solve LP obj: 16.215761837276062 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
 CompleteSolutionByBF后size: 18
@@ -1648,7 +1649,7 @@ xList.size = 7
 yList.size = 77
 squareList.size = 50
 myConsList.size = 0
-cplex1的参考解为：1.1875340673716344 0.062 s
+cplex1的参考解为：1.1875340673716344 0.04 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:86},{x:0,y:33,l:25,w:98},{x:0,y:16,l:17,w:98},{x:0,y:7,l:9,w:83},{x:0,y:0,l:7,w:90},],
@@ -1656,10 +1657,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 50
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 10@26@40@50@53@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：44 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		66 Add column : 1 col:82 	4.656
-			Start solve  LP :4.656
+		66 Add column : 1 col:82 	4.725
+			Start solve  LP :4.725
 			End solve LP obj: 16.197606795510318 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1674,7 +1675,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.185128514025676 0.125 s
+cplex1的参考解为：1.185128514025676 0.079 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:80,l:20,w:98},{x:0,y:71,l:9,w:83},{x:0,y:4,l:67,w:21},{x:21,y:37,l:34,w:73},{x:21,y:19,l:18,w:76},{x:31,y:0,l:19,w:69},],
@@ -1682,10 +1683,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 25@31@43@44@46@50@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：84 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		67 Add column : 1 col:83 	4.781
-			Start solve  LP :4.781
+		67 Add column : 1 col:83 	4.811
+			Start solve  LP :4.811
 			End solve LP obj: 16.194210200623623 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1700,7 +1701,7 @@ xList.size = 10
 yList.size = 87
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.1034867670289468 0.078 s
+cplex1的参考解为：1.1034867670289468 0.136 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:25,l:29,w:97},{x:0,y:18,l:7,w:90},{x:21,y:0,l:18,w:76},],
@@ -1708,10 +1709,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 7@21@44@53@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：139 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		68 Add column : 1 col:84 	4.859
-			Start solve  LP :4.859
+		68 Add column : 1 col:84 	4.952
+			Start solve  LP :4.952
 			End solve LP obj: 16.185513025499432 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -1726,7 +1727,7 @@ xList.size = 10
 yList.size = 87
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.108526325941192 0.11 s
+cplex1的参考解为：1.108526325941192 0.047 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:23,l:30,w:79},{x:0,y:72,l:28,w:90},{x:0,y:53,l:19,w:69},{x:0,y:7,l:16,w:77},{x:0,y:0,l:7,w:69},{x:79,y:5,l:67,w:21},],
@@ -1734,10 +1735,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 24@27@43@46@47@55@
-solveSubProblemByIp 总用时：110 ms
+solveSubProblemByIp 总用时：51 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		69 Add column : 1 col:85 	4.969
-			Start solve  LP :4.969
+		69 Add column : 1 col:85 	5.004
+			Start solve  LP :5.004
 			End solve LP obj: 16.180020821616047 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1750,7 +1751,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.1306834975819808 0.046 s
+cplex1的参考解为：1.1306834975819808 0.036 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:79,l:21,w:85},{x:0,y:62,l:17,w:98},{x:0,y:52,l:10,w:70},{x:0,y:43,l:9,w:83},{x:0,y:36,l:7,w:69},{x:0,y:29,l:7,w:92},{x:0,y:3,l:26,w:18},{x:31,y:0,l:29,w:69},],
@@ -1758,10 +1759,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 8
 pattern.getKey() = 29@36@40@50@51@52@55@56@
-solveSubProblemByIp 总用时：46 ms
+solveSubProblemByIp 总用时：40 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		70 Add column : 1 col:86 	5.015
-			Start solve  LP :5.015
+		70 Add column : 1 col:86 	5.045
+			Start solve  LP :5.045
 			End solve LP obj: 16.176878981007693 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1774,7 +1775,7 @@ xList.size = 14
 yList.size = 94
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.1181361954950182 0.047 s
+cplex1的参考解为：1.1181361954950182 0.066 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:35,w:82},{x:0,y:61,l:21,w:85},{x:0,y:82,l:18,w:84},{x:0,y:35,l:19,w:69},{x:0,y:54,l:7,w:92},{x:82,y:28,l:26,w:18},],
@@ -1782,10 +1783,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 18@36@42@46@52@56@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：71 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		71 Add column : 1 col:87 	5.062
-			Start solve  LP :5.062
+		71 Add column : 1 col:87 	5.116
+			Start solve  LP :5.116
 			End solve LP obj: 16.17552429611732 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1798,7 +1799,7 @@ xList.size = 10
 yList.size = 87
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.0754318093372153 0.047 s
+cplex1的参考解为：1.0754318093372153 0.034 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:32,l:68,w:80},{x:0,y:4,l:28,w:84},{x:0,y:0,l:4,w:82},],
@@ -1806,10 +1807,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 1@28@57@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：37 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		72 Add column : 1 col:88 	5.109
-			Start solve  LP :5.109
+		72 Add column : 1 col:88 	5.154
+			Start solve  LP :5.154
 			End solve LP obj: 16.17204352485263 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -1824,7 +1825,7 @@ xList.size = 14
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.0942733543830532 0.063 s
+cplex1的参考解为：1.0942733543830532 0.058 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:93},{x:0,y:34,l:17,w:98},{x:0,y:27,l:7,w:92},{x:0,y:1,l:26,w:18},{x:21,y:0,l:27,w:72},],
@@ -1832,10 +1833,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 4@32@40@52@56@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：63 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		73 Add column : 1 col:89 	5.187
-			Start solve  LP :5.187
+		73 Add column : 1 col:89 	5.218
+			Start solve  LP :5.218
 			End solve LP obj: 16.165287674822565 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -1850,7 +1851,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.070093130596884 0.047 s
+cplex1的参考解为：1.070093130596884 0.039 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:32,l:68,w:80},{x:0,y:11,l:21,w:82},{x:21,y:0,l:11,w:74},],
@@ -1858,10 +1859,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 1@39@49@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：42 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		74 Add column : 1 col:90 	5.25
-			Start solve  LP :5.25
+		74 Add column : 1 col:90 	5.261
+			Start solve  LP :5.261
 			End solve LP obj: 16.154799524490112 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1876,7 +1877,7 @@ xList.size = 12
 yList.size = 79
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.124411250168214 0.031 s
+cplex1的参考解为：1.124411250168214 0.045 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:65,l:35,w:81},{x:0,y:37,l:28,w:97},{x:0,y:16,l:21,w:85},{x:21,y:0,l:16,w:77},],
@@ -1884,10 +1885,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 20@23@36@47@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：48 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		75 Add column : 1 col:91 	5.281
-			Start solve  LP :5.281
+		75 Add column : 1 col:91 	5.31
+			Start solve  LP :5.31
 			End solve LP obj: 16.1503984516111 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -1908,10 +1909,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 9@26@36@52@55@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：67 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		76 Add column : 1 col:92 	5.344
-			Start solve  LP :5.344
+		76 Add column : 1 col:92 	5.378
+			Start solve  LP :5.378
 			End solve LP obj: 16.141789980000635 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1926,7 +1927,7 @@ xList.size = 10
 yList.size = 79
 squareList.size = 52
 myConsList.size = 0
-cplex1的参考解为：1.1586032361739538 0.046 s
+cplex1的参考解为：1.1586032361739538 0.041 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:40,w:93},{x:0,y:35,l:25,w:98},{x:0,y:16,l:19,w:69},{x:0,y:0,l:16,w:84},],
@@ -1934,10 +1935,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 52
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 9@26@45@46@
-solveSubProblemByIp 总用时：46 ms
+solveSubProblemByIp 总用时：45 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		77 Add column : 1 col:93 	5.39
-			Start solve  LP :5.39
+		77 Add column : 1 col:93 	5.424
+			Start solve  LP :5.424
 			End solve LP obj: 16.131397493316353 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -1952,7 +1953,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.1221328985833148 0.063 s
+cplex1的参考解为：1.1221328985833148 0.058 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:82,l:18,w:84},{x:0,y:71,l:11,w:74},{x:0,y:4,l:67,w:21},{x:21,y:29,l:42,w:71},{x:31,y:0,l:29,w:69},],
@@ -1960,10 +1961,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 16@29@42@43@49@
-solveSubProblemByIp 总用时：79 ms
+solveSubProblemByIp 总用时：62 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		78 Add column : 1 col:94 	5.469
-			Start solve  LP :5.469
+		78 Add column : 1 col:94 	5.487
+			Start solve  LP :5.487
 			End solve LP obj: 16.127119876931843 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -1978,7 +1979,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.1122052910642486 0.031 s
+cplex1的参考解为：1.1122052910642486 0.042 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:66,l:34,w:73},{x:0,y:38,l:28,w:97},{x:0,y:17,l:21,w:85},{x:0,y:0,l:17,w:98},],
@@ -1986,10 +1987,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 23@25@36@40@
-solveSubProblemByIp 总用时：31 ms
+solveSubProblemByIp 总用时：46 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		79 Add column : 1 col:95 	5.5
-			Start solve  LP :5.5
+		79 Add column : 1 col:95 	5.534
+			Start solve  LP :5.535
 			End solve LP obj: 16.120141567555986 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2004,7 +2005,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.124872505748832 0.047 s
+cplex1的参考解为：1.124872505748832 0.058 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:10,l:90,w:21},{x:21,y:58,l:42,w:71},{x:21,y:34,l:24,w:79},{x:21,y:16,l:18,w:76},{x:21,y:0,l:16,w:77},],
@@ -2012,11 +2013,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 16@33@34@44@47@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：61 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		80 Add column : 1 col:96 	5.547
-			Start solve  LP :5.547
-			End solve LP obj: 16.119044311125144 t: 0
+		80 Add column : 1 col:96 	5.597
+			Start solve  LP :5.597
+			End solve LP obj: 16.119044311125144 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -2028,7 +2029,7 @@ xList.size = 10
 yList.size = 87
 squareList.size = 53
 myConsList.size = 0
-cplex1的参考解为：1.1081286180402061 0.078 s
+cplex1的参考解为：1.1081286180402061 0.073 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:63,l:37,w:96},{x:0,y:28,l:35,w:94},{x:0,y:0,l:28,w:97},],
@@ -2036,10 +2037,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 53
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 11@12@23@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：76 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		81 Add column : 1 col:97 	5.625
-			Start solve  LP :5.625
+		81 Add column : 1 col:97 	5.674
+			Start solve  LP :5.674
 			End solve LP obj: 16.11402955578852 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -2054,7 +2055,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.1024758487021489 0.047 s
+cplex1的参考解为：1.1024758487021489 0.037 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:8,l:46,w:70},{x:0,y:54,l:42,w:71},{x:0,y:1,l:7,w:69},{x:0,y:96,l:4,w:82},{x:79,y:6,l:90,w:21},],
@@ -2062,10 +2063,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 13@16@34@55@57@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：41 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		82 Add column : 1 col:98 	5.672
-			Start solve  LP :5.672
+		82 Add column : 1 col:98 	5.716
+			Start solve  LP :5.716
 			End solve LP obj: 16.113086379814725 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2078,7 +2079,7 @@ xList.size = 14
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.0992443758868322 0.047 s
+cplex1的参考解为：1.0992443758868322 0.069 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:38,l:62,w:84},{x:0,y:4,l:34,w:91},{x:0,y:0,l:4,w:82},],
@@ -2086,10 +2087,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 2@15@57@
-solveSubProblemByIp 总用时：62 ms
+solveSubProblemByIp 总用时：72 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		83 Add column : 1 col:99 	5.734
-			Start solve  LP :5.734
+		83 Add column : 1 col:99 	5.789
+			Start solve  LP :5.789
 			End solve LP obj: 16.112729268821184 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -2104,7 +2105,7 @@ xList.size = 12
 yList.size = 87
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.0944661282326995 0.063 s
+cplex1的参考解为：1.0944661282326995 0.061 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:40,w:93},{x:0,y:25,l:35,w:82},{x:0,y:0,l:25,w:98},],
@@ -2112,10 +2113,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 9@18@26@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：65 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		84 Add column : 1 col:100 	5.797
-			Start solve  LP :5.797
+		84 Add column : 1 col:100 	5.855
+			Start solve  LP :5.856
 			End solve LP obj: 16.105088300092614 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2138,11 +2139,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 2@28@50@58@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：50 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		85 Add column : 1 col:101 	5.844
-			Start solve  LP :5.844
-			End solve LP obj: 16.10131588764401 t: 0
+		85 Add column : 1 col:101 	5.907
+			Start solve  LP :5.907
+			End solve LP obj: 16.10131588764401 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -2154,7 +2155,7 @@ xList.size = 22
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.071781061691116 0.063 s
+cplex1的参考解为：1.071781061691116 0.061 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:84,l:16,w:84},{x:0,y:12,l:72,w:16},{x:21,y:17,l:67,w:77},{x:21,y:7,l:10,w:70},{x:31,y:0,l:7,w:69},],
@@ -2162,10 +2163,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 3@45@48@51@55@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：65 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		86 Add column : 1 col:102 	5.922
-			Start solve  LP :5.922
+		86 Add column : 1 col:102 	5.974
+			Start solve  LP :5.974
 			End solve LP obj: 16.09530552510952 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2180,7 +2181,7 @@ xList.size = 26
 yList.size = 87
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.075624089410079 0.14 s
+cplex1的参考解为：1.075624089410079 0.119 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:35,l:37,w:77},{x:0,y:14,l:21,w:82},{x:0,y:72,l:21,w:85},{x:0,y:4,l:10,w:70},{x:0,y:93,l:7,w:92},{x:0,y:0,l:4,w:82},{x:84,y:0,l:72,w:16},],
@@ -2188,10 +2189,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 19@36@39@48@51@52@57@
-solveSubProblemByIp 总用时：140 ms
+solveSubProblemByIp 总用时：125 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		87 Add column : 1 col:103 	6.062
-			Start solve  LP :6.062
+		87 Add column : 1 col:103 	6.1
+			Start solve  LP :6.1
 			End solve LP obj: 16.091153399014544 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2206,7 +2207,7 @@ xList.size = 16
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.0703388596472525 0.078 s
+cplex1的参考解为：1.0703388596472525 0.152 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:79,l:21,w:85},{x:0,y:12,l:67,w:21},{x:21,y:37,l:42,w:71},{x:21,y:10,l:27,w:72},{x:21,y:0,l:10,w:70},],
@@ -2214,11 +2215,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 16@32@36@43@51@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：156 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		88 Add column : 1 col:104 	6.14
-			Start solve  LP :6.14
-			End solve LP obj: 16.08852202559689 t: 0
+		88 Add column : 1 col:104 	6.257
+			Start solve  LP :6.257
+			End solve LP obj: 16.08852202559689 t: 1
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -2230,7 +2231,7 @@ xList.size = 26
 yList.size = 87
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0794321824314639 0.11 s
+cplex1的参考解为：1.0794321824314639 0.093 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:93},{x:0,y:33,l:18,w:84},{x:0,y:16,l:17,w:98},{x:0,y:0,l:16,w:84},],
@@ -2238,10 +2239,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 4@40@42@45@
-solveSubProblemByIp 总用时：110 ms
+solveSubProblemByIp 总用时：99 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		89 Add column : 1 col:105 	6.25
-			Start solve  LP :6.25
+		89 Add column : 1 col:105 	6.357
+			Start solve  LP :6.357
 			End solve LP obj: 16.083276844223477 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2256,7 +2257,7 @@ xList.size = 26
 yList.size = 94
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0936488724510935 0.094 s
+cplex1的参考解为：1.0936488724510935 0.099 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:63,l:37,w:77},{x:0,y:34,l:29,w:69},{x:0,y:16,l:18,w:76},{x:0,y:0,l:16,w:77},{x:80,y:1,l:99,w:20},],
@@ -2264,10 +2265,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 19@29@30@44@47@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：104 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		90 Add column : 1 col:106 	6.344
-			Start solve  LP :6.344
+		90 Add column : 1 col:106 	6.463
+			Start solve  LP :6.463
 			End solve LP obj: 16.079944033674884 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2282,7 +2283,7 @@ xList.size = 17
 yList.size = 94
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.059826015840468 0.078 s
+cplex1的参考解为：1.059826015840468 0.145 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:37,w:77},{x:0,y:37,l:34,w:73},{x:0,y:75,l:25,w:98},{x:16,y:71,l:4,w:82},{x:79,y:4,l:67,w:21},],
@@ -2290,10 +2291,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 19@25@26@43@57@
-solveSubProblemByIp 总用时：93 ms
+solveSubProblemByIp 总用时：149 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		91 Add column : 1 col:107 	6.437
-			Start solve  LP :6.437
+		91 Add column : 1 col:107 	6.613
+			Start solve  LP :6.613
 			End solve LP obj: 16.079298577569688 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2314,11 +2315,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 18@27@44@45@48@58@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：82 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		92 Add column : 1 col:108 	6.515
-			Start solve  LP :6.515
-			End solve LP obj: 16.07546958828498 t: 0
+		92 Add column : 1 col:108 	6.696
+			Start solve  LP :6.696
+			End solve LP obj: 16.07546958828498 t: 1
 CompleteSolutionByBF前size: 16
 count = 59
 CompleteSolutionByBF后size: 17
@@ -2332,7 +2333,7 @@ xList.size = 17
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.0857499732343583 0.063 s
+cplex1的参考解为：1.0857499732343583 0.072 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:93},{x:0,y:9,l:42,w:86},{x:16,y:0,l:9,w:83},],
@@ -2340,10 +2341,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 4@10@50@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：76 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		93 Add column : 1 col:109 	6.578
-			Start solve  LP :6.578
+		93 Add column : 1 col:109 	6.773
+			Start solve  LP :6.774
 			End solve LP obj: 16.0718724667726 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2356,7 +2357,7 @@ xList.size = 26
 yList.size = 87
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0733507392922024 0.078 s
+cplex1的参考解为：1.0733507392922024 0.105 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:93},{x:0,y:20,l:31,w:93},{x:0,y:0,l:20,w:98},],
@@ -2364,10 +2365,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 4@17@31@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：110 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		94 Add column : 1 col:110 	6.672
-			Start solve  LP :6.672
+		94 Add column : 1 col:110 	6.884
+			Start solve  LP :6.884
 			End solve LP obj: 16.06387593975237 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2382,7 +2383,7 @@ xList.size = 26
 yList.size = 87
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.060357715008305 0.078 s
+cplex1的参考解为：1.060357715008305 0.076 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:33,l:21,w:85},{x:0,y:16,l:17,w:98},{x:16,y:0,l:16,w:84},],
@@ -2390,10 +2391,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 7@36@40@45@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：82 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		95 Add column : 1 col:111 	6.75
-			Start solve  LP :6.75
+		95 Add column : 1 col:111 	6.967
+			Start solve  LP :6.968
 			End solve LP obj: 16.05943744467461 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2408,7 +2409,7 @@ xList.size = 26
 yList.size = 87
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0610774674242156 0.11 s
+cplex1的参考解为：1.0610774674242156 0.093 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:9,l:46,w:70},{x:0,y:55,l:18,w:84},{x:0,y:0,l:9,w:83},{x:21,y:73,l:27,w:72},{x:84,y:1,l:72,w:16},],
@@ -2416,10 +2417,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 13@32@42@48@50@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：99 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		96 Add column : 1 col:112 	6.875
-			Start solve  LP :6.875
+		96 Add column : 1 col:112 	7.068
+			Start solve  LP :7.069
 			End solve LP obj: 16.056586188454546 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2440,10 +2441,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 0@42@57@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：84 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		97 Add column : 1 col:113 	6.969
-			Start solve  LP :6.969
+		97 Add column : 1 col:113 	7.153
+			Start solve  LP :7.153
 			End solve LP obj: 16.053575322551588 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2456,7 +2457,7 @@ xList.size = 26
 yList.size = 94
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0735849689022756 0.109 s
+cplex1的参考解为：1.0735849689022756 0.115 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:80,l:20,w:87},{x:0,y:13,l:67,w:21},{x:21,y:34,l:46,w:70},{x:21,y:0,l:34,w:73},],
@@ -2464,11 +2465,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 13@25@37@43@
-solveSubProblemByIp 总用时：109 ms
+solveSubProblemByIp 总用时：118 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		98 Add column : 1 col:114 	7.078
-			Start solve  LP :7.078
-			End solve LP obj: 16.043452623900553 t: 0
+		98 Add column : 1 col:114 	7.272
+			Start solve  LP :7.272
+			End solve LP obj: 16.043452623900553 t: 1
 CompleteSolutionByBF前size: 16
 count = 57
 CompleteSolutionByBF后size: 18
@@ -2482,7 +2483,7 @@ xList.size = 26
 yList.size = 98
 squareList.size = 58
 myConsList.size = 0
-cplex1的参考解为：1.0722075510336546 0.078 s
+cplex1的参考解为：1.0722075510336546 0.084 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:18,l:28,w:84},{x:0,y:57,l:19,w:69},{x:0,y:0,l:18,w:76},{x:0,y:76,l:17,w:98},{x:0,y:46,l:11,w:74},{x:0,y:93,l:7,w:92},{x:84,y:4,l:72,w:16},],
@@ -2490,10 +2491,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 58
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 28@40@44@46@48@49@52@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：89 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		99 Add column : 1 col:115 	7.172
-			Start solve  LP :7.172
+		99 Add column : 1 col:115 	7.363
+			Start solve  LP :7.363
 			End solve LP obj: 16.042038157931945 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2508,7 +2509,7 @@ xList.size = 26
 yList.size = 94
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0448581929052818 0.078 s
+cplex1的参考解为：1.0448581929052818 0.1 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:92,l:7,w:92},{x:0,y:20,l:72,w:16},{x:0,y:99,l:1,w:98},{x:16,y:28,l:35,w:82},{x:16,y:0,l:28,w:84},{x:31,y:63,l:29,w:69},],
@@ -2516,10 +2517,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 18@28@29@48@52@58@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：107 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		100 Add column : 1 col:116 	7.25
-			Start solve  LP :7.25
+		100 Add column : 1 col:116 	7.471
+			Start solve  LP :7.471
 			End solve LP obj: 16.039748270786006 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2534,7 +2535,7 @@ xList.size = 22
 yList.size = 94
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0417963770284817 0.063 s
+cplex1的参考解为：1.0417963770284817 0.064 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:22,l:78,w:85},{x:0,y:1,l:21,w:85},{x:0,y:0,l:1,w:98},],
@@ -2542,10 +2543,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 0@36@58@
-solveSubProblemByIp 总用时：63 ms
+solveSubProblemByIp 总用时：69 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		101 Add column : 1 col:117 	7.328
-			Start solve  LP :7.328
+		101 Add column : 1 col:117 	7.541
+			Start solve  LP :7.541
 			End solve LP obj: 16.03306129587603 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2560,7 +2561,7 @@ xList.size = 31
 yList.size = 94
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0578535802110116 0.094 s
+cplex1的参考解为：1.0578535802110116 0.087 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:7,y:34,l:42,w:86},{x:7,y:76,l:16,w:84},{x:7,y:93,l:7,w:92},{x:20,y:0,l:34,w:73},{x:21,y:92,l:1,w:79},{x:93,y:15,l:77,w:7},],
@@ -2570,8 +2571,8 @@ solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 10@25@45@52@54@59@
 solveSubProblemByIp 总用时：94 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		102 Add column : 1 col:118 	7.422
-			Start solve  LP :7.422
+		102 Add column : 1 col:118 	7.636
+			Start solve  LP :7.636
 			End solve LP obj: 16.029939885020934 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2586,7 +2587,7 @@ xList.size = 16
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.0500917433853716 0.062 s
+cplex1的参考解为：1.0500917433853716 0.064 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:86},{x:0,y:28,l:30,w:79},{x:0,y:0,l:28,w:84},],
@@ -2594,10 +2595,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 3
 pattern.getKey() = 10@27@28@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：68 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		103 Add column : 1 col:119 	7.5
-			Start solve  LP :7.5
+		103 Add column : 1 col:119 	7.705
+			Start solve  LP :7.706
 			End solve LP obj: 16.025312101570734 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2612,7 +2613,7 @@ xList.size = 16
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.0447123104632488 0.094 s
+cplex1的参考解为：1.0447123104632488 0.065 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:27,l:27,w:72},{x:0,y:7,l:20,w:98},{x:0,y:0,l:7,w:92},],
@@ -2620,10 +2621,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 7@31@32@52@
-solveSubProblemByIp 总用时：94 ms
+solveSubProblemByIp 总用时：70 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		104 Add column : 1 col:120 	7.594
-			Start solve  LP :7.594
+		104 Add column : 1 col:120 	7.777
+			Start solve  LP :7.777
 			End solve LP obj: 16.022922501414115 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2636,7 +2637,7 @@ xList.size = 43
 yList.size = 94
 squareList.size = 58
 myConsList.size = 0
-cplex1的参考解为：1.058739484738686 0.265 s
+cplex1的参考解为：1.058739484738686 0.286 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:83,l:17,w:98},{x:0,y:6,l:77,w:7},{x:7,y:76,l:7,w:92},{x:20,y:27,l:49,w:80},{x:21,y:26,l:1,w:79},{x:23,y:19,l:7,w:69},{x:31,y:0,l:19,w:69},],
@@ -2644,10 +2645,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 58
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 8@40@46@52@54@55@59@
-solveSubProblemByIp 总用时：281 ms
+solveSubProblemByIp 总用时：291 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		105 Add column : 1 col:121 	7.875
-			Start solve  LP :7.875
+		105 Add column : 1 col:121 	8.069
+			Start solve  LP :8.069
 			End solve LP obj: 16.021043445478472 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2660,7 +2661,7 @@ xList.size = 41
 yList.size = 94
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.049706430601032 0.172 s
+cplex1的参考解为：1.049706430601032 0.204 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:27,l:42,w:71},{x:0,y:69,l:31,w:93},{x:0,y:0,l:27,w:72},{x:72,y:2,l:67,w:21},{x:93,y:0,l:77,w:7},],
@@ -2668,10 +2669,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 16@17@32@43@54@
-solveSubProblemByIp 总用时：187 ms
+solveSubProblemByIp 总用时：209 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		106 Add column : 1 col:122 	8.062
-			Start solve  LP :8.062
+		106 Add column : 1 col:122 	8.279
+			Start solve  LP :8.279
 			End solve LP obj: 16.018421507681932 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2686,7 +2687,7 @@ xList.size = 43
 yList.size = 87
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0482526521472229 0.125 s
+cplex1的参考解为：1.0482526521472229 0.198 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:28,l:72,w:16},{x:16,y:65,l:35,w:81},{x:20,y:16,l:49,w:80},{x:23,y:0,l:16,w:77},],
@@ -2694,11 +2695,11 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 8@20@47@48@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：206 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		107 Add column : 1 col:123 	8.187
-			Start solve  LP :8.187
-			End solve LP obj: 16.01436307553823 t: 0
+		107 Add column : 1 col:123 	8.486
+			Start solve  LP :8.486
+			End solve LP obj: 16.01436307553823 t: 1
 CompleteSolutionByBF前size: 16
 count = 59
 CompleteSolutionByBF后size: 17
@@ -2712,7 +2713,7 @@ xList.size = 25
 yList.size = 98
 squareList.size = 57
 myConsList.size = 0
-cplex1的参考解为：1.0420200858865811 0.11 s
+cplex1的参考解为：1.0420200858865811 0.115 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:19,w:91},{x:0,y:37,l:7,w:69},{x:7,y:44,l:49,w:86},{x:7,y:19,l:18,w:84},{x:7,y:93,l:7,w:92},{x:93,y:16,l:77,w:7},],
@@ -2720,10 +2721,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 57
 solution.getPlaceSquareList().size() = 6
 pattern.getKey() = 5@38@42@52@54@55@
-solveSubProblemByIp 总用时：125 ms
+solveSubProblemByIp 总用时：121 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		108 Add column : 1 col:124 	8.312
-			Start solve  LP :8.312
+		108 Add column : 1 col:124 	8.608
+			Start solve  LP :8.608
 			End solve LP obj: 16.01280139126813 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2738,7 +2739,7 @@ xList.size = 25
 yList.size = 87
 squareList.size = 55
 myConsList.size = 0
-cplex1的参考解为：1.05081138328038 0.078 s
+cplex1的参考解为：1.05081138328038 0.085 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:63,l:37,w:96},{x:0,y:44,l:19,w:69},{x:7,y:24,l:20,w:87},{x:21,y:0,l:24,w:79},],
@@ -2746,10 +2747,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 55
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 11@33@37@46@
-solveSubProblemByIp 总用时：78 ms
+solveSubProblemByIp 总用时：87 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		109 Add column : 1 col:125 	8.39
-			Start solve  LP :8.39
+		109 Add column : 1 col:125 	8.696
+			Start solve  LP :8.696
 			End solve LP obj: 16.011287380109373 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2774,8 +2775,8 @@ solution.getPlaceSquareList().size() = 5
 pattern.getKey() = 13@18@46@54@56@
 solveSubProblemByIp 总用时：125 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		110 Add column : 1 col:126 	8.515
-			Start solve  LP :8.515
+		110 Add column : 1 col:126 	8.821
+			Start solve  LP :8.821
 			End solve LP obj: 16.009312039477525 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2788,7 +2789,7 @@ xList.size = 25
 yList.size = 94
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0357697713159326 0.141 s
+cplex1的参考解为：1.0357697713159326 0.126 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:1,l:99,w:20},{x:21,y:54,l:46,w:70},{x:21,y:24,l:30,w:79},{x:21,y:0,l:24,w:79},],
@@ -2796,10 +2797,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 13@27@30@33@
-solveSubProblemByIp 总用时：157 ms
+solveSubProblemByIp 总用时：126 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		111 Add column : 1 col:127 	8.672
-			Start solve  LP :8.672
+		111 Add column : 1 col:127 	8.947
+			Start solve  LP :8.947
 			End solve LP obj: 16.006165430197832 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -2812,7 +2813,7 @@ xList.size = 16
 yList.size = 94
 squareList.size = 56
 myConsList.size = 0
-cplex1的参考解为：1.0389400195968643 0.047 s
+cplex1的参考解为：1.0389400195968643 0.046 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:68,w:80},{x:0,y:68,l:25,w:98},{x:0,y:93,l:7,w:92},{x:82,y:42,l:26,w:18},],
@@ -2820,10 +2821,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 1@26@52@56@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：62 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		112 Add column : 1 col:128 	8.719
-			Start solve  LP :8.719
+		112 Add column : 1 col:128 	9.009
+			Start solve  LP :9.009
 			End solve LP obj: 16.0048047164014 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2846,10 +2847,10 @@ curBestBinNum = 17
 instance.getSquareList().size() = 56
 solution.getPlaceSquareList().size() = 7
 pattern.getKey() = 22@29@35@46@56@57@59@
-solveSubProblemByIp 总用时：93 ms
+solveSubProblemByIp 总用时：78 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		113 Add column : 1 col:129 	8.812
-			Start solve  LP :8.812
+		113 Add column : 1 col:129 	9.087
+			Start solve  LP :9.087
 			End solve LP obj: 15.998364423096831 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -2864,7 +2865,7 @@ xList.size = 18
 yList.size = 79
 squareList.size = 54
 myConsList.size = 0
-cplex1的参考解为：1.0431095690382732 0.047 s
+cplex1的参考解为：1.0431095690382732 0.063 s
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:83,l:17,w:98},{x:7,y:21,l:62,w:84},{x:7,y:0,l:21,w:82},{x:93,y:6,l:77,w:7},],
@@ -2872,12 +2873,12 @@ curBestBinNum = 17
 instance.getSquareList().size() = 54
 solution.getPlaceSquareList().size() = 4
 pattern.getKey() = 2@39@40@54@
-solveSubProblemByIp 总用时：47 ms
+solveSubProblemByIp 总用时：63 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		114 Add column : 1 col:130 	8.859
+		114 Add column : 1 col:130 	9.15
 Break by the objLB 15.337184988003717, 15.998364423096831
-	1 End Add column using column generation : 15.998364423096831 col: 130 cons: 0 cut: 0	8.859
-	Start find sub set row inequalities : 8.859
+	1 End Add column using column generation : 15.998364423096831 col: 130 cons: 0 cut: 0	9.15
+	Start find sub set row inequalities : 9.15
 		Add three subset row inequalities: 2 57 59 : 1.0036438168982007
 		Add three subset row inequalities: 3 27 55 : 1.0381082517270173
 		Add three subset row inequalities: 3 48 59 : 1.322077527725444
@@ -2927,9 +2928,9 @@ Break by the objLB 15.337184988003717, 15.998364423096831
 		Add three subset row inequalities: 40 45 55 : 1.0575695465242267
 		Add three subset row inequalities: 42 45 55 : 1.1298316805035094
 		Total added subset row inequalities: 48
-	End find sub set row inequalities : 8.875
-	2 Start Add column using column generation  col: 130 cons: 0 cut: 48	8.875
-			Start solve  LP :8.875
+	End find sub set row inequalities : 9.165
+	2 Start Add column using column generation  col: 130 cons: 0 cut: 48	9.165
+			Start solve  LP :9.165
 			End solve LP obj: 16.510457278192742 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -2942,15 +2943,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8014847877573335, 0
 xList.size = 14
 yList.size = 88
 myConsList.size = 0
-cplex1的参考解为：2.0769994534523573 0.031 s
+cplex1的参考解为：2.0769994534523573 0.032 s
 priceOpt = 2.0769994534523573
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:3,l:97,w:33},{x:0,y:0,l:1,w:79},{x:39,y:1,l:99,w:20},{x:59,y:74,l:26,w:18},],
 pattern.getKey() = 14@30@56@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:130 	8.953
-			Start solve  LP :8.953
+		1 Add column : 1 col:130 	9.228
+			Start solve  LP :9.228
 			End solve LP obj: 16.273269923466774 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -2963,15 +2964,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7895444657255681, 0
 xList.size = 10
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.2155643832809186 0.046 s
+cplex1的参考解为：1.2155643832809186 0.11 s
 priceOpt = 1.2155643832809186
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:88,w:31},{x:0,y:88,l:1,w:79},{x:20,y:89,l:11,w:74},{x:31,y:33,l:29,w:69},{x:31,y:62,l:19,w:69},{x:31,y:81,l:7,w:69},],
 pattern.getKey() = 22@29@46@49@55@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		2 Add column : 1 col:131 	9.031
-			Start solve  LP :9.031
+		2 Add column : 1 col:131 	9.353
+			Start solve  LP :9.353
 			End solve LP obj: 16.210898866570393 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -2984,15 +2985,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8106100389479672, 0
 xList.size = 26
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.1793247560281799 0.094 s
+cplex1的参考解为：1.1793247560281799 0.093 s
 priceOpt = 1.1793247560281799
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:53,l:47,w:39},{x:0,y:27,l:26,w:18},{x:39,y:10,l:90,w:21},{x:67,y:3,l:97,w:33},],
 pattern.getKey() = 14@34@35@56@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		3 Add column : 1 col:132 	9.125
-			Start solve  LP :9.125
+		3 Add column : 1 col:132 	9.446
+			Start solve  LP :9.446
 			End solve LP obj: 16.147247551502872 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3012,8 +3013,8 @@ canvasHeight:100,
 data:[{x:0,y:0,l:97,w:33},{x:33,y:0,l:99,w:20},{x:53,y:0,l:72,w:16},{x:79,y:0,l:67,w:21},],
 pattern.getKey() = 14@30@43@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		4 Add column : 1 col:133 	9.203
-			Start solve  LP :9.203
+		4 Add column : 1 col:133 	9.509
+			Start solve  LP :9.509
 			End solve LP obj: 16.147247551502865 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3024,15 +3025,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8112874779541448, 0
 xList.size = 22
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.1290855191564417 0.062 s
+cplex1的参考解为：1.1290855191564417 0.068 s
 priceOpt = 1.1290855191564417
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:84,l:16,w:77},{x:0,y:12,l:72,w:16},{x:16,y:68,l:16,w:84},{x:21,y:1,l:67,w:77},],
 pattern.getKey() = 3@45@47@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		5 Add column : 1 col:134 	9.281
-			Start solve  LP :9.281
+		5 Add column : 1 col:134 	9.577
+			Start solve  LP :9.577
 			End solve LP obj: 16.122771742067997 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3045,15 +3046,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8118912491216692, 0
 xList.size = 14
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.1430733473866275 0.078 s
+cplex1的参考解为：1.1430733473866275 0.094 s
 priceOpt = 1.1430733473866275
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:53,l:47,w:39},{x:0,y:29,l:24,w:79},{x:0,y:11,l:18,w:76},{x:0,y:1,l:10,w:70},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 30@33@35@44@51@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		6 Add column : 1 col:135 	9.359
-			Start solve  LP :9.359
+		6 Add column : 1 col:135 	9.671
+			Start solve  LP :9.671
 			End solve LP obj: 16.122771742067993 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3064,15 +3065,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8118912491216692, 0
 xList.size = 14
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.137452029620021 0.094 s
+cplex1的参考解为：1.137452029620021 0.078 s
 priceOpt = 1.137452029620021
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:80},{x:0,y:27,l:24,w:79},{x:0,y:0,l:27,w:72},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 8@30@32@33@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		7 Add column : 1 col:136 	9.453
-			Start solve  LP :9.453
+		7 Add column : 1 col:136 	9.749
+			Start solve  LP :9.749
 			End solve LP obj: 16.098539252488983 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3092,8 +3093,8 @@ canvasHeight:100,
 data:[{x:0,y:3,l:97,w:33},{x:33,y:76,l:24,w:67},{x:33,y:4,l:72,w:16},{x:79,y:9,l:67,w:21},],
 pattern.getKey() = 14@41@43@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		8 Add column : 1 col:137 	9.547
-			Start solve  LP :9.547
+		8 Add column : 1 col:137 	9.843
+			Start solve  LP :9.843
 			End solve LP obj: 16.09853925248898 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3104,15 +3105,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7932756650889506, 0
 xList.size = 26
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0905255426799414 0.125 s
+cplex1的参考解为：1.0905255426799414 0.109 s
 priceOpt = 1.0905255426799414
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:1,l:99,w:20},{x:21,y:54,l:46,w:70},{x:21,y:12,l:42,w:71},{x:21,y:1,l:11,w:74},],
 pattern.getKey() = 13@16@30@49@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		9 Add column : 1 col:138 	9.687
-			Start solve  LP :9.687
+		9 Add column : 1 col:138 	9.968
+			Start solve  LP :9.968
 			End solve LP obj: 16.093338892942775 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3125,15 +3126,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.791180297361888, 0.
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0744153723200947 0.094 s
+cplex1的参考解为：1.0744153723200947 0.109 s
 priceOpt = 1.0744153723200947
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:86},{x:0,y:37,l:21,w:82},{x:0,y:18,l:19,w:91},{x:0,y:0,l:18,w:76},],
 pattern.getKey() = 10@38@39@44@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		10 Add column : 1 col:139 	9.797
-			Start solve  LP :9.797
+		10 Add column : 1 col:139 	10.077
+			Start solve  LP :10.077
 			End solve LP obj: 16.09053700881603 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3146,15 +3147,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.8026629683961661, 0
 xList.size = 26
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0785146625268829 0.093 s
+cplex1的参考解为：1.0785146625268829 0.11 s
 priceOpt = 1.0785146625268829
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:18,l:62,w:84},{x:0,y:80,l:20,w:87},{x:0,y:0,l:18,w:76},{x:84,y:8,l:72,w:16},],
 pattern.getKey() = 2@37@44@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		11 Add column : 1 col:140 	9.89
-			Start solve  LP :9.89
+		11 Add column : 1 col:140 	10.187
+			Start solve  LP :10.187
 			End solve LP obj: 16.08121315714505 t: 0
 CompleteSolutionByBF前size: 16
 count = 53
@@ -3167,16 +3168,16 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7892972191177436, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0622740122279928 0.078 s
+cplex1的参考解为：1.0622740122279928 0.094 s
 priceOpt = 1.0622740122279928
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:34,l:47,w:39},{x:0,y:0,l:34,w:73},{x:0,y:81,l:19,w:91},{x:79,y:14,l:67,w:21},],
 pattern.getKey() = 25@35@38@43@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		12 Add column : 1 col:141 	9.984
-			Start solve  LP :9.984
-			End solve LP obj: 16.081213157145054 t: 16
+		12 Add column : 1 col:141 	10.296
+			Start solve  LP :10.296
+			End solve LP obj: 16.081213157145054 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -3186,15 +3187,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7892972191177438, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0469232792058374 0.125 s
+cplex1的参考解为：1.0469232792058374 0.141 s
 priceOpt = 1.0469232792058374
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:37,w:77},{x:0,y:37,l:30,w:79},{x:0,y:81,l:19,w:91},{x:0,y:67,l:7,w:92},{x:0,y:74,l:7,w:90},{x:79,y:0,l:67,w:21},],
 pattern.getKey() = 19@27@38@43@52@53@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		13 Add column : 1 col:142 	10.125
-			Start solve  LP :10.125
+		13 Add column : 1 col:142 	10.452
+			Start solve  LP :10.452
 			End solve LP obj: 16.074421274153433 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3207,15 +3208,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7927428097697851, 0
 xList.size = 16
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0472546393724889 0.047 s
+cplex1的参考解为：1.0472546393724889 0.063 s
 priceOpt = 1.0472546393724889
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:65,l:35,w:82},{x:0,y:46,l:19,w:91},{x:21,y:0,l:46,w:70},],
 pattern.getKey() = 13@18@38@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		14 Add column : 1 col:143 	10.203
-			Start solve  LP :10.203
+		14 Add column : 1 col:143 	10.515
+			Start solve  LP :10.515
 			End solve LP obj: 16.069324641689164 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3228,16 +3229,16 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7988301398125593, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.068216237571607 0.172 s
+cplex1的参考解为：1.068216237571607 0.234 s
 priceOpt = 1.068216237571607
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:83,l:17,w:98},{x:0,y:16,l:67,w:21},{x:21,y:16,l:67,w:77},{x:21,y:0,l:16,w:77},],
 pattern.getKey() = 3@40@43@47@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		15 Add column : 1 col:144 	10.375
-			Start solve  LP :10.375
-			End solve LP obj: 16.062238547386126 t: 0
+		15 Add column : 1 col:144 	10.749
+			Start solve  LP :10.749
+			End solve LP obj: 16.062238547386126 t: 16
 CompleteSolutionByBF前size: 16
 count = 54
 CompleteSolutionByBF后size: 18
@@ -3256,8 +3257,8 @@ canvasHeight:100,
 data:[{x:0,y:66,l:34,w:73},{x:0,y:36,l:30,w:79},{x:0,y:17,l:19,w:69},{x:0,y:1,l:16,w:77},{x:21,y:0,l:1,w:79},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 25@27@30@46@47@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		16 Add column : 1 col:145 	10.453
-			Start solve  LP :10.453
+		16 Add column : 1 col:145 	10.843
+			Start solve  LP :10.843
 			End solve LP obj: 16.06223854738613 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3268,15 +3269,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7836689405287833, 0
 xList.size = 16
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0448240077625965 0.063 s
+cplex1的参考解为：1.0448240077625965 0.078 s
 priceOpt = 1.0448240077625965
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:80},{x:0,y:17,l:34,w:73},{x:0,y:1,l:16,w:77},{x:0,y:0,l:1,w:79},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 8@25@30@47@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		17 Add column : 1 col:146 	10.516
-			Start solve  LP :10.516
+		17 Add column : 1 col:146 	10.921
+			Start solve  LP :10.921
 			End solve LP obj: 16.060918932886963 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3287,15 +3288,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7831949367283892, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0362543823448869 0.11 s
+cplex1的参考解为：1.0362543823448869 0.313 s
 priceOpt = 1.0362543823448869
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:29,l:34,w:73},{x:0,y:63,l:30,w:79},{x:0,y:0,l:29,w:69},{x:0,y:93,l:7,w:90},{x:79,y:3,l:90,w:21},],
 pattern.getKey() = 25@27@29@34@53@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		18 Add column : 1 col:147 	10.626
-			Start solve  LP :10.626
+		18 Add column : 1 col:147 	11.234
+			Start solve  LP :11.234
 			End solve LP obj: 16.06091893288697 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3306,15 +3307,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7831949367283888, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0335584447641342 0.094 s
+cplex1的参考解为：1.0335584447641342 0.109 s
 priceOpt = 1.0335584447641342
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:27,l:42,w:71},{x:0,y:69,l:30,w:79},{x:0,y:0,l:27,w:72},{x:0,y:99,l:1,w:98},{x:79,y:9,l:90,w:21},],
 pattern.getKey() = 16@27@32@34@58@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		19 Add column : 1 col:148 	10.735
-			Start solve  LP :10.735
+		19 Add column : 1 col:148 	11.343
+			Start solve  LP :11.343
 			End solve LP obj: 16.058061231573834 t: 0
 CompleteSolutionByBF前size: 16
 count = 54
@@ -3327,15 +3328,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7880267512091277, 0
 xList.size = 31
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.054543771550224 0.156 s
+cplex1的参考解为：1.054543771550224 0.172 s
 priceOpt = 1.054543771550224
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:32,l:68,w:80},{x:0,y:2,l:30,w:79},{x:0,y:1,l:1,w:79},{x:0,y:0,l:1,w:98},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 1@27@30@58@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		20 Add column : 1 col:149 	10.891
-			Start solve  LP :10.891
+		20 Add column : 1 col:149 	11.515
+			Start solve  LP :11.515
 			End solve LP obj: 16.057449936983613 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3353,8 +3354,8 @@ canvasHeight:100,
 data:[{x:0,y:58,l:42,w:71},{x:0,y:18,l:40,w:93},{x:7,y:0,l:18,w:84},{x:93,y:23,l:77,w:7},],
 pattern.getKey() = 9@16@42@54@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		21 Add column : 1 col:150 	10.969
-			Start solve  LP :10.969
+		21 Add column : 1 col:150 	11.593
+			Start solve  LP :11.593
 			End solve LP obj: 16.05387304267668 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -3367,15 +3368,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7843487553483517, 0
 xList.size = 12
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0408085850984432 0.063 s
+cplex1的参考解为：1.0408085850984432 0.094 s
 priceOpt = 1.0408085850984432
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:72,l:28,w:90},{x:0,y:51,l:21,w:82},{x:0,y:30,l:21,w:85},{x:21,y:0,l:30,w:79},],
 pattern.getKey() = 24@27@36@39@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		22 Add column : 1 col:151 	11.032
-			Start solve  LP :11.032
+		22 Add column : 1 col:151 	11.687
+			Start solve  LP :11.687
 			End solve LP obj: 16.050351311630532 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3395,8 +3396,8 @@ canvasHeight:100,
 data:[{x:0,y:24,l:37,w:77},{x:0,y:61,l:30,w:79},{x:0,y:0,l:24,w:79},{x:0,y:91,l:9,w:83},{x:79,y:1,l:90,w:21},],
 pattern.getKey() = 19@27@33@34@50@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		23 Add column : 1 col:152 	11.126
-			Start solve  LP :11.126
+		23 Add column : 1 col:152 	11.765
+			Start solve  LP :11.765
 			End solve LP obj: 16.04818812045346 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -3409,15 +3410,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7917866987212695, 0
 xList.size = 26
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0290063072958757 0.062 s
+cplex1的参考解为：1.0290063072958757 0.063 s
 priceOpt = 1.0290063072958757
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:91,l:9,w:83},{x:0,y:1,l:90,w:21},{x:21,y:24,l:67,w:77},{x:21,y:0,l:24,w:67},],
 pattern.getKey() = 3@34@41@50@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		24 Add column : 1 col:153 	11.188
-			Start solve  LP :11.188
+		24 Add column : 1 col:153 	11.843
+			Start solve  LP :11.843
 			End solve LP obj: 16.048188120453467 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3428,15 +3429,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7917866987212698, 0
 xList.size = 26
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0278051232098824 0.11 s
+cplex1的参考解为：1.0278051232098824 0.109 s
 priceOpt = 1.0278051232098824
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:72,l:28,w:97},{x:0,y:65,l:7,w:92},{x:16,y:49,l:16,w:84},{x:20,y:0,l:49,w:80},],
 pattern.getKey() = 8@23@45@52@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		25 Add column : 1 col:154 	11.298
-			Start solve  LP :11.298
+		25 Add column : 1 col:154 	11.952
+			Start solve  LP :11.952
 			End solve LP obj: 16.04682779456193 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3456,8 +3457,8 @@ canvasHeight:100,
 data:[{x:0,y:80,l:20,w:98},{x:0,y:8,l:72,w:16},{x:16,y:18,l:62,w:84},{x:16,y:0,l:18,w:84},],
 pattern.getKey() = 2@31@42@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		26 Add column : 1 col:155 	11.391
-			Start solve  LP :11.391
+		26 Add column : 1 col:155 	12.046
+			Start solve  LP :12.046
 			End solve LP obj: 16.044032830523513 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3470,15 +3471,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7951419698314108, 0
 xList.size = 14
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0251774622892638 0.047 s
+cplex1的参考解为：1.0251774622892638 0.031 s
 priceOpt = 1.0251774622892638
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:91,l:9,w:83},{x:0,y:1,l:90,w:21},{x:21,y:57,l:34,w:73},{x:21,y:27,l:30,w:79},{x:21,y:0,l:27,w:72},],
 pattern.getKey() = 25@27@32@34@50@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		27 Add column : 1 col:156 	11.438
-			Start solve  LP :11.438
+		27 Add column : 1 col:156 	12.093
+			Start solve  LP :12.093
 			End solve LP obj: 16.043507637363966 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3496,8 +3497,8 @@ canvasHeight:100,
 data:[{x:0,y:96,l:4,w:82},{x:0,y:6,l:90,w:21},{x:21,y:29,l:67,w:77},{x:31,y:0,l:29,w:69},],
 pattern.getKey() = 3@29@34@57@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		28 Add column : 1 col:157 	11.501
-			Start solve  LP :11.501
+		28 Add column : 1 col:157 	12.14
+			Start solve  LP :12.14
 			End solve LP obj: 16.043507637363962 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3508,15 +3509,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.793320624502305, 0.
 xList.size = 14
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0183393257884705 0.047 s
+cplex1的参考解为：1.0183393257884705 0.062 s
 priceOpt = 1.0183393257884705
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:24,l:67,w:77},{x:0,y:0,l:24,w:79},{x:0,y:91,l:9,w:83},{x:79,y:1,l:90,w:21},],
 pattern.getKey() = 3@33@34@50@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		29 Add column : 1 col:158 	11.563
-			Start solve  LP :11.563
+		29 Add column : 1 col:158 	12.202
+			Start solve  LP :12.202
 			End solve LP obj: 16.04056759302873 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -3536,8 +3537,8 @@ canvasHeight:100,
 data:[{x:0,y:22,l:78,w:85},{x:0,y:1,l:21,w:82},{x:0,y:0,l:1,w:79},],
 pattern.getKey() = 0@39@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		30 Add column : 1 col:159 	11.626
-			Start solve  LP :11.626
+		30 Add column : 1 col:159 	12.265
+			Start solve  LP :12.265
 			End solve LP obj: 16.038877338877338 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3557,8 +3558,8 @@ canvasHeight:100,
 data:[{x:0,y:1,l:88,w:31},{x:0,y:93,l:7,w:90},{x:0,y:89,l:4,w:82},{x:31,y:60,l:29,w:69},{x:31,y:10,l:19,w:69},{x:31,y:53,l:7,w:69},{x:33,y:29,l:24,w:67},],
 pattern.getKey() = 22@29@41@46@53@55@57@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		31 Add column : 1 col:160 	11.751
-			Start solve  LP :11.751
+		31 Add column : 1 col:160 	12.405
+			Start solve  LP :12.405
 			End solve LP obj: 16.035314639674382 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -3571,15 +3572,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7932978130080339, 0
 xList.size = 16
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0255722609201277 0.078 s
+cplex1的参考解为：1.0255722609201277 0.079 s
 priceOpt = 1.0255722609201277
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:57,l:43,w:96},{x:0,y:20,l:37,w:96},{x:0,y:0,l:20,w:98},],
 pattern.getKey() = 6@11@31@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		32 Add column : 1 col:161 	11.829
-			Start solve  LP :11.829
+		32 Add column : 1 col:161 	12.484
+			Start solve  LP :12.484
 			End solve LP obj: 16.034778287947336 t: 0
 CompleteSolutionByBF前size: 16
 count = 56
@@ -3592,15 +3593,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7880650210896374, 0
 xList.size = 22
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0219190262527702 0.094 s
+cplex1的参考解为：1.0219190262527702 0.099 s
 priceOpt = 1.0219190262527702
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:86},{x:16,y:16,l:35,w:82},{x:16,y:0,l:16,w:77},],
 pattern.getKey() = 5@18@47@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		33 Add column : 1 col:162 	11.923
-			Start solve  LP :11.923
+		33 Add column : 1 col:162 	12.583
+			Start solve  LP :12.583
 			End solve LP obj: 16.033470067940005 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -3613,15 +3614,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7869888475836431, 0
 xList.size = 26
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0230739648762972 0.063 s
+cplex1的参考解为：1.0230739648762972 0.062 s
 priceOpt = 1.0230739648762972
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:99,l:1,w:98},{x:0,y:27,l:72,w:16},{x:0,y:1,l:26,w:18},{x:18,y:78,l:21,w:82},{x:18,y:67,l:11,w:74},{x:21,y:0,l:67,w:77},],
 pattern.getKey() = 3@39@48@49@56@58@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		34 Add column : 1 col:163 	12.001
-			Start solve  LP :12.001
+		34 Add column : 1 col:163 	12.655
+			Start solve  LP :12.655
 			End solve LP obj: 16.031152682087157 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3634,15 +3635,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7930542111418202, 0
 xList.size = 26
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0240330076080453 0.078 s
+cplex1的参考解为：1.0240330076080453 0.141 s
 priceOpt = 1.0240330076080453
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:26,l:28,w:90},{x:0,y:7,l:19,w:91},{x:0,y:0,l:7,w:92},],
 pattern.getKey() = 7@24@38@52@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		35 Add column : 1 col:164 	12.079
-			Start solve  LP :12.079
+		35 Add column : 1 col:164 	12.796
+			Start solve  LP :12.796
 			End solve LP obj: 16.030146218184008 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3653,15 +3654,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7912028401227521, 0
 xList.size = 26
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0206991997111747 0.094 s
+cplex1的参考解为：1.0206991997111747 0.203 s
 priceOpt = 1.0206991997111747
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:86},{x:0,y:16,l:35,w:94},{x:16,y:0,l:16,w:84},],
 pattern.getKey() = 5@12@45@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		36 Add column : 1 col:165 	12.173
-			Start solve  LP :12.173
+		36 Add column : 1 col:165 	12.999
+			Start solve  LP :12.999
 			End solve LP obj: 16.02823060123269 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -3674,15 +3675,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7862262711824259, 0
 xList.size = 26
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0137126154166844 0.203 s
+cplex1的参考解为：1.0137126154166844 0.187 s
 priceOpt = 1.0137126154166844
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:66,l:34,w:91},{x:0,y:37,l:29,w:97},{x:0,y:16,l:21,w:82},{x:0,y:0,l:16,w:84},],
 pattern.getKey() = 15@21@39@45@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		37 Add column : 1 col:166 	12.391
-			Start solve  LP :12.391
+		37 Add column : 1 col:166 	13.202
+			Start solve  LP :13.202
 			End solve LP obj: 16.027651642560826 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3702,8 +3703,8 @@ canvasHeight:100,
 data:[{x:0,y:1,l:99,w:20},{x:21,y:54,l:46,w:70},{x:21,y:17,l:37,w:77},{x:21,y:7,l:10,w:70},{x:21,y:0,l:7,w:69},],
 pattern.getKey() = 13@19@30@51@55@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		38 Add column : 1 col:167 	12.485
-			Start solve  LP :12.485
+		38 Add column : 1 col:167 	13.312
+			Start solve  LP :13.312
 			End solve LP obj: 16.027651642560823 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3714,15 +3715,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7863689875546584, 0
 xList.size = 22
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.01513622603431 0.078 s
+cplex1的参考解为：1.01513622603431 0.093 s
 priceOpt = 1.01513622603431
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:51,l:49,w:86},{x:0,y:30,l:21,w:82},{x:0,y:9,l:21,w:85},{x:16,y:0,l:9,w:83},],
 pattern.getKey() = 5@36@39@50@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		39 Add column : 1 col:168 	12.579
-			Start solve  LP :12.579
+		39 Add column : 1 col:168 	13.405
+			Start solve  LP :13.405
 			End solve LP obj: 16.027147008179078 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3733,15 +3734,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7905007892093556, 0
 xList.size = 22
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0200844812742145 0.109 s
+cplex1的参考解为：1.0200844812742145 0.11 s
 priceOpt = 1.0200844812742145
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:37,l:46,w:70},{x:0,y:0,l:37,w:77},{x:0,y:83,l:17,w:98},{x:84,y:11,l:72,w:16},],
 pattern.getKey() = 13@19@40@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		40 Add column : 1 col:169 	12.704
-			Start solve  LP :12.704
+		40 Add column : 1 col:169 	13.515
+			Start solve  LP :13.515
 			End solve LP obj: 16.026175542906863 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -3754,15 +3755,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.790776927817859, 0.
 xList.size = 22
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0155530580429981 0.094 s
+cplex1的参考解为：1.0155530580429981 0.079 s
 priceOpt = 1.0155530580429981
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:19,l:35,w:81},{x:0,y:0,l:19,w:91},],
 pattern.getKey() = 7@20@38@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		41 Add column : 1 col:170 	12.798
-			Start solve  LP :12.798
+		41 Add column : 1 col:170 	13.624
+			Start solve  LP :13.624
 			End solve LP obj: 16.024832978883378 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -3775,15 +3776,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7900152520891066, 0
 xList.size = 22
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.014478743743422 0.109 s
+cplex1的参考解为：1.014478743743422 0.11 s
 priceOpt = 1.014478743743422
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:93,l:7,w:92},{x:0,y:3,l:90,w:21},{x:21,y:47,l:46,w:70},{x:60,y:0,l:47,w:39},],
 pattern.getKey() = 13@34@35@52@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		42 Add column : 1 col:171 	12.907
-			Start solve  LP :12.907
+		42 Add column : 1 col:171 	13.734
+			Start solve  LP :13.734
 			End solve LP obj: 16.02483297888337 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3794,15 +3795,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7900152520891066, 0
 xList.size = 22
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0140705892462034 0.109 s
+cplex1的参考解为：1.0140705892462034 0.093 s
 priceOpt = 1.0140705892462034
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:96,l:4,w:82},{x:0,y:6,l:90,w:21},{x:21,y:29,l:67,w:77},{x:21,y:19,l:10,w:70},{x:31,y:0,l:19,w:69},],
 pattern.getKey() = 3@34@46@51@57@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		43 Add column : 1 col:172 	13.032
-			Start solve  LP :13.032
+		43 Add column : 1 col:172 	13.827
+			Start solve  LP :13.843
 			End solve LP obj: 16.02483297888337 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -3813,15 +3814,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7900152520891066, 0
 xList.size = 22
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0134905802238405 0.109 s
+cplex1的参考解为：1.0134905802238405 0.094 s
 priceOpt = 1.0134905802238405
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:67,w:77},{x:0,y:67,l:10,w:70},{x:0,y:93,l:7,w:92},{x:16,y:77,l:16,w:84},{x:84,y:5,l:72,w:16},],
 pattern.getKey() = 3@45@48@51@52@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		44 Add column : 1 col:173 	13.141
-			Start solve  LP :13.141
+		44 Add column : 1 col:173 	13.937
+			Start solve  LP :13.937
 			End solve LP obj: 16.024281119485384 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3834,15 +3835,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7896116365032884, 0
 xList.size = 22
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0151889011569302 0.094 s
+cplex1的参考解为：1.0151889011569302 0.093 s
 priceOpt = 1.0151889011569302
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:88,w:31},{x:0,y:89,l:11,w:74},{x:0,y:88,l:1,w:98},{x:31,y:59,l:29,w:69},{x:31,y:9,l:19,w:69},{x:31,y:52,l:7,w:69},{x:33,y:28,l:24,w:67},],
 pattern.getKey() = 22@29@41@46@49@55@58@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		45 Add column : 1 col:174 	13.235
-			Start solve  LP :13.235
+		45 Add column : 1 col:174 	14.03
+			Start solve  LP :14.03
 			End solve LP obj: 16.022067838169193 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3855,15 +3856,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7891295463833266, 0
 xList.size = 14
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0134859011033912 0.062 s
+cplex1的参考解为：1.0134859011033912 0.047 s
 priceOpt = 1.0134859011033912
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:72,l:28,w:97},{x:0,y:53,l:19,w:91},{x:0,y:37,l:16,w:84},{x:21,y:0,l:37,w:77},],
 pattern.getKey() = 19@23@38@45@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		46 Add column : 1 col:175 	13.313
-			Start solve  LP :13.313
+		46 Add column : 1 col:175 	14.093
+			Start solve  LP :14.093
 			End solve LP obj: 16.02067325283571 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3883,8 +3884,8 @@ canvasHeight:100,
 data:[{x:0,y:51,l:49,w:80},{x:0,y:21,l:30,w:79},{x:0,y:0,l:21,w:82},],
 pattern.getKey() = 8@27@39@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		47 Add column : 1 col:176 	13.36
-			Start solve  LP :13.36
+		47 Add column : 1 col:176 	14.14
+			Start solve  LP :14.14
 			End solve LP obj: 16.02 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3904,8 +3905,8 @@ canvasHeight:100,
 data:[{x:0,y:1,l:97,w:33},{x:0,y:98,l:1,w:79},{x:0,y:99,l:1,w:98},{x:39,y:51,l:47,w:39},],
 pattern.getKey() = 14@35@58@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		48 Add column : 1 col:177 	13.391
-			Start solve  LP :13.391
+		48 Add column : 1 col:177 	14.171
+			Start solve  LP :14.171
 			End solve LP obj: 16.019238113423715 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3918,15 +3919,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7882375405766662, 0
 xList.size = 14
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0071605881229704 0.063 s
+cplex1的参考解为：1.0071605881229704 0.047 s
 priceOpt = 1.0071605881229704
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:1,l:99,w:20},{x:0,y:0,l:1,w:79},{x:21,y:53,l:47,w:39},{x:67,y:3,l:97,w:33},],
 pattern.getKey() = 14@30@35@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		49 Add column : 1 col:178 	13.454
-			Start solve  LP :13.454
+		49 Add column : 1 col:178 	14.218
+			Start solve  LP :14.218
 			End solve LP obj: 16.01866844109275 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3939,15 +3940,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7895456729880597, 0
 xList.size = 10
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0113119662859045 0.032 s
+cplex1的参考解为：1.0113119662859045 0.047 s
 priceOpt = 1.0113119662859045
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:38,l:62,w:84},{x:0,y:10,l:28,w:90},{x:21,y:0,l:10,w:70},],
 pattern.getKey() = 2@24@51@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		50 Add column : 1 col:179 	13.516
-			Start solve  LP :13.516
+		50 Add column : 1 col:179 	14.265
+			Start solve  LP :14.265
 			End solve LP obj: 16.016923153050623 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -3967,8 +3968,8 @@ canvasHeight:100,
 data:[{x:0,y:51,l:49,w:93},{x:0,y:21,l:30,w:79},{x:0,y:0,l:21,w:85},],
 pattern.getKey() = 4@27@36@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		51 Add column : 1 col:180 	13.563
-			Start solve  LP :13.563
+		51 Add column : 1 col:180 	14.343
+			Start solve  LP :14.343
 			End solve LP obj: 16.015594899550504 t: 0
 CompleteSolutionByBF前size: 16
 count = 57
@@ -3981,15 +3982,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7865333455646271, 0
 xList.size = 22
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.008439592697917 0.125 s
+cplex1的参考解为：1.008439592697917 0.094 s
 priceOpt = 1.008439592697917
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:79,l:21,w:85},{x:0,y:7,l:72,w:16},{x:21,y:37,l:42,w:71},{x:21,y:0,l:37,w:77},],
 pattern.getKey() = 16@19@36@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		52 Add column : 1 col:181 	13.704
-			Start solve  LP :13.704
+		52 Add column : 1 col:181 	14.437
+			Start solve  LP :14.437
 			End solve LP obj: 16.01465530717524 t: 0
 CompleteSolutionByBF前size: 16
 count = 55
@@ -4002,15 +4003,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7881819602938878, 0
 xList.size = 26
 yList.size = 98
 myConsList.size = 0
-cplex1的参考解为：1.0082069720181337 0.062 s
+cplex1的参考解为：1.0082069720181337 0.078 s
 priceOpt = 1.0082069720181337
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:28,l:68,w:80},{x:0,y:0,l:28,w:97},{x:0,y:96,l:4,w:82},{x:84,y:28,l:72,w:16},],
 pattern.getKey() = 1@23@48@57@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		53 Add column : 1 col:182 	13.782
-			Start solve  LP :13.782
+		53 Add column : 1 col:182 	14.515
+			Start solve  LP :14.515
 			End solve LP obj: 16.01424742558894 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -4023,15 +4024,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7868528706446609, 0
 xList.size = 10
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0043729722104673 0.062 s
+cplex1的参考解为：1.0043729722104673 0.047 s
 priceOpt = 1.0043729722104673
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:58,l:42,w:86},{x:0,y:18,l:40,w:93},{x:21,y:0,l:18,w:76},],
 pattern.getKey() = 9@10@44@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		54 Add column : 1 col:183 	13.844
-			Start solve  LP :13.844
+		54 Add column : 1 col:183 	14.577
+			Start solve  LP :14.577
 			End solve LP obj: 16.013513513513512 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -4044,15 +4045,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7905405405405406, 0
 xList.size = 7
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.006756756756757 0.032 s
+cplex1的参考解为：1.006756756756757 0.047 s
 priceOpt = 1.006756756756757
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:60,l:40,w:93},{x:0,y:26,l:34,w:91},{x:0,y:7,l:19,w:69},{x:0,y:0,l:7,w:90},],
 pattern.getKey() = 9@15@46@53@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		55 Add column : 1 col:184 	13.876
-			Start solve  LP :13.876
+		55 Add column : 1 col:184 	14.624
+			Start solve  LP :14.624
 			End solve LP obj: 16.013513513513516 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4063,15 +4064,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7905405405405417, 0
 xList.size = 7
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0067567567567581 0.031 s
+cplex1的参考解为：1.0067567567567581 0.047 s
 priceOpt = 1.0067567567567581
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:32,l:68,w:80},{x:0,y:16,l:16,w:84},{x:0,y:7,l:9,w:83},{x:0,y:0,l:7,w:90},],
 pattern.getKey() = 1@45@50@53@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		56 Add column : 1 col:185 	13.923
-			Start solve  LP :13.923
+		56 Add column : 1 col:185 	14.687
+			Start solve  LP :14.687
 			End solve LP obj: 16.012886901259268 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -4084,15 +4085,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7857479110274211, 0
 xList.size = 23
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0061786512886912 0.281 s
+cplex1的参考解为：1.0061786512886912 0.297 s
 priceOpt = 1.0061786512886912
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:79,l:21,w:82},{x:0,y:2,l:77,w:7},{x:7,y:16,l:49,w:93},{x:7,y:0,l:16,w:84},{x:7,y:65,l:7,w:90},{x:7,y:72,l:7,w:69},{x:82,y:74,l:26,w:18},],
 pattern.getKey() = 4@39@45@53@54@55@56@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		57 Add column : 1 col:186 	14.204
-			Start solve  LP :14.204
+		57 Add column : 1 col:186 	14.984
+			Start solve  LP :14.984
 			End solve LP obj: 16.012886901259265 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4103,15 +4104,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7857479110274216, 0
 xList.size = 23
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0059432740967407 0.312 s
+cplex1的参考解为：1.0059432740967407 0.281 s
 priceOpt = 1.0059432740967407
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:77,w:7},{x:7,y:52,l:47,w:39},{x:7,y:26,l:26,w:18},{x:21,y:99,l:1,w:79},{x:46,y:9,l:90,w:21},{x:67,y:2,l:97,w:33},],
 pattern.getKey() = 14@34@35@54@56@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		58 Add column : 1 col:187 	14.516
-			Start solve  LP :14.516
+		58 Add column : 1 col:187 	15.265
+			Start solve  LP :15.265
 			End solve LP obj: 16.011819484240686 t: 0
 CompleteSolutionByBF前size: 16
 count = 58
@@ -4124,15 +4125,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.787786532951289, 0.
 xList.size = 11
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0091332378223505 0.11 s
+cplex1的参考解为：1.0091332378223505 0.079 s
 priceOpt = 1.0091332378223505
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:21,l:34,w:73},{x:0,y:55,l:27,w:72},{x:0,y:0,l:21,w:82},{x:16,y:82,l:18,w:76},{x:84,y:10,l:72,w:16},],
 pattern.getKey() = 25@32@39@44@48@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		59 Add column : 1 col:188 	14.626
-			Start solve  LP :14.626
+		59 Add column : 1 col:188 	15.359
+			Start solve  LP :15.374
 			End solve LP obj: 16.011097942032105 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -4152,8 +4153,8 @@ canvasHeight:100,
 data:[{x:0,y:2,l:97,w:33},{x:0,y:0,l:1,w:98},{x:0,y:99,l:1,w:79},{x:59,y:9,l:90,w:21},{x:80,y:1,l:99,w:20},],
 pattern.getKey() = 14@30@34@58@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		60 Add column : 1 col:189 	14.673
-			Start solve  LP :14.673
+		60 Add column : 1 col:189 	15.437
+			Start solve  LP :15.437
 			End solve LP obj: 16.011097942032105 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4171,8 +4172,8 @@ canvasHeight:100,
 data:[{x:0,y:38,l:62,w:84},{x:0,y:7,l:31,w:93},{x:0,y:0,l:7,w:90},],
 pattern.getKey() = 2@17@53@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		61 Add column : 1 col:190 	14.766
-			Start solve  LP :14.766
+		61 Add column : 1 col:190 	15.515
+			Start solve  LP :15.515
 			End solve LP obj: 16.010684438802492 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4183,15 +4184,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7893790331111818, 0
 xList.size = 10
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0070876970273983 0.063 s
+cplex1的参考解为：1.0070876970273983 0.062 s
 priceOpt = 1.0070876970273983
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:57,l:43,w:96},{x:0,y:28,l:29,w:69},{x:0,y:0,l:28,w:97},],
 pattern.getKey() = 6@23@29@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		62 Add column : 1 col:191 	14.829
-			Start solve  LP :14.829
+		62 Add column : 1 col:191 	15.577
+			Start solve  LP :15.593
 			End solve LP obj: 16.010684438802496 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4202,15 +4203,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7893790331111809, 0
 xList.size = 14
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.006876123981805 0.047 s
+cplex1的参考解为：1.006876123981805 0.062 s
 priceOpt = 1.006876123981805
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:54,l:46,w:88},{x:0,y:20,l:34,w:91},{x:0,y:0,l:20,w:98},],
 pattern.getKey() = 7@15@31@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		63 Add column : 1 col:192 	14.891
-			Start solve  LP :14.891
+		63 Add column : 1 col:192 	15.655
+			Start solve  LP :15.655
 			End solve LP obj: 16.01 t: 0
 CompleteSolutionByBF前size: 16
 count = 59
@@ -4230,8 +4231,8 @@ canvasHeight:100,
 data:[{x:0,y:2,l:97,w:33},{x:0,y:99,l:1,w:79},{x:33,y:75,l:24,w:67},],
 pattern.getKey() = 14@41@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		64 Add column : 1 col:193 	14.938
-			Start solve  LP :14.938
+		64 Add column : 1 col:193 	15.702
+			Start solve  LP :15.702
 			End solve LP obj: 16.009999999999998 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4242,15 +4243,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7800000000000014, 0
 xList.size = 7
 yList.size = 94
 myConsList.size = 0
-cplex1的参考解为：1.0099999999999985 0.063 s
+cplex1的参考解为：1.0099999999999985 0.032 s
 priceOpt = 1.0099999999999985
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:2,l:97,w:33},{x:0,y:99,l:1,w:79},{x:33,y:75,l:24,w:67},{x:39,y:28,l:47,w:39},],
 pattern.getKey() = 14@35@41@59@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		65 Add column : 1 col:194 	15.016
-			Start solve  LP :15.016
+		65 Add column : 1 col:194 	15.734
+			Start solve  LP :15.734
 			End solve LP obj: 16.01 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4261,15 +4262,15 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7899999999999994, 0
 xList.size = 7
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：1.0099999999999991 0.063 s
+cplex1的参考解为：1.0099999999999991 0.031 s
 priceOpt = 1.0099999999999991
 canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:22,l:78,w:85},{x:0,y:4,l:18,w:76},{x:0,y:0,l:4,w:82},],
 pattern.getKey() = 0@44@57@
 --------------------------------------- Price Problem End --------------------------------------------------------
-		66 Add column : 1 col:195 	15.094
-			Start solve  LP :15.094
+		66 Add column : 1 col:195 	15.765
+			Start solve  LP :15.765
 			End solve LP obj: 16.01 t: 0
 已存在该记忆
 com.wlj.solver.BBSolver:
@@ -4280,17 +4281,17 @@ constraints.size = 0 , dualPrice.size = 108 , dualPrice = [0.7899999999999994, 0
 xList.size = 7
 yList.size = 87
 myConsList.size = 0
-cplex1的参考解为：0.999999999999999 0.016 s
+cplex1的参考解为：0.999999999999999 0.031 s
 priceOpt = 0.0
 null
 --------------------------------------- Price Problem End --------------------------------------------------------
-		67 Add column : 0 col:196 	15.126
-	2 End Add column using column generation : 16.01 col: 196 cons: 0 cut: 48	15.126
-   End add columnAndCut : 16.01 colGencnt: 2 price: 0 col: 196 cons: 0 cut: 48	15.126
+		67 Add column : 0 col:196 	15.796
+	2 End Add column using column generation : 16.01 col: 196 cons: 0 cut: 48	15.796
+   End add columnAndCut : 16.01 colGencnt: 2 price: 0 col: 196 cons: 0 cut: 48	15.796
 
-Node lb: 16.01 ub: 17 : 15.126
+Node lb: 16.01 ub: 17 : 15.796
 
-Final Found Solution: 17 genNode: 1 extendedNode: 0:15.126
+Final Found Solution: 17 genNode: 1 extendedNode: 0:15.796
 Bin size: 10000
 1 : 6630,1368, : 7998
 2 : 5208,2870,1152, : 9230

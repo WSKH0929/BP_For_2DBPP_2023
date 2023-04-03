@@ -1,5 +1,6 @@
 ====================================== Class_04.2bp-11 =====================================
 Reduced size: 40 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\4_12.pack
 [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 13, 14, 15, 17, 19, 20, 23, 26, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39]
 [8, 11, 12, 16, 18, 21, 22, 24, 25, 27, 33]
 canvasWidth:100,
@@ -11,17 +12,17 @@ data:[{x:0,y:0,l:22,w:23},{x:23,y:0,l:32,w:12},{x:35,y:0,l:26,w:14},{x:49,y:0,l:
 Best fit used bin number: 2
 Found best solution: 2 0.063
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.157
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.157
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.125
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.125
 
-Node lb: 2.0 ub: 2 : 0.157
+Node lb: 2.0 ub: 2 : 0.125
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.157
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 870,840,825,608,594,551,540,527,437,418,360,350,297,270,209,175,160,130,112,102,99,90,80,48,33,30,24,16,10, : 8805
 2 : 506,384,364,280,253,171,168,138,136,120,75, : 2595

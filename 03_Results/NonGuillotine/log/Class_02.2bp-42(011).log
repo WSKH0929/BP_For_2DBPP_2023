@@ -1,5 +1,6 @@
 ====================================== Class_02.2bp-42 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\2_43.pack
 [0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 19, 30, 61, 62, 77, 84, 93, 95, 96]
 [8, 10, 13, 14, 15, 16, 18, 20, 21, 22, 24, 27, 29, 32, 34, 37, 40, 41, 42, 43, 45, 63, 69, 72, 73, 75]
 [17, 23, 25, 26, 28, 31, 33, 35, 36, 38, 39, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 64, 65, 66, 67, 68, 70, 71, 74, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 94, 97, 98, 99]
@@ -13,19 +14,19 @@ canvasWidth:30,
 canvasHeight:30,
 data:[{x:0,y:0,l:9,w:6},{x:10,y:0,l:6,w:7},{x:22,y:10,l:8,w:5},{x:6,y:0,l:9,w:4},{x:17,y:0,l:6,w:5},{x:0,y:15,l:6,w:5},{x:5,y:18,l:7,w:4},{x:9,y:18,l:7,w:4},{x:10,y:10,l:5,w:5},{x:15,y:10,l:5,w:5},{x:26,y:19,l:6,w:4},{x:27,y:2,l:8,w:3},{x:10,y:6,l:3,w:7},{x:0,y:9,l:2,w:10},{x:0,y:11,l:2,w:10},{x:22,y:2,l:4,w:5},{x:22,y:6,l:4,w:5},{x:17,y:6,l:4,w:5},{x:0,y:21,l:4,w:5},{x:24,y:19,l:10,w:2},{x:16,y:15,l:3,w:6},{x:10,y:15,l:3,w:6},{x:13,y:18,l:9,w:2},{x:20,y:21,l:9,w:2},{x:26,y:25,l:4,w:4},{x:27,y:10,l:8,w:2},{x:5,y:15,l:3,w:5},{x:15,y:22,l:8,w:5},{x:16,y:19,l:3,w:4},{x:0,y:13,l:1,w:10},{x:0,y:14,l:1,w:10},{x:0,y:25,l:2,w:5},{x:5,y:25,l:2,w:5},{x:20,y:10,l:5,w:2},{x:29,y:10,l:9,w:1},{x:22,y:0,l:1,w:8},{x:22,y:1,l:1,w:8},{x:20,y:19,l:2,w:4},{x:1,y:27,l:2,w:4},{x:10,y:9,l:1,w:7},{x:22,y:18,l:1,w:7},{x:16,y:18,l:1,w:6},{x:24,y:29,l:1,w:6},{x:6,y:27,l:1,w:6},{x:6,y:28,l:1,w:5},{x:15,y:18,l:4,w:1},{x:14,y:27,l:3,w:1},{x:13,y:27,l:3,w:1},{x:0,y:27,l:3,w:1},{x:10,y:25,l:2,w:1},{x:11,y:25,l:2,w:1},{x:12,y:25,l:2,w:1},{x:5,y:27,l:2,w:1},{x:22,y:21,l:2,w:1},],
 Best fit used bin number: 3
-Found best solution: 3 0.062
+Found best solution: 3 0.065
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.172
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.14
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.172
-			Start solve  LP :0.172
-			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.172
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.172
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.14
+			Start solve  LP :0.141
+			End solve LP obj: 3.0 t: 1
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.143
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.143
 
-Node lb: 3.0 ub: 3 : 0.172
+Node lb: 3.0 ub: 3 : 0.143
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.172
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.143
 Bin size: 900
 1 : 81,80,80,80,72,70,70,64,60,56,54,50,32,15,15,8,6,2,2,2, : 899
 2 : 60,60,54,54,54,54,50,50,49,45,40,36,35,30,30,27,24,24,24,24,24,15,10,9,9,9, : 900

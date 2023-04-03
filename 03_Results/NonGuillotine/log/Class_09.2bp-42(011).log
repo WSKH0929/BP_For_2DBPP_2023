@@ -1,5 +1,6 @@
 ====================================== Class_09.2bp-42 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\9_43.pack
 [0, 93, 98]
 [1]
 [2, 83]
@@ -275,15 +276,15 @@ data:[{x:0,y:0,l:50,w:90},{x:0,y:50,l:50,w:56},],
 Best fit used bin number: 68
 Found best solution: 68 0.063
 
-   Statrt add columnAndCut col: 68 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 68 cons: 0 cut: 0	0.125
 
-	1 Start Add column using column generation  col: 68 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
+	1 Start Add column using column generation  col: 68 cons: 0 cut: 0	0.125
+			Start solve  LP :0.125
 			End solve LP obj: 68.0 t: 0
-	1 End Add column using column generation : 68.0 col: 68 cons: 0 cut: 0	0.141
-   End add columnAndCut : 68.0 colGencnt: 1 price: 0 col: 68 cons: 0 cut: 0	0.141
+	1 End Add column using column generation : 68.0 col: 68 cons: 0 cut: 0	0.125
+   End add columnAndCut : 68.0 colGencnt: 1 price: 0 col: 68 cons: 0 cut: 0	0.125
 
-Node lb: 68.0 ub: 68 : 0.141
+Node lb: 68.0 ub: 68 : 0.125
 
 Final Found Solution: 68 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000

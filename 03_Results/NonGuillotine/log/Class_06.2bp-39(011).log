@@ -1,5 +1,6 @@
 ====================================== Class_06.2bp-39 =====================================
 Reduced size: 80 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\6_40.pack
 [0, 1, 2, 6, 14, 16, 19, 38, 39, 47, 56, 57, 64, 66, 68, 69]
 [3, 4, 5, 7, 8, 10, 20, 23, 27, 31, 32, 40, 42, 43, 44, 45, 50, 52, 53, 55, 59, 60, 62, 63, 65, 67, 71, 73, 74, 76, 77, 79]
 [9, 11, 12, 13, 15, 17, 18, 21, 22, 24, 25, 26, 28, 29, 30, 33, 34, 35, 36, 37, 41, 46, 48, 49, 51, 54, 58, 61, 70, 72, 75, 78]
@@ -13,19 +14,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:71,w:71},{x:71,y:0,l:91,w:54},{x:125,y:0,l:57,w:86},{x:130,y:57,l:78,w:56},{x:251,y:105,l:88,w:49},{x:133,y:135,l:54,w:79},{x:110,y:247,l:40,w:100},{x:69,y:138,l:57,w:64},{x:52,y:91,l:44,w:78},{x:153,y:189,l:58,w:59},{x:212,y:105,l:84,w:39},{x:0,y:193,l:52,w:59},{x:212,y:8,l:32,w:88},{x:0,y:151,l:42,w:64},{x:62,y:218,l:28,w:91},{x:251,y:193,l:53,w:44},{x:212,y:189,l:55,w:39},{x:59,y:195,l:23,w:92},{x:0,y:245,l:36,w:58},{x:210,y:277,l:21,w:90},{x:212,y:40,l:65,w:88},{x:9,y:71,l:20,w:62},{x:0,y:121,l:20,w:51},{x:18,y:91,l:30,w:34},{x:216,y:266,l:11,w:84},{x:212,y:244,l:22,w:39},{x:211,y:0,l:8,w:89},{x:0,y:141,l:10,w:61},{x:125,y:57,l:34,w:5},{x:51,y:135,l:3,w:55},{x:186,y:57,l:27,w:4},{x:211,y:8,l:49,w:1},],
 Best fit used bin number: 3
-Found best solution: 3 0.063
+Found best solution: 3 0.062
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.125
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.125
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.156
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.156
 
-Node lb: 3.0 ub: 3 : 0.125
+Node lb: 3.0 ub: 3 : 0.156
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.156
 Bin size: 90000
 1 : 8930,8918,8514,6880,4410,4324,4225,2064,1955,1040,780,756,390,304,221,184, : 53895
 2 : 7452,7440,6885,6408,6144,5092,4140,3572,3216,2592,2552,1950,1394,1350,1296,1261,969,924,891,792,696,630,585,448,352,258,168,162,140,92,67,28, : 69946

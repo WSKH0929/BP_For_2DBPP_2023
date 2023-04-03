@@ -1,5 +1,6 @@
 ====================================== Class_04.2bp-35 =====================================
 Reduced size: 80 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\4_36.pack
 [0, 1, 2, 3, 4, 5, 7, 9, 10, 31, 34, 36, 41, 52, 55, 58, 64, 68, 72, 77, 79]
 [8, 11, 12, 13, 14, 18, 19, 21, 22, 27, 29, 35, 37, 38, 40, 42, 43, 46, 47, 48, 54, 56, 57, 59, 60, 61, 62, 63, 65, 67, 70, 71, 75, 76, 78]
 [6, 15, 16, 17, 20, 23, 24, 25, 26, 28, 30, 32, 33, 39, 44, 45, 49, 50, 51, 53, 66, 69, 73, 74]
@@ -13,19 +14,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:25,w:23},{x:23,y:0,l:18,w:31},{x:0,y:25,l:24,w:23},{x:23,y:18,l:32,w:16},{x:39,y:18,l:22,w:22},{x:0,y:49,l:21,w:23},{x:66,y:62,l:14,w:34},{x:23,y:67,l:14,w:33},{x:46,y:40,l:16,w:24},{x:54,y:0,l:18,w:21},{x:67,y:76,l:10,w:33},{x:75,y:0,l:13,w:25},{x:23,y:50,l:17,w:16},{x:67,y:86,l:7,w:33},{x:0,y:70,l:10,w:23},{x:46,y:56,l:6,w:34},{x:61,y:18,l:22,w:9},{x:39,y:40,l:27,w:7},{x:75,y:13,l:7,w:25},{x:87,y:53,l:5,w:13},{x:72,y:20,l:31,w:28},{x:70,y:18,l:24,w:2},{x:70,y:51,l:1,w:29},{x:70,y:52,l:1,w:29},],
 Best fit used bin number: 3
-Found best solution: 3 0.062
+Found best solution: 3 0.078
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.157
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
-			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.14
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.14
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.157
+			Start solve  LP :0.157
+			End solve LP obj: 3.0 t: 15
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.172
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.172
 
-Node lb: 3.0 ub: 3 : 0.14
+Node lb: 3.0 ub: 3 : 0.172
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.172
 Bin size: 10000
 1 : 980,952,945,945,910,868,800,735,702,368,324,310,250,184,168,126,81,51,33,14,8, : 9754
 2 : 792,676,660,624,620,522,520,495,493,437,380,315,280,275,266,247,234,225,216,210,169,155,144,99,88,84,84,84,66,55,48,35,25,18,12, : 9653

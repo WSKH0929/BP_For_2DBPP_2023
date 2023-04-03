@@ -1,5 +1,6 @@
 ====================================== Class_04.2bp-12 =====================================
 Reduced size: 40 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\4_13.pack
 [0, 1, 2, 3, 5, 7, 8, 10, 11, 13, 15, 18, 19, 20, 23, 28, 29, 30, 31, 37, 38, 39]
 [4, 6, 9, 12, 14, 16, 17, 21, 22, 24, 25, 26, 27, 32, 33, 34, 35, 36]
 canvasWidth:100,
@@ -9,19 +10,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:28,w:26},{x:26,y:0,l:22,w:29},{x:66,y:0,l:27,w:22},{x:0,y:28,l:20,w:25},{x:0,y:48,l:19,w:22},{x:0,y:67,l:15,w:20},{x:88,y:0,l:27,w:11},{x:26,y:22,l:19,w:13},{x:55,y:0,l:22,w:11},{x:50,y:27,l:9,w:23},{x:22,y:48,l:11,w:17},{x:39,y:27,l:14,w:11},{x:73,y:27,l:9,w:19},{x:41,y:22,l:5,w:25},{x:93,y:27,l:13,w:6},{x:25,y:41,l:7,w:10},{x:0,y:82,l:3,w:20},{x:99,y:0,l:33,w:1},],
 Best fit used bin number: 2
-Found best solution: 2 0.062
+Found best solution: 2 0.078
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.14
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 2.0 t: 15
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.14
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.14
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.14
+			Start solve  LP :0.14
+			End solve LP obj: 2.0 t: 0
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.156
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.156
 
-Node lb: 2.0 ub: 2 : 0.14
+Node lb: 2.0 ub: 2 : 0.156
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 1156,1122,1054,759,660,612,600,570,525,450,340,280,264,256,240,135,130,128,125,32,32,9, : 9479
 2 : 728,638,594,500,418,300,297,247,242,207,187,171,154,125,78,70,60,33, : 5049

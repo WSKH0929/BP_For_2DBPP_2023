@@ -1,5 +1,6 @@
 ====================================== Class_09.2bp-47 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\9_48.pack
 [0, 97]
 [1]
 [2]
@@ -299,10 +300,10 @@ data:[{x:0,y:29,l:50,w:96},{x:0,y:0,l:29,w:96},],
 Best fit used bin number: 74
 Found best solution: 74 0.078
 
-   Statrt add columnAndCut col: 74 cons: 0 cut: 0	0.157
+   Statrt add columnAndCut col: 74 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 74 cons: 0 cut: 0	0.157
-			Start solve  LP :0.157
+	1 Start Add column using column generation  col: 74 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 74.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -324,8 +325,8 @@ solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 50@52@
 solveSubProblemByIp 总用时：31 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:74 	0.188
-			Start solve  LP :0.188
+		1 Add column : 1 col:74 	0.187
+			Start solve  LP :0.187
 			End solve LP obj: 74.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -345,7 +346,7 @@ curBestBinNum = 74
 instance.getSquareList().size() = 74
 solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 50@69@
-solveSubProblemByIp 总用时：15 ms
+solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
 		2 Add column : 1 col:75 	0.203
 			Start solve  LP :0.203
@@ -393,8 +394,8 @@ solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 60@80@
 solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		4 Add column : 1 col:77 	0.219
-			Start solve  LP :0.219
+		4 Add column : 1 col:77 	0.218
+			Start solve  LP :0.218
 			End solve LP obj: 74.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -416,8 +417,8 @@ solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 64@80@
 solveSubProblemByIp 总用时：16 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		5 Add column : 1 col:78 	0.235
-			Start solve  LP :0.235
+		5 Add column : 1 col:78 	0.234
+			Start solve  LP :0.234
 			End solve LP obj: 73.5 t: 0
 CompleteSolutionByBF前size: 73
 count = 99
@@ -440,7 +441,7 @@ curBestBinNum = 74
 instance.getSquareList().size() = 77
 solution.getPlaceSquareList().size() = 2
 pattern.getKey() = 67@81@
-solveSubProblemByIp 总用时：15 ms
+solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
 		6 Add column : 1 col:79 	0.25
 			Start solve  LP :0.25
@@ -462,15 +463,15 @@ cplex1的参考解为：1.0 0.0 s
 null
 solveSubProblemByIp 总用时：0 ms
 --------------------------------------- Price Problem End --------------------------------------------------------
-		7 Add column : 0 col:80 	0.266
-	1 End Add column using column generation : 73.0 col: 80 cons: 0 cut: 0	0.266
-	Start find sub set row inequalities : 0.266
+		7 Add column : 0 col:80 	0.265
+	1 End Add column using column generation : 73.0 col: 80 cons: 0 cut: 0	0.265
+	Start find sub set row inequalities : 0.265
 		Add three subset row inequalities: 50 52 69 : 1.5
 		Add three subset row inequalities: 60 64 80 : 1.5
 		Total added subset row inequalities: 2
-	End find sub set row inequalities : 0.266
-	2 Start Add column using column generation  col: 80 cons: 0 cut: 2	0.266
-			Start solve  LP :0.266
+	End find sub set row inequalities : 0.265
+	2 Start Add column using column generation  col: 80 cons: 0 cut: 2	0.265
+			Start solve  LP :0.265
 			End solve LP obj: 74.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -480,17 +481,17 @@ constraints.size = 0 , dualPrice.size = 102 , dualPrice = [1.0, 1.0, 1.0, 1.0, 1
 xList.size = 3
 yList.size = 3
 myConsList.size = 0
-cplex1的参考解为：1.0 0.016 s
+cplex1的参考解为：1.0 0.015 s
 priceOpt = 0.0
 null
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 0 col:80 	0.313
-	2 End Add column using column generation : 74.0 col: 80 cons: 0 cut: 2	0.313
-   End add columnAndCut : 74.0 colGencnt: 2 price: 0 col: 80 cons: 0 cut: 2	0.313
+		1 Add column : 0 col:80 	0.312
+	2 End Add column using column generation : 74.0 col: 80 cons: 0 cut: 2	0.312
+   End add columnAndCut : 74.0 colGencnt: 2 price: 0 col: 80 cons: 0 cut: 2	0.312
 
-Node lb: 74.0 ub: 74 : 0.313
+Node lb: 74.0 ub: 74 : 0.312
 
-Final Found Solution: 74 genNode: 1 extendedNode: 0:0.313
+Final Found Solution: 74 genNode: 1 extendedNode: 0:0.312
 Bin size: 10000
 1 : 9504,264, : 9768
 2 : 9215, : 9215

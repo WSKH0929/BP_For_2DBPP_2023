@@ -1,5 +1,6 @@
 ====================================== Class_09.2bp-44 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\9_45.pack
 [0]
 [1, 87, 97]
 [2, 99]
@@ -263,17 +264,17 @@ data:[{x:0,y:0,l:50,w:52},{x:0,y:50,l:32,w:81},{x:0,y:82,l:17,w:76},],
 Best fit used bin number: 65
 Found best solution: 65 0.063
 
-   Statrt add columnAndCut col: 65 cons: 0 cut: 0	0.157
+   Statrt add columnAndCut col: 65 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 65 cons: 0 cut: 0	0.157
-			Start solve  LP :0.157
-			End solve LP obj: 65.0 t: 15
-	1 End Add column using column generation : 65.0 col: 65 cons: 0 cut: 0	0.172
-   End add columnAndCut : 65.0 colGencnt: 1 price: 0 col: 65 cons: 0 cut: 0	0.172
+	1 Start Add column using column generation  col: 65 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
+			End solve LP obj: 65.0 t: 0
+	1 End Add column using column generation : 65.0 col: 65 cons: 0 cut: 0	0.141
+   End add columnAndCut : 65.0 colGencnt: 1 price: 0 col: 65 cons: 0 cut: 0	0.141
 
-Node lb: 65.0 ub: 65 : 0.172
+Node lb: 65.0 ub: 65 : 0.141
 
-Final Found Solution: 65 genNode: 1 extendedNode: 0:0.172
+Final Found Solution: 65 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000
 1 : 8722, : 8722
 2 : 8624,680,94, : 9398

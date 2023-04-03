@@ -1,5 +1,6 @@
 ====================================== Class_06.2bp-33 =====================================
 Reduced size: 80 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\6_34.pack
 [0, 1, 2, 3, 4, 7, 10, 18, 21, 25, 30, 31, 35, 37, 42, 43, 44, 46, 48, 49, 52, 54, 57, 62, 64, 66, 67, 68, 70, 71, 74, 75, 76, 77, 79]
 [5, 6, 8, 9, 11, 12, 14, 17, 20, 29, 32, 34, 40, 41, 45, 47, 53, 61, 72, 73]
 [13, 15, 16, 19, 22, 23, 24, 26, 27, 28, 33, 36, 38, 39, 50, 51, 55, 56, 58, 59, 60, 63, 65, 69, 78]
@@ -13,19 +14,19 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:52,w:96},{x:151,y:0,l:55,w:88},{x:0,y:52,l:88,w:54},{x:54,y:52,l:87,w:46},{x:239,y:0,l:63,w:61},{x:238,y:63,l:60,w:62},{x:54,y:139,l:79,w:46},{x:163,y:63,l:33,w:64},{x:235,y:124,l:54,w:65},{x:228,y:178,l:44,w:72},{x:100,y:157,l:33,w:92},{x:147,y:190,l:31,w:81},{x:96,y:0,l:52,w:40},{x:100,y:52,l:51,w:39},{x:0,y:140,l:21,w:54},{x:163,y:96,l:18,w:60},{x:140,y:82,l:75,w:11},{x:136,y:0,l:52,w:15},{x:227,y:63,l:60,w:11},{x:151,y:55,l:94,w:7},{x:159,y:55,l:8,w:80},{x:0,y:161,l:10,w:49},{x:158,y:63,l:87,w:5},{x:139,y:52,l:30,w:12},{x:227,y:123,l:1,w:73},],
 Best fit used bin number: 3
-Found best solution: 3 0.062
+Found best solution: 3 0.078
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.172
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.172
+			Start solve  LP :0.172
 			End solve LP obj: 3.0 t: 0
-	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.14
-   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.14
+	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.172
+   End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.172
 
-Node lb: 3.0 ub: 3 : 0.14
+Node lb: 3.0 ub: 3 : 0.172
 
-Final Found Solution: 3 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 3 genNode: 1 extendedNode: 0:0.172
 Bin size: 90000
 1 : 8036,7700,6708,6440,6318,5904,5676,4600,3920,3608,2812,2750,2268,2100,1875,1840,1800,1716,1288,1200,1027,846,712,536,448,392,376,370,264,240,155,120,88,80,44, : 84257
 2 : 6138,5952,5776,5772,5605,5104,4899,4704,3990,2816,2623,2385,1953,1900,1767,1581,989,595,198,160, : 64907

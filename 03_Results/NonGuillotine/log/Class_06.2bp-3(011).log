@@ -1,11 +1,12 @@
 ====================================== Class_06.2bp-3 =====================================
 Reduced size: 20 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\6_4.pack
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:53,w:90},{x:90,y:0,l:89,w:47},{x:172,y:0,l:62,w:65},{x:0,y:53,l:65,w:53},{x:238,y:89,l:52,w:62},{x:137,y:0,l:89,w:35},{x:168,y:89,l:40,w:70},{x:0,y:118,l:27,w:79},{x:237,y:0,l:78,w:27},{x:104,y:89,l:30,w:64},{x:79,y:119,l:30,w:54},{x:264,y:0,l:73,w:15},{x:172,y:62,l:16,w:65},{x:53,y:53,l:31,w:26},{x:290,y:4,l:80,w:10},{x:172,y:81,l:8,w:84},{x:79,y:53,l:56,w:11},{x:172,y:78,l:3,w:92},{x:279,y:0,l:4,w:21},{x:53,y:84,l:7,w:22},],
 Best fit used bin number: 1
-Found best solution: 1 0.047
+Found best solution: 1 0.063
 
    Statrt add columnAndCut col: 1 cons: 0 cut: 0	0.125
 
@@ -17,7 +18,7 @@ Found best solution: 1 0.047
 
 Node lb: 1.0 ub: 1 : 0.125
 
-Final Found Solution: 1 genNode: 1 extendedNode: 0:0.125
+Final Found Solution: 1 genNode: 1 extendedNode: 0:0.141
 Bin size: 90000
 1 : 4770,4183,4030,3445,3224,3115,2800,2133,2106,1920,1620,1095,1040,806,800,672,616,276,154,84, : 38889
 ----------------------- 1 ---------------------------

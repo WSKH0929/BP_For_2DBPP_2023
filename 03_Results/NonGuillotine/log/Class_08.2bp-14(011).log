@@ -1,5 +1,6 @@
 ====================================== Class_08.2bp-14 =====================================
 Reduced size: 40 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\8_15.pack
 [0, 19]
 [5, 8, 12, 36]
 [14, 15, 24, 26, 33, 34]
@@ -37,7 +38,7 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:38,w:99},{x:0,y:38,l:18,w:99},{x:0,y:72,l:18,w:92},{x:0,y:56,l:10,w:93},{x:0,y:90,l:10,w:88},{x:0,y:66,l:6,w:93},],
 Best fit used bin number: 9
-Found best solution: 9 0.062
+Found best solution: 9 0.063
 
    Statrt add columnAndCut col: 9 cons: 0 cut: 0	0.125
 

@@ -1,5 +1,6 @@
 ====================================== Class_08.2bp-23 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\8_24.pack
 [0, 47, 49]
 [1, 38]
 [2, 20, 43, 44]
@@ -66,14 +67,14 @@ Found best solution: 15 0.062
    Statrt add columnAndCut col: 15 cons: 0 cut: 0	0.125
 
 	1 Start Add column using column generation  col: 15 cons: 0 cut: 0	0.125
-			Start solve  LP :0.141
+			Start solve  LP :0.125
 			End solve LP obj: 15.0 t: 0
-	1 End Add column using column generation : 15.0 col: 15 cons: 0 cut: 0	0.141
-   End add columnAndCut : 15.0 colGencnt: 1 price: 0 col: 15 cons: 0 cut: 0	0.141
+	1 End Add column using column generation : 15.0 col: 15 cons: 0 cut: 0	0.125
+   End add columnAndCut : 15.0 colGencnt: 1 price: 0 col: 15 cons: 0 cut: 0	0.125
 
-Node lb: 15.0 ub: 15 : 0.141
+Node lb: 15.0 ub: 15 : 0.125
 
-Final Found Solution: 15 genNode: 1 extendedNode: 0:0.141
+Final Found Solution: 15 genNode: 1 extendedNode: 0:0.125
 Bin size: 10000
 1 : 8004,584,492, : 9080
 2 : 6435,1064, : 7499

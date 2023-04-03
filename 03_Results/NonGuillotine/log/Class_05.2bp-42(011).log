@@ -1,5 +1,6 @@
 ====================================== Class_05.2bp-42 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\5_43.pack
 [0, 43, 82, 94]
 [1, 58, 68, 84]
 [2, 59, 69, 87]
@@ -99,17 +100,17 @@ data:[{x:0,y:0,l:56,w:48},{x:0,y:56,l:31,w:60},{x:60,y:0,l:50,w:30},{x:72,y:50,l
 Best fit used bin number: 24
 Found best solution: 24 0.062
 
-   Statrt add columnAndCut col: 24 cons: 0 cut: 0	0.172
+   Statrt add columnAndCut col: 24 cons: 0 cut: 0	0.156
 
-	1 Start Add column using column generation  col: 24 cons: 0 cut: 0	0.172
-			Start solve  LP :0.172
+	1 Start Add column using column generation  col: 24 cons: 0 cut: 0	0.156
+			Start solve  LP :0.156
 			End solve LP obj: 24.0 t: 0
-	1 End Add column using column generation : 24.0 col: 24 cons: 0 cut: 0	0.172
-   End add columnAndCut : 24.0 colGencnt: 1 price: 0 col: 24 cons: 0 cut: 0	0.172
+	1 End Add column using column generation : 24.0 col: 24 cons: 0 cut: 0	0.156
+   End add columnAndCut : 24.0 colGencnt: 1 price: 0 col: 24 cons: 0 cut: 0	0.156
 
-Node lb: 24.0 ub: 24 : 0.172
+Node lb: 24.0 ub: 24 : 0.156
 
-Final Found Solution: 24 genNode: 1 extendedNode: 0:0.172
+Final Found Solution: 24 genNode: 1 extendedNode: 0:0.156
 Bin size: 10000
 1 : 7488,1860,312,112, : 9772
 2 : 7387,1302,700,264, : 9653

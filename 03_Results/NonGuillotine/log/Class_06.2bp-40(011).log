@@ -1,5 +1,6 @@
 ====================================== Class_06.2bp-40 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\6_41.pack
 [0, 1, 2, 3, 4, 5, 10, 13, 23, 24, 33, 38, 44, 51, 52, 57, 60, 63, 65, 66, 67, 72, 74, 75, 76, 80, 83, 85, 86, 89, 90, 91, 92, 93, 95, 96, 98, 99]
 [7, 8, 9, 14, 15, 17, 18, 21, 22, 26, 29, 30, 34, 35, 39, 47, 49, 53, 54, 61, 62, 68, 70, 73, 77, 78, 79, 82, 87, 94]
 [6, 11, 12, 16, 19, 20, 25, 27, 28, 31, 32, 36, 37, 40, 41, 42, 43, 45, 46, 48, 50, 55, 56, 58, 59, 64, 69, 71, 81, 84, 88, 97]
@@ -13,13 +14,13 @@ canvasWidth:300,
 canvasHeight:300,
 data:[{x:0,y:0,l:67,w:72},{x:72,y:0,l:52,w:92},{x:0,y:106,l:85,w:48},{x:164,y:0,l:53,w:71},{x:48,y:106,l:57,w:66},{x:153,y:73,l:83,w:38},{x:32,y:203,l:44,w:69},{x:0,y:67,l:39,w:72},{x:72,y:73,l:33,w:81},{x:48,y:163,l:40,w:66},{x:202,y:173,l:24,w:98},{x:235,y:5,l:39,w:60},{x:114,y:176,l:25,w:87},{x:204,y:208,l:21,w:96},{x:72,y:52,l:21,w:92},{x:114,y:122,l:54,w:35},{x:191,y:70,l:38,w:49},{x:191,y:122,l:21,w:88},{x:0,y:193,l:54,w:32},{x:246,y:44,l:29,w:54},{x:101,y:203,l:14,w:100},{x:283,y:73,l:79,w:17},{x:230,y:154,l:19,w:70},{x:191,y:108,l:14,w:91},{x:202,y:197,l:11,w:98},{x:191,y:53,l:17,w:52},{x:191,y:143,l:11,w:80},{x:114,y:106,l:16,w:36},{x:204,y:229,l:59,w:96},{x:164,y:53,l:20,w:27},{x:235,y:0,l:5,w:65},{x:0,y:191,l:2,w:46},],
 Best fit used bin number: 3
-Found best solution: 3 0.063
+Found best solution: 3 0.047
 
-   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.125
+   Statrt add columnAndCut col: 3 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.125
-			Start solve  LP :0.125
-			End solve LP obj: 3.0 t: 16
+	1 Start Add column using column generation  col: 3 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
+			End solve LP obj: 3.0 t: 0
 	1 End Add column using column generation : 3.0 col: 3 cons: 0 cut: 0	0.141
    End add columnAndCut : 3.0 colGencnt: 1 price: 0 col: 3 cons: 0 cut: 0	0.141
 

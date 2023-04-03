@@ -1,5 +1,6 @@
 ====================================== Class_08.2bp-29 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\8_30.pack
 [0, 47]
 [1, 53, 57]
 [2, 43]
@@ -73,19 +74,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:30,l:40,w:75},{x:0,y:0,l:30,w:77},{x:0,y:70,l:30,w:75},],
 Best fit used bin number: 18
-Found best solution: 18 0.093
+Found best solution: 18 0.063
 
-   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.187
+   Statrt add columnAndCut col: 18 cons: 0 cut: 0	0.172
 
-	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.187
-			Start solve  LP :0.187
+	1 Start Add column using column generation  col: 18 cons: 0 cut: 0	0.172
+			Start solve  LP :0.172
 			End solve LP obj: 18.0 t: 0
-	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.187
-   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.187
+	1 End Add column using column generation : 18.0 col: 18 cons: 0 cut: 0	0.172
+   End add columnAndCut : 18.0 colGencnt: 1 price: 0 col: 18 cons: 0 cut: 0	0.172
 
-Node lb: 18.0 ub: 18 : 0.187
+Node lb: 18.0 ub: 18 : 0.172
 
-Final Found Solution: 18 genNode: 1 extendedNode: 0:0.187
+Final Found Solution: 18 genNode: 1 extendedNode: 0:0.172
 Bin size: 10000
 1 : 8624,1020, : 9644
 2 : 8428,434,186, : 9048

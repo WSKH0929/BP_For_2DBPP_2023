@@ -1,5 +1,6 @@
 ====================================== Class_10.2bp-45 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\10_46.pack
 [0, 35, 71, 80, 93]
 [1, 23, 43, 60, 79, 83, 86, 89, 91, 97, 98]
 [2, 11, 44, 57, 67, 78, 92]
@@ -55,17 +56,17 @@ data:[{x:0,y:0,l:67,w:27},{x:27,y:0,l:44,w:37},{x:64,y:0,l:38,w:36},{x:71,y:55,l
 Best fit used bin number: 13
 Found best solution: 13 0.062
 
-   Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 13 cons: 0 cut: 0	0.141
 
-	1 Start Add column using column generation  col: 13 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
+	1 Start Add column using column generation  col: 13 cons: 0 cut: 0	0.141
+			Start solve  LP :0.141
 			End solve LP obj: 13.0 t: 0
-	1 End Add column using column generation : 13.0 col: 13 cons: 0 cut: 0	0.14
-   End add columnAndCut : 13.0 colGencnt: 1 price: 0 col: 13 cons: 0 cut: 0	0.14
+	1 End Add column using column generation : 13.0 col: 13 cons: 0 cut: 0	0.141
+   End add columnAndCut : 13.0 colGencnt: 1 price: 0 col: 13 cons: 0 cut: 0	0.141
 
-Node lb: 13.0 ub: 13 : 0.14
+Node lb: 13.0 ub: 13 : 0.141
 
-Final Found Solution: 13 genNode: 1 extendedNode: 0:0.14
+Final Found Solution: 13 genNode: 1 extendedNode: 0:0.141
 Bin size: 10000
 1 : 7176,1350,408,196,93, : 9223
 2 : 5476,1800,1035,510,205,162,144,120,108,44,19, : 9623

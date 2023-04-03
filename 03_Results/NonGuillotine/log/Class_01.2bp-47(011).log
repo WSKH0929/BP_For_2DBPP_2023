@@ -1,5 +1,6 @@
 ====================================== Class_01.2bp-47 =====================================
 Reduced size: 100 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\1_48.pack
 [1]
 [0]
 [2, 75]
@@ -133,19 +134,19 @@ canvasWidth:10,
 canvasHeight:10,
 data:[{x:7,y:0,l:9,w:3},{x:0,y:0,l:3,w:5},{x:0,y:8,l:2,w:6},{x:0,y:3,l:4,w:3},{x:3,y:3,l:3,w:3},{x:3,y:6,l:2,w:3},],
 Best fit used bin number: 33
-Found best solution: 33 0.062
+Found best solution: 33 0.071
 
-   Statrt add columnAndCut col: 33 cons: 0 cut: 0	0.14
+   Statrt add columnAndCut col: 33 cons: 0 cut: 0	0.148
 
-	1 Start Add column using column generation  col: 33 cons: 0 cut: 0	0.14
-			Start solve  LP :0.14
-			End solve LP obj: 33.0 t: 0
-	1 End Add column using column generation : 33.0 col: 33 cons: 0 cut: 0	0.156
-   End add columnAndCut : 33.0 colGencnt: 1 price: 0 col: 33 cons: 0 cut: 0	0.156
+	1 Start Add column using column generation  col: 33 cons: 0 cut: 0	0.148
+			Start solve  LP :0.148
+			End solve LP obj: 33.0 t: 2
+	1 End Add column using column generation : 33.0 col: 33 cons: 0 cut: 0	0.15
+   End add columnAndCut : 33.0 colGencnt: 1 price: 0 col: 33 cons: 0 cut: 0	0.15
 
-Node lb: 33.0 ub: 33 : 0.156
+Node lb: 33.0 ub: 33 : 0.15
 
-Final Found Solution: 33 genNode: 1 extendedNode: 0:0.156
+Final Found Solution: 33 genNode: 1 extendedNode: 0:0.151
 Bin size: 100
 1 : 100, : 100
 2 : 100, : 100

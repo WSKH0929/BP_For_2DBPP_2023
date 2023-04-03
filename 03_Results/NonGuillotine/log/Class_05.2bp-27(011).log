@@ -1,5 +1,6 @@
 ====================================== Class_05.2bp-27 =====================================
 Reduced size: 60 usedBin: 0
+E:\WSKH\2DBPP\NonGuillotine\initSolution\5_28.pack
 [0, 40, 59]
 [1, 32, 56, 58]
 [2, 45, 52]
@@ -77,19 +78,19 @@ canvasWidth:100,
 canvasHeight:100,
 data:[{x:0,y:0,l:83,w:47},{x:47,y:0,l:42,w:38},{x:0,y:87,l:9,w:75},{x:0,y:83,l:2,w:98},{x:0,y:85,l:2,w:81},],
 Best fit used bin number: 19
-Found best solution: 19 0.063
+Found best solution: 19 0.093
 
-   Statrt add columnAndCut col: 19 cons: 0 cut: 0	0.141
+   Statrt add columnAndCut col: 19 cons: 0 cut: 0	0.203
 
-	1 Start Add column using column generation  col: 19 cons: 0 cut: 0	0.141
-			Start solve  LP :0.141
-			End solve LP obj: 19.0 t: 16
-	1 End Add column using column generation : 19.0 col: 19 cons: 0 cut: 0	0.157
-   End add columnAndCut : 19.0 colGencnt: 1 price: 0 col: 19 cons: 0 cut: 0	0.157
+	1 Start Add column using column generation  col: 19 cons: 0 cut: 0	0.203
+			Start solve  LP :0.203
+			End solve LP obj: 19.0 t: 0
+	1 End Add column using column generation : 19.0 col: 19 cons: 0 cut: 0	0.203
+   End add columnAndCut : 19.0 colGencnt: 1 price: 0 col: 19 cons: 0 cut: 0	0.203
 
-Node lb: 19.0 ub: 19 : 0.157
+Node lb: 19.0 ub: 19 : 0.203
 
-Final Found Solution: 19 genNode: 1 extendedNode: 0:0.157
+Final Found Solution: 19 genNode: 1 extendedNode: 0:0.203
 Bin size: 10000
 1 : 7700,1357,23, : 9080
 2 : 7524,1800,144,32, : 9500
