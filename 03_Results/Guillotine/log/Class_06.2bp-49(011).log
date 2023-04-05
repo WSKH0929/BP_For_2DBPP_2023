@@ -6,19 +6,19 @@ Reduced size: 100 usedBin: 0
 [28, 29, 30, 33, 44, 47, 48, 49, 50, 52, 58, 59, 60, 62, 66, 73, 74, 78, 80, 85, 95, 99]
 ------------------------------------------------
 Best fit used bin number: 4
-Found best solution: 4 0.125
+Found best solution: 4 0.266
 
-   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.188
+   Statrt add columnAndCut col: 4 cons: 0 cut: 0	0.344
 
-	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.188
-			Start solve  LP :0.188
+	1 Start Add column using column generation  col: 4 cons: 0 cut: 0	0.344
+			Start solve  LP :0.344
 			End solve LP obj: 4.0 t: 0
-	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.188
-   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.188
+	1 End Add column using column generation : 4.0 col: 4 cons: 0 cut: 0	0.344
+   End add columnAndCut : 4.0 colGencnt: 1 price: 0 col: 4 cons: 0 cut: 0	0.344
 
-Node lb: 4.0 ub: 4 : 0.188
+Node lb: 4.0 ub: 4 : 0.344
 
-Final Found Solution: 4 genNode: 1 extendedNode: 0:0.188
+Final Found Solution: 4 genNode: 1 extendedNode: 0:0.344
 Bin size: 90000
 1 : 9600,7802,7743,6975,6272,5850,5264,4872,3999,2760,2754,2610,2475,2380,1974,1827,1410,1273,1003,945,870,819,712,500,500,455,294,36, : 83974
 2 : 9800,7735,7395,6806,6510,6006,5829,5478,5251,3807,3233,3225,3094,1870,1700,1350,1078,712,684,464,330,280,228,192,165,150,54, : 83426

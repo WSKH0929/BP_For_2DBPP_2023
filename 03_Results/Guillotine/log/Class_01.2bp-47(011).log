@@ -35,19 +35,19 @@ Reduced size: 100 usedBin: 0
 [24, 57, 72, 77, 87, 99]
 ------------------------------------------------
 Best fit used bin number: 33
-Found best solution: 33 0.156
+Found best solution: 33 0.344
 
-   Statrt add columnAndCut col: 33 cons: 0 cut: 0	0.234
+   Statrt add columnAndCut col: 33 cons: 0 cut: 0	0.406
 
-	1 Start Add column using column generation  col: 33 cons: 0 cut: 0	0.234
-			Start solve  LP :0.234
+	1 Start Add column using column generation  col: 33 cons: 0 cut: 0	0.406
+			Start solve  LP :0.406
 			End solve LP obj: 33.0 t: 0
-	1 End Add column using column generation : 33.0 col: 33 cons: 0 cut: 0	0.234
-   End add columnAndCut : 33.0 colGencnt: 1 price: 0 col: 33 cons: 0 cut: 0	0.234
+	1 End Add column using column generation : 33.0 col: 33 cons: 0 cut: 0	0.406
+   End add columnAndCut : 33.0 colGencnt: 1 price: 0 col: 33 cons: 0 cut: 0	0.406
 
-Node lb: 33.0 ub: 33 : 0.234
+Node lb: 33.0 ub: 33 : 0.406
 
-Final Found Solution: 33 genNode: 1 extendedNode: 0:0.234
+Final Found Solution: 33 genNode: 1 extendedNode: 0:0.406
 Bin size: 100
 1 : 70,30, : 100
 2 : 81,10,7, : 98

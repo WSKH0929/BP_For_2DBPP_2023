@@ -1,0 +1,208 @@
+\documentclass[11pt]{article}
+\usepackage[textwidth=18.0cm, textheight=23.0cm, top=2.0cm]{geometry}
+\usepackage{pst-all}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{underscore}\begin{document}
+\pagestyle{empty}
+
+
+ClassName: \underline{\textbf{Class_01.2bp-2}}
+\par
+BinSize: \underline{\textbf{10 × 10}}
+\par
+ReduceSize: \underline{\textbf{10 × 10}}
+\par
+TypeNum: \underline{\textbf{20}}
+\par
+Num: \underline{\textbf{20}}
+\par
+OutS: \underline{\textbf{900}}
+\par
+InS: \underline{\textbf{650}}
+\par
+Rate: \underline{\textbf{0.722}}
+\par
+UB: \underline{\textbf{9}}
+\par
+LB0: \underline{\textbf{8}}
+\par
+LB: \underline{\textbf{8}}
+\par
+LBWithCut: \underline{\textbf{8}}
+\par
+NodeCut: \underline{\textbf{0}}
+\par
+ExtendedNodeCnt: \underline{\textbf{1}}
+\par
+GenNodeCnt: \underline{\textbf{3}}
+\par
+PrimalNode: \underline{\textbf{21}}
+\par
+ColumnCount: \underline{\textbf{33}}
+\par
+TotalCutCount: \underline{\textbf{0}}
+\par
+RootCutCount: \underline{\textbf{0}}
+\par
+LPSolverCnt: \underline{\textbf{66}}
+\par
+PricingSolverCnt: \underline{\textbf{65}}
+\par
+BranchAndBoundNum: \underline{\textbf{3}}
+\par
+isOpt: \underline{\textbf{true}}
+\par
+TimeOnInitSolution: \underline{\textbf{600.000 s}}
+\par
+TimeOnPrimal: \underline{\textbf{0.125 s}}
+\par
+TimeOnPricing: \underline{\textbf{0.140 s}}
+\par
+TimeOnRmp: \underline{\textbf{0.093 s}}
+\par
+TotalTime: \underline{\textbf{600.578 s}}
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {10x9/0.0/0.0/15.0/13.5}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =10 , h =9 , x =0 , y =0 , v =90
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {6x10/6.0/0.0/9.0/15.0,2x10/3.0/0.0/3.0/15.0}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =6 , h =10 , x =4 , y =0 , v =60
+\par
+w =2 , h =10 , x =2 , y =0 , v =20
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {10x3/0.0/0.0/15.0/4.5,9x4/1.5/4.5/13.5/6.0,6x3/6.0/10.5/9.0/4.5}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =10 , h =3 , x =0 , y =0 , v =30
+\par
+w =9 , h =4 , x =1 , y =3 , v =36
+\par
+w =6 , h =3 , x =4 , y =7 , v =18
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {6x8/6.0/0.0/9.0/12.0}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =6 , h =8 , x =4 , y =0 , v =48
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {5x9/7.5/0.0/7.5/13.5,3x9/3.0/0.0/4.5/13.5,2x7/0.0/0.0/3.0/10.5,7x1/4.5/13.5/10.5/1.5}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =5 , h =9 , x =5 , y =0 , v =45
+\par
+w =3 , h =9 , x =2 , y =0 , v =27
+\par
+w =2 , h =7 , x =0 , y =0 , v =14
+\par
+w =7 , h =1 , x =3 , y =9 , v =7
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {9x8/1.5/0.0/13.5/12.0,1x6/0.0/0.0/1.5/9.0}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =9 , h =8 , x =1 , y =0 , v =72
+\par
+w =1 , h =6 , x =0 , y =0 , v =6
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {5x8/7.5/0.0/7.5/12.0,5x7/0.0/0.0/7.5/10.5,4x1/1.5/10.5/6.0/1.5}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =5 , h =8 , x =5 , y =0 , v =40
+\par
+w =5 , h =7 , x =0 , y =0 , v =35
+\par
+w =4 , h =1 , x =1 , y =7 , v =4
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {6x4/6.0/0.0/9.0/6.0,3x4/1.5/0.0/4.5/6.0,6x5/6.0/6.0/9.0/7.5}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =6 , h =4 , x =4 , y =0 , v =24
+\par
+w =3 , h =4 , x =1 , y =0 , v =12
+\par
+w =6 , h =5 , x =4 , y =4 , v =30
+\par
+\newpage
+
+
+\begin{tikzpicture}[shorten >=1pt,scale=1.0,every node/.style={scale=1.0},->]
+\tikzstyle{vertex}=[circle,fill=black!25,minimum size=14pt,inner sep=0pt]
+\filldraw[fill=gray!40!white, draw=black] (0,0) rectangle (15.0,15.0);
+\foreach \name/\x/\y/\w/\h in {8x4/3.0/0.0/12.0/6.0}
+\filldraw[fill=white!40!white, draw=black] (\x,\y) rectangle node[draw] (\name) {\name} ++(\w,\h);
+\end{tikzpicture}
+
+
+w =8 , h =4 , x =2 , y =0 , v =32
+\par
+\newpage
+
+
+\end{document}

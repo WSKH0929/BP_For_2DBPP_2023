@@ -18,19 +18,19 @@ Reduced size: 100 usedBin: 0
 [5, 49, 58, 59, 66, 70]
 ------------------------------------------------
 Best fit used bin number: 16
-Found best solution: 16 0.141
+Found best solution: 16 0.328
 
-   Statrt add columnAndCut col: 16 cons: 0 cut: 0	0.219
+   Statrt add columnAndCut col: 16 cons: 0 cut: 0	0.406
 
-	1 Start Add column using column generation  col: 16 cons: 0 cut: 0	0.219
-			Start solve  LP :0.219
-			End solve LP obj: 16.0 t: 0
-	1 End Add column using column generation : 16.0 col: 16 cons: 0 cut: 0	0.219
-   End add columnAndCut : 16.0 colGencnt: 1 price: 0 col: 16 cons: 0 cut: 0	0.219
+	1 Start Add column using column generation  col: 16 cons: 0 cut: 0	0.406
+			Start solve  LP :0.406
+			End solve LP obj: 16.0 t: 16
+	1 End Add column using column generation : 16.0 col: 16 cons: 0 cut: 0	0.422
+   End add columnAndCut : 16.0 colGencnt: 1 price: 0 col: 16 cons: 0 cut: 0	0.422
 
-Node lb: 16.0 ub: 16 : 0.219
+Node lb: 16.0 ub: 16 : 0.422
 
-Final Found Solution: 16 genNode: 1 extendedNode: 0:0.219
+Final Found Solution: 16 genNode: 1 extendedNode: 0:0.422
 Bin size: 10000
 1 : 5950,2940, : 8890
 2 : 7623,1748, : 9371

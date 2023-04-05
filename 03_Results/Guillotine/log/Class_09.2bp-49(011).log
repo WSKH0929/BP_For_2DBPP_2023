@@ -74,19 +74,19 @@ Reduced size: 100 usedBin: 0
 [70, 84]
 ------------------------------------------------
 Best fit used bin number: 72
-Found best solution: 72 0.14
+Found best solution: 72 0.25
 
-   Statrt add columnAndCut col: 72 cons: 0 cut: 0	0.203
+   Statrt add columnAndCut col: 72 cons: 0 cut: 0	0.312
 
-	1 Start Add column using column generation  col: 72 cons: 0 cut: 0	0.203
-			Start solve  LP :0.203
-			End solve LP obj: 72.0 t: 15
-	1 End Add column using column generation : 72.0 col: 72 cons: 0 cut: 0	0.218
-   End add columnAndCut : 72.0 colGencnt: 1 price: 0 col: 72 cons: 0 cut: 0	0.218
+	1 Start Add column using column generation  col: 72 cons: 0 cut: 0	0.312
+			Start solve  LP :0.312
+			End solve LP obj: 72.0 t: 16
+	1 End Add column using column generation : 72.0 col: 72 cons: 0 cut: 0	0.328
+   End add columnAndCut : 72.0 colGencnt: 1 price: 0 col: 72 cons: 0 cut: 0	0.328
 
-Node lb: 72.0 ub: 72 : 0.218
+Node lb: 72.0 ub: 72 : 0.328
 
-Final Found Solution: 72 genNode: 1 extendedNode: 0:0.218
+Final Found Solution: 72 genNode: 1 extendedNode: 0:0.328
 Bin size: 10000
 1 : 4221,2800, : 7021
 2 : 8600, : 8600

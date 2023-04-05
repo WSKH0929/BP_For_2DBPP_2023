@@ -26,12 +26,12 @@ Reduced size: 60 usedBin: 0
 [23, 28]
 ------------------------------------------------
 Best fit used bin number: 24
-Found best solution: 24 0.172
+Found best solution: 24 0.343
 
-   Statrt add columnAndCut col: 24 cons: 0 cut: 0	0.25
+   Statrt add columnAndCut col: 24 cons: 0 cut: 0	0.421
 
-	1 Start Add column using column generation  col: 24 cons: 0 cut: 0	0.25
-			Start solve  LP :0.25
+	1 Start Add column using column generation  col: 24 cons: 0 cut: 0	0.421
+			Start solve  LP :0.421
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -57,10 +57,10 @@ myConsList.size = 0
 最优解：2.0
 solutionList.size() = 6
 pattern.getKey() = 19@23@
-用时：0.0 s
+用时：0.016 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		1 Add column : 1 col:24 	0.265
-			Start solve  LP :0.281
+		1 Add column : 1 col:24 	0.453
+			Start solve  LP :0.453
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -88,8 +88,8 @@ solutionList.size() = 6
 pattern.getKey() = 18@23@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		2 Add column : 1 col:25 	0.281
-			Start solve  LP :0.281
+		2 Add column : 1 col:25 	0.453
+			Start solve  LP :0.453
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -117,8 +117,8 @@ solutionList.size() = 11
 pattern.getKey() = 21@27@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		3 Add column : 1 col:26 	0.281
-			Start solve  LP :0.281
+		3 Add column : 1 col:26 	0.453
+			Start solve  LP :0.453
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -144,10 +144,10 @@ myConsList.size = 0
 最优解：2.0
 solutionList.size() = 2
 pattern.getKey() = 19@28@
-用时：0.0 s
+用时：0.015 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		4 Add column : 1 col:27 	0.281
-			Start solve  LP :0.281
+		4 Add column : 1 col:27 	0.468
+			Start solve  LP :0.468
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -173,10 +173,10 @@ myConsList.size = 0
 最优解：2.0
 solutionList.size() = 1
 pattern.getKey() = 27@28@
-用时：0.016 s
+用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		5 Add column : 1 col:28 	0.297
-			Start solve  LP :0.297
+		5 Add column : 1 col:28 	0.468
+			Start solve  LP :0.468
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -206,8 +206,8 @@ solutionList.size() = 13
 pattern.getKey() = 22@23@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		6 Add column : 1 col:29 	0.297
-			Start solve  LP :0.297
+		6 Add column : 1 col:29 	0.468
+			Start solve  LP :0.468
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -227,8 +227,8 @@ solutionList.size() = 1
 pattern.getKey() = 21@28@30@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		7 Add column : 1 col:30 	0.297
-			Start solve  LP :0.297
+		7 Add column : 1 col:30 	0.468
+			Start solve  LP :0.468
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -254,10 +254,10 @@ myConsList.size = 0
 最优解：1.5
 solutionList.size() = 38
 pattern.getKey() = 27@38@41@
-用时：0.015 s
+用时：0.016 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		8 Add column : 1 col:31 	0.312
-			Start solve  LP :0.312
+		8 Add column : 1 col:31 	0.484
+			Start solve  LP :0.484
 			End solve LP obj: 24.0 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -285,8 +285,8 @@ solutionList.size() = 12
 pattern.getKey() = 18@41@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		9 Add column : 1 col:32 	0.312
-			Start solve  LP :0.312
+		9 Add column : 1 col:32 	0.484
+			Start solve  LP :0.484
 			End solve LP obj: 23.75 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -318,8 +318,8 @@ solutionList.size() = 30
 pattern.getKey() = 18@38@41@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		10 Add column : 1 col:33 	0.312
-			Start solve  LP :0.312
+		10 Add column : 1 col:33 	0.484
+			Start solve  LP :0.484
 			End solve LP obj: 23.66666666666666 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -347,10 +347,10 @@ myConsList.size = 0
 最优解：1.3333333333333335
 solutionList.size() = 17
 pattern.getKey() = 20@38@
-用时：0.016 s
+用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		11 Add column : 1 col:34 	0.328
-			Start solve  LP :0.328
+		11 Add column : 1 col:34 	0.484
+			Start solve  LP :0.484
 			End solve LP obj: 23.66666666666666 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -380,8 +380,8 @@ solutionList.size() = 22
 pattern.getKey() = 17@38@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		12 Add column : 1 col:35 	0.328
-			Start solve  LP :0.328
+		12 Add column : 1 col:35 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 23.5 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -411,8 +411,8 @@ solutionList.size() = 1
 pattern.getKey() = 19@28@30@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		13 Add column : 1 col:36 	0.328
-			Start solve  LP :0.328
+		13 Add column : 1 col:36 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 23.5 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -442,8 +442,8 @@ solutionList.size() = 1
 pattern.getKey() = 25@30@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		14 Add column : 1 col:37 	0.328
-			Start solve  LP :0.328
+		14 Add column : 1 col:37 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 23.5 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -473,8 +473,8 @@ solutionList.size() = 1
 pattern.getKey() = 21@22@41@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		15 Add column : 1 col:38 	0.328
-			Start solve  LP :0.328
+		15 Add column : 1 col:38 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 23.5 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -504,8 +504,8 @@ solutionList.size() = 18
 pattern.getKey() = 22@47@
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		16 Add column : 1 col:39 	0.344
-			Start solve  LP :0.344
+		16 Add column : 1 col:39 	0.5
+			Start solve  LP :0.5
 			End solve LP obj: 23.4 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -536,10 +536,10 @@ myConsList.size = 0
 最优解：1.2000000000000002
 solutionList.size() = 25
 pattern.getKey() = 22@23@47@
-用时：0.0 s
+用时：0.015 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		17 Add column : 1 col:40 	0.344
-			Start solve  LP :0.344
+		17 Add column : 1 col:40 	0.515
+			Start solve  LP :0.515
 			End solve LP obj: 23.333333333333332 t: 0
 com.wlj.solver.BBSolver:
 --------------------------------------- Price Problem Start --------------------------------------------------------
@@ -573,13 +573,13 @@ myConsList.size = 0
 solutionList.size() = 21
 用时：0.0 s
 --------------------------------------- Price Problem End --------------------------------------------------------
-		18 Add column : 0 col:41 	0.344
-	1 End Add column using column generation : 23.333333333333332 col: 41 cons: 0 cut: 0	0.344
-   End add columnAndCut : 23.333333333333332 colGencnt: 1 price: 0 col: 41 cons: 0 cut: 0	0.344
+		18 Add column : 0 col:41 	0.515
+	1 End Add column using column generation : 23.333333333333332 col: 41 cons: 0 cut: 0	0.515
+   End add columnAndCut : 23.333333333333332 colGencnt: 1 price: 0 col: 41 cons: 0 cut: 0	0.515
 
-Node lb: 23.333333333333332 ub: 24 : 0.344
+Node lb: 23.333333333333332 ub: 24 : 0.515
 
-Final Found Solution: 24 genNode: 1 extendedNode: 0:0.344
+Final Found Solution: 24 genNode: 1 extendedNode: 0:0.515
 Bin size: 10000
 1 : 7900,1848, : 9748
 2 : 4565,2480,1424,517,176, : 9162

@@ -34,19 +34,19 @@ Reduced size: 40 usedBin: 0
 [24]
 ------------------------------------------------
 Best fit used bin number: 32
-Found best solution: 32 0.141
+Found best solution: 32 0.234
 
-   Statrt add columnAndCut col: 32 cons: 0 cut: 0	0.203
+   Statrt add columnAndCut col: 32 cons: 0 cut: 0	0.297
 
-	1 Start Add column using column generation  col: 32 cons: 0 cut: 0	0.203
-			Start solve  LP :0.203
+	1 Start Add column using column generation  col: 32 cons: 0 cut: 0	0.297
+			Start solve  LP :0.297
 			End solve LP obj: 32.0 t: 0
-	1 End Add column using column generation : 32.0 col: 32 cons: 0 cut: 0	0.203
-   End add columnAndCut : 32.0 colGencnt: 1 price: 0 col: 32 cons: 0 cut: 0	0.203
+	1 End Add column using column generation : 32.0 col: 32 cons: 0 cut: 0	0.297
+   End add columnAndCut : 32.0 colGencnt: 1 price: 0 col: 32 cons: 0 cut: 0	0.297
 
-Node lb: 32.0 ub: 32 : 0.203
+Node lb: 32.0 ub: 32 : 0.297
 
-Final Found Solution: 32 genNode: 1 extendedNode: 0:0.203
+Final Found Solution: 32 genNode: 1 extendedNode: 0:0.297
 Bin size: 10000
 1 : 6237, : 6237
 2 : 4770, : 4770
@@ -82,129 +82,129 @@ Bin size: 10000
 32 : 4140, : 4140
 ----------------------- 1 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:18,y:0,l:77,w:81},],
+canvasHeight:100,
+data:[{x:19,y:0,l:77,w:81},],
 ----------------------- 2 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:46,y:0,l:90,w:53},],
+canvasHeight:100,
+data:[{x:47,y:0,l:90,w:53},],
 ----------------------- 3 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:44,y:0,l:78,w:55},],
+canvasHeight:100,
+data:[{x:45,y:0,l:78,w:55},],
 ----------------------- 4 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:28,y:0,l:56,w:71},],
+canvasHeight:100,
+data:[{x:29,y:0,l:56,w:71},],
 ----------------------- 5 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:39,y:0,l:88,w:60},],
+canvasHeight:100,
+data:[{x:40,y:0,l:88,w:60},],
 ----------------------- 6 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:17,y:0,l:65,w:82},{x:27,y:65,l:33,w:72},],
+canvasHeight:100,
+data:[{x:18,y:0,l:65,w:82},{x:28,y:65,l:33,w:72},],
 ----------------------- 7 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:44,y:0,l:99,w:55},],
+canvasHeight:100,
+data:[{x:45,y:0,l:99,w:55},],
 ----------------------- 8 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:6,y:0,l:59,w:93},],
+canvasHeight:100,
+data:[{x:7,y:0,l:59,w:93},],
 ----------------------- 9 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:43,y:0,l:51,w:56},{x:64,y:51,l:47,w:35},],
+canvasHeight:100,
+data:[{x:44,y:0,l:51,w:56},{x:65,y:51,l:47,w:35},],
 ----------------------- 10 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:3,y:0,l:51,w:96},],
+canvasHeight:100,
+data:[{x:4,y:0,l:51,w:96},],
 ----------------------- 11 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:42,y:0,l:73,w:57},],
+canvasHeight:100,
+data:[{x:43,y:0,l:73,w:57},],
 ----------------------- 12 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:6,y:0,l:56,w:93},],
+canvasHeight:100,
+data:[{x:7,y:0,l:56,w:93},],
 ----------------------- 13 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:24,y:0,l:79,w:75},],
+canvasHeight:100,
+data:[{x:25,y:0,l:79,w:75},],
 ----------------------- 14 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:17,y:0,l:73,w:82},{x:2,y:0,l:83,w:15},],
+canvasHeight:100,
+data:[{x:18,y:0,l:73,w:82},{x:3,y:0,l:83,w:15},],
 ----------------------- 15 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:48,y:0,l:68,w:51},],
+canvasHeight:100,
+data:[{x:49,y:0,l:68,w:51},],
 ----------------------- 16 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:24,y:0,l:76,w:75},{x:1,y:0,l:79,w:23},],
+canvasHeight:100,
+data:[{x:25,y:0,l:76,w:75},{x:2,y:0,l:79,w:23},],
 ----------------------- 17 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:10,y:0,l:95,w:89},],
+canvasHeight:100,
+data:[{x:11,y:0,l:95,w:89},],
 ----------------------- 18 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:22,y:0,l:42,w:77},{x:28,y:43,l:57,w:71},],
+canvasHeight:100,
+data:[{x:23,y:0,l:42,w:77},{x:29,y:43,l:57,w:71},],
 ----------------------- 19 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:49,y:0,l:72,w:50},],
+canvasHeight:100,
+data:[{x:50,y:0,l:72,w:50},],
 ----------------------- 20 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:68,y:0,l:84,w:31},{x:6,y:0,l:65,w:62},],
+canvasHeight:100,
+data:[{x:69,y:0,l:84,w:31},{x:7,y:0,l:65,w:62},],
 ----------------------- 21 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:46,y:0,l:87,w:53},],
+canvasHeight:100,
+data:[{x:47,y:0,l:87,w:53},],
 ----------------------- 22 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:12,y:0,l:68,w:87},{x:-1,y:0,l:34,w:13},],
+canvasHeight:100,
+data:[{x:13,y:0,l:68,w:87},{x:0,y:0,l:34,w:13},],
 ----------------------- 23 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:5,y:0,l:70,w:94},],
+canvasHeight:100,
+data:[{x:6,y:0,l:70,w:94},],
 ----------------------- 24 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:7,y:0,l:78,w:92},{x:8,y:78,l:18,w:91},],
+canvasHeight:100,
+data:[{x:8,y:0,l:78,w:92},{x:9,y:78,l:18,w:91},],
 ----------------------- 25 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:6,y:0,l:87,w:93},],
+canvasHeight:100,
+data:[{x:7,y:0,l:87,w:93},],
 ----------------------- 26 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:46,y:0,l:54,w:53},],
+canvasHeight:100,
+data:[{x:47,y:0,l:54,w:53},],
 ----------------------- 27 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:33,y:0,l:83,w:66},],
+canvasHeight:100,
+data:[{x:34,y:0,l:83,w:66},],
 ----------------------- 28 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:36,y:0,l:76,w:63},],
+canvasHeight:100,
+data:[{x:37,y:0,l:76,w:63},],
 ----------------------- 29 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:10,y:0,l:95,w:89},],
+canvasHeight:100,
+data:[{x:11,y:0,l:95,w:89},],
 ----------------------- 30 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:16,y:0,l:57,w:83},],
+canvasHeight:100,
+data:[{x:17,y:0,l:57,w:83},],
 ----------------------- 31 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:11,y:0,l:94,w:88},],
+canvasHeight:100,
+data:[{x:12,y:0,l:94,w:88},],
 ----------------------- 32 ---------------------------
 canvasWidth:100,
-canvasHeight:99,
-data:[{x:30,y:0,l:60,w:69},],
+canvasHeight:100,
+data:[{x:31,y:0,l:60,w:69},],

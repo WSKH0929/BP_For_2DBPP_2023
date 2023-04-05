@@ -66,19 +66,19 @@ Reduced size: 100 usedBin: 0
 [66, 67, 79, 90]
 ------------------------------------------------
 Best fit used bin number: 64
-Found best solution: 64 0.14
+Found best solution: 64 0.265
 
-   Statrt add columnAndCut col: 64 cons: 0 cut: 0	0.234
+   Statrt add columnAndCut col: 64 cons: 0 cut: 0	0.343
 
-	1 Start Add column using column generation  col: 64 cons: 0 cut: 0	0.234
-			Start solve  LP :0.234
+	1 Start Add column using column generation  col: 64 cons: 0 cut: 0	0.343
+			Start solve  LP :0.343
 			End solve LP obj: 64.0 t: 0
-	1 End Add column using column generation : 64.0 col: 64 cons: 0 cut: 0	0.234
-   End add columnAndCut : 64.0 colGencnt: 1 price: 0 col: 64 cons: 0 cut: 0	0.234
+	1 End Add column using column generation : 64.0 col: 64 cons: 0 cut: 0	0.343
+   End add columnAndCut : 64.0 colGencnt: 1 price: 0 col: 64 cons: 0 cut: 0	0.343
 
-Node lb: 64.0 ub: 64 : 0.234
+Node lb: 64.0 ub: 64 : 0.343
 
-Final Found Solution: 64 genNode: 1 extendedNode: 0:0.234
+Final Found Solution: 64 genNode: 1 extendedNode: 0:0.343
 Bin size: 10000
 1 : 5400, : 5400
 2 : 8500, : 8500

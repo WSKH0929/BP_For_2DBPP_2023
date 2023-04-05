@@ -33,19 +33,19 @@ Reduced size: 100 usedBin: 0
 [10, 30, 87]
 ------------------------------------------------
 Best fit used bin number: 31
-Found best solution: 31 0.156
+Found best solution: 31 0.25
 
-   Statrt add columnAndCut col: 31 cons: 0 cut: 0	0.234
+   Statrt add columnAndCut col: 31 cons: 0 cut: 0	0.328
 
-	1 Start Add column using column generation  col: 31 cons: 0 cut: 0	0.234
-			Start solve  LP :0.234
+	1 Start Add column using column generation  col: 31 cons: 0 cut: 0	0.328
+			Start solve  LP :0.328
 			End solve LP obj: 31.0 t: 0
-	1 End Add column using column generation : 31.0 col: 31 cons: 0 cut: 0	0.234
-   End add columnAndCut : 31.0 colGencnt: 1 price: 0 col: 31 cons: 0 cut: 0	0.234
+	1 End Add column using column generation : 31.0 col: 31 cons: 0 cut: 0	0.328
+   End add columnAndCut : 31.0 colGencnt: 1 price: 0 col: 31 cons: 0 cut: 0	0.328
 
-Node lb: 31.0 ub: 31 : 0.234
+Node lb: 31.0 ub: 31 : 0.328
 
-Final Found Solution: 31 genNode: 1 extendedNode: 0:0.234
+Final Found Solution: 31 genNode: 1 extendedNode: 0:0.328
 Bin size: 10000
 1 : 3570,2775,1869,550, : 8764
 2 : 4250,4000,816, : 9066

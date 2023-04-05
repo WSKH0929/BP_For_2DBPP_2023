@@ -4,19 +4,19 @@ Reduced size: 40 usedBin: 0
 [6, 10, 11, 15, 20, 22, 26, 28, 34, 35, 37, 39]
 ------------------------------------------------
 Best fit used bin number: 2
-Found best solution: 2 0.125
+Found best solution: 2 0.266
 
-   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.187
+   Statrt add columnAndCut col: 2 cons: 0 cut: 0	0.344
 
-	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.187
-			Start solve  LP :0.187
+	1 Start Add column using column generation  col: 2 cons: 0 cut: 0	0.344
+			Start solve  LP :0.344
 			End solve LP obj: 2.0 t: 0
-	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.187
-   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.187
+	1 End Add column using column generation : 2.0 col: 2 cons: 0 cut: 0	0.344
+   End add columnAndCut : 2.0 colGencnt: 1 price: 0 col: 2 cons: 0 cut: 0	0.344
 
-Node lb: 2.0 ub: 2 : 0.187
+Node lb: 2.0 ub: 2 : 0.344
 
-Final Found Solution: 2 genNode: 1 extendedNode: 0:0.187
+Final Found Solution: 2 genNode: 1 extendedNode: 0:0.344
 Bin size: 10000
 1 : 1190,1155,832,768,735,665,528,420,406,385,385,280,210,198,180,176,132,117,102,99,84,81,81,64,63,48,38,20, : 9442
 2 : 567,399,390,232,150,126,90,84,48,48,35,10, : 2179

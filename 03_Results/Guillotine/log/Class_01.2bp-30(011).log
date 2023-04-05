@@ -27,19 +27,19 @@ Reduced size: 80 usedBin: 0
 [22, 45, 59, 62, 71]
 ------------------------------------------------
 Best fit used bin number: 25
-Found best solution: 25 0.14
+Found best solution: 25 0.25
 
-   Statrt add columnAndCut col: 25 cons: 0 cut: 0	0.203
+   Statrt add columnAndCut col: 25 cons: 0 cut: 0	0.313
 
-	1 Start Add column using column generation  col: 25 cons: 0 cut: 0	0.203
-			Start solve  LP :0.218
+	1 Start Add column using column generation  col: 25 cons: 0 cut: 0	0.313
+			Start solve  LP :0.313
 			End solve LP obj: 25.0 t: 0
-	1 End Add column using column generation : 25.0 col: 25 cons: 0 cut: 0	0.218
-   End add columnAndCut : 25.0 colGencnt: 1 price: 0 col: 25 cons: 0 cut: 0	0.218
+	1 End Add column using column generation : 25.0 col: 25 cons: 0 cut: 0	0.313
+   End add columnAndCut : 25.0 colGencnt: 1 price: 0 col: 25 cons: 0 cut: 0	0.313
 
-Node lb: 25.0 ub: 25 : 0.218
+Node lb: 25.0 ub: 25 : 0.313
 
-Final Found Solution: 25 genNode: 1 extendedNode: 0:0.218
+Final Found Solution: 25 genNode: 1 extendedNode: 0:0.313
 Bin size: 100
 1 : 70,14,10, : 94
 2 : 56,20,14,10, : 100
